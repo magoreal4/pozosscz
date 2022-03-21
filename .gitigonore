@@ -132,6 +132,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+virtual/
 
 # Spyder project settings
 .spyderproject
@@ -166,4 +167,3 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
 
-virtual/
