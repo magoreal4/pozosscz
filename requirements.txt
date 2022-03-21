@@ -1,2 +1,3 @@
-Django
-gunicorn
+Django==4.0.3
+django-livereload-server==0.4
+gunicorn==20.1.0
