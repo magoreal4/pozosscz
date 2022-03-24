@@ -1,15 +1,16 @@
   // Barra de navegacion
   var documentElement = document.querySelector("html");
   var navb = document.querySelector('#navb');
-  var menuIsOpen = navb.classList.contains("hidden");
+  var menuIsClose = navb.classList.contains("hidden");
   var burger = document.querySelector('#burger');
   var svgIcon = burger.getElementsByTagName('svg');
 
   documentElement.addEventListener('click', function (event) {
-      if (menuIsOpen && !navb.contains(event.target) || burger.contains(event.target)) {
+      if (menuIsClose && !navb.contains(event.target) || burger.contains(event.target)) {
           svgIcon[0].classList.toggle('hidden');
           svgIcon[1].classList.toggle('hidden');
-          navb.classList.toggle('h-40');
+          menuIsClose ? navb.classList.remove('h-0') : navb.classList.add('h-40'); 
+          !menuIsClose ? navb.classList.remove('h-40') : navb.classList.add('h-0'); 
           menuIsOpen = !menuIsOpen;
       }
   });
