@@ -1,21 +1,23 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
 
-<div class="bg-gradient-to-b from-green-650 to-white">
+<div class="bg-gradient-to-b from-primary to-white">
     <div class="max-w-7xl mx-auto">
 
         <section id="bgBanner" class="overflow-hidden relative h-screen90 w-full">
-            <div class="absolute bg-fondosvg h-full w-full bg-center bg-cover"></div>
-            <div class="absolute bg-fondoscz h-full w-full bg-left bg-cover"></div>
+            <div class="absolute fondosvg h-full w-full bg-center bg-cover" style="background-image: url({% static './img/fotoCristo2.svg' %})"></div>
+            <div class="absolute fondoscz h-full w-full bg-left bg-cover" style="background-image: url({% static './img/fotoCristo1.webp' %})"></div>
+            
             <div class="absolute inset-0 flex items-center justify-center mt-28 sm:mt-40 md:mt-52 lg:mt-72 xl:mt-72">
                 <h1 id="titulo"
-                    class="overflow-hidden py-1 md:py-2 lg:py-4 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-green-650">
+                    class="overflow-hidden py-1 md:py-2 lg:py-4 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-primary">
                     Limpieza de pozos septicos
                 </h1>
             </div>
 
-            <div id="camion" class="absolute h-1/6 bottom-5 ">
+            <div id="camion" class="absolute h-1/6 bottom-5">
                 <svg class="h-full" viewBox="0 0 280 170">
                     <!-- Camion -->
                     <path id="contorno" fill="#fff" class="shadow"
@@ -39,7 +41,7 @@
                 </svg>
             </div>
             <div id="contratanos" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center pb-1 ">
-                <h3 class="text-lg pb-1">¿ya nos conoces?</h3>
+                <h3 class="text-lg lg:text-xl pb-1">¿ya nos conoces?</h3>
                 <button type="button"
                     class="text-white bg-red-500 hover:bg-red-600 md:tracking-widest focus:ring-4 focus:ring-red-300 shadow-lg shadow-red-500/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2">
                     Contratanos</button>
@@ -48,21 +50,21 @@
     </div>
 </div>
 
-<section class="text-gray-600 max-w-7xl mx-auto">
+<section class="max-w-7xl mx-auto">
     <div class="px-5 py-12 mx-auto">
-        <div class="text-center mb-20">
-            <p class="text-base sm:text-lg lg:text-xl mb-3 text-gray-600">
+        <div class="text-center mb-10 md:mb-20">
+            <p class="text-lg lg:text-xl mb-3 ">
                 ¿aún no nos conoces?
             </p>
             <h1 class="text-2xl sm:text-3xl lg:text-4xl text-gray-900 mb-4">Limpieza de Pozos Sépticos Santa Cruz</h1>
-            <p class="text-base sm:text-lg lg:text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-600">(Somoj)s
+            <p class="text-lg lg:text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-600">(Somoj)s
                 querendones de nuestra tierra... La queremos verde y con el “suelo” más puro de América..
             </p>
         </div>
 
-        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="flex flex-col sm:-m-4 md:flex-row md:space-x-8 md:space-y-0 space-y-6">
 
-            <div class="p-4  flex flex-col text-center items-center">
+            <div class="flex flex-col text-center items-center">
                 <div
                     class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-green-100 text-green-650 mb-5 flex-shrink-0">
                     <svg width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -75,19 +77,19 @@
                         <line x1="15" y1="15" x2="15" y2="20" /></svg>
                 </div>
                 <div class="flex-grow ">
-                    <h2 class="text-lg sm:text-xl lg:text-2xl">Shooting Stars</h2>
-                    <p class="mx-auto sm:w-3/4 lg:w-1/2 leading-relaxed text-base sm:text-lg lg:text-xl ">Blue bottle
+                    <h2 class="text-xl lg:text-2xl mb-3">Shooting Stars</h2>
+                    <p class="mx-auto text-gray-800 leading-relaxed text-lg sm:text-lg lg:text-xl ">Blue bottle
                         crucifix
                         vinyl post-ironic four
                         dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                 </div>
                 <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-green-650 inline-flex"></div>
+                    <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
                 </div>
             </div>
 
-            <div class="p-4  flex flex-col text-center items-center">
+            <div class="flex flex-col text-center items-center">
                 <div
                     class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-green-100 text-green-650 mb-5 flex-shrink-0">
                     <svg width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -100,19 +102,19 @@
                         <line x1="15" y1="15" x2="15" y2="20" /></svg>
                 </div>
                 <div class="flex-grow ">
-                    <h2 class="text-lg sm:text-xl lg:text-2xl">Shooting Stars</h2>
-                    <p class="mx-auto sm:w-3/4 lg:w-1/2 leading-relaxed text-base sm:text-lg lg:text-xl ">Blue bottle
+                    <h2 class="text-lg sm:text-xl lg:text-2xl mb-3">Shooting Stars</h2>
+                    <p class="mx-auto text-gray-800 leading-relaxed text-base sm:text-lg lg:text-xl ">Blue bottle
                         crucifix
                         vinyl post-ironic four
                         dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                 </div>
                 <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-green-650 inline-flex"></div>
+                    <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
                 </div>
             </div>
 
-            <div class="p-4  flex flex-col text-center items-center">
+            <div class="flex flex-col text-center items-center">
                 <div
                     class="w-24 h-24 inline-flex items-center justify-center rounded-full bg-green-100 text-green-650 mb-5 flex-shrink-0">
                     <svg width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -125,23 +127,22 @@
                         <line x1="15" y1="15" x2="15" y2="20" /></svg>
                 </div>
                 <div class="flex-grow ">
-                    <h2 class="text-lg sm:text-xl lg:text-2xl">Shooting Stars</h2>
-                    <p class="mx-auto sm:w-3/4 lg:w-1/2 leading-relaxed text-base sm:text-lg lg:text-xl ">Blue bottle
+                    <h2 class="text-lg sm:text-xl lg:text-2xl mb-3">Shooting Stars</h2>
+                    <p class="mx-auto  leading-relaxed text-base sm:text-lg lg:text-xl ">Blue bottle
                         crucifix
                         vinyl post-ironic four
                         dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                 </div>
                 <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-green-650 inline-flex"></div>
+                    <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
                 </div>
             </div>
-
 
 
         </div>
         <button
-            class="flex mx-auto mt-16 text-white bg-green-650 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
+            class="flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
     </div>
 </section>
 
@@ -281,7 +282,7 @@
     </section>
 </div>
 
-<div class="relative text-black text-base bg-white max-w-screen-2xl mx-auto">
+{% comment %} <div class="relative text-black text-base bg-white max-w-screen-2xl mx-auto">
     <footer class="border-b">
         <div class="text-center py-6">© 2022 - MAGOREAL. All rights reserved.</div>
     </footer>
@@ -304,7 +305,7 @@
         </div>
     </div>
     <!-- social - end -->
-</div>
+</div> {% endcomment %}
 
 <div id="wapp" class="fixed bottom-10 right-1 w-16 xl:w-20">
     <a href="https://wa.me/59171011118?text=Me%20interesa%20contar%20con%20el%20servicio...">

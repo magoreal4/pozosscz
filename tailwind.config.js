@@ -7,17 +7,17 @@ module.exports = {
         'secondary': '#FF4444',
         'error': '#E64444',
         'warning': '#FACC15',
-        green: {
-          650: '#1f8e43'
-        }
+        // green: {
+        //   650: '#1f8e43'
+        // }
       },
       fontFamily: {
         'roboto': ['"Roboto"', 'sans-serif']
       },
-      backgroundImage: {
-        'fondoscz': "url('/img/fotoCristo1.webp')",
-        'fondosvg': "url('/img/fotoCristo2.svg')",
-      },
+      // backgroundImage: {
+      //   'fondoscz': "url('./static/img/fotoCristo1.webp')",
+      //   'fondosvg': "url('./static/img/fotoCristo2.svg')",
+      // },
       height: {
         'screen80': '80vh',
         'screen90': '90vh',

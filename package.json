@@ -15,10 +15,7 @@
     "tw:dev": "npx tailwind -i ./src/tailwind.css -o ./static/css/main.css -w",
     "tw:prod": "postcss ./src/tailwind.css -o ./static/css/main.css -w",
     "prod": "npm run tw:prod",
-    "buildp": "webpack --mode=production",
-    "dev": "vite",
-    "build": "vite build --watch",
-    "preview": "vite preview"
+    "build": "vite build --watch"
   },
   "repository": {
     "type": "git",

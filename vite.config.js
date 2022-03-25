@@ -7,6 +7,7 @@ module.exports = defineConfig({
         rollupOptions: {
             output: {
                 entryFileNames: 'main.js',
+                format: 'iife',
                 // assetFileNames: `[name].[ext]`,
               },
             input: './src/js/index-home.js',

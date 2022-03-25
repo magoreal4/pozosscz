@@ -22,16 +22,15 @@
     {% include "template-parts/navbar.html" %}
 
     <!-- Content Dinamico-->
-    {% comment %} {% block content %}
-
-    {% endblock %} {% endcomment %}
+    {% block content %}
+    {% endblock %}
 
     <!-- Footer Dinamico-->
     {% comment %} {% include "template-parts/footer.html" %} {% endcomment %}
 
 
 
-    <script src="{% static 'js/main.js' %}"></script>
+    <script  src="{% static 'js/main.js' %}"></script>
 </body>
 
 </html>
