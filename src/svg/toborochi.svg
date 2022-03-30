@@ -1,0 +1,1436 @@
+<svg viewBox="0 0 100 65">
+  <defs>
+    <linearGradient id="a" x1="607.3" x2="607.3" y2="1472.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#009245"/>
+    </linearGradient>
+  </defs>
+  <g fill="#fff" transform="matrix(.26458 0 0 .26458 -98.8 -325)">
+    <path d="M565.6 1470c-16.7-19.8-13.9-46.7-.6-67.8 6-16-1.3-34.6-12-47-10-12-26.3-14.4-39.9-20.4-24.3 5.4-38-21.1-58.2-29.4 16 4.7 26.3 20.5 43.4 22.2 6.9 1.7 12.4 8.2 20.6 2.4-12.8-9.2-22.5-24-37.8-30.3-3.3-2.2 17.5 7 22 12.9 15.7 15.3.3-10.7-8.2-13.1-16.5-10.2-33.3-21-52.2-26 22.8 2.7 40.5 19.7 62.3 25 7.9-4.2 8.5-30 7.6-9.9-4.9 14.4 2 26.8 12.2 37a206 206 0 0 0 54.4 27.4c8.7 6.4-9.3 14.8 1.2 23.6 3.7 14.5 9.4-12.8 18.8-12.6a203.5 203.5 0 0 1 53.2-22l41.8-6.7c-31.7 8-65.5 13.7-91.8 34.6-11 9-19.7 25.7-11.5 39.1 8.7 17 9 37.3.8 54.6-.6 10.8-8.6 11.3-17 10.3-4.4.2-7.1.8-9-4z"/>
+    <circle cx="466.7" cy="1257.1" r="2.3" class="cls-3"/>
+    <circle cx="479.9" cy="1252.8" r="2" class="cls-3"/>
+    <ellipse cx="496.2" cy="1246.2" class="cls-3" rx="1" ry="3.3"/>
+    <circle cx="512.9" cy="1249.5" r="3.3" class="cls-3"/>
+    <circle cx="526.4" cy="1244.6" r="1.6" class="cls-3"/>
+    <ellipse cx="526" cy="1257.1" class="cls-3" rx="5.9" ry="2.3"/>
+    <circle cx="546.5" cy="1246.9" r="3.9" class="cls-3"/>
+    <circle cx="548.4" cy="1265.3" r="2" class="cls-3"/>
+    <circle cx="534.6" cy="1252.2" r="2.6" class="cls-3"/>
+    <circle cx="550.6" cy="1254.9" r="2.1" class="cls-3"/>
+    <circle cx="383.8" cy="1270.6" r="1" class="cls-3"/>
+    <circle cx="381.9" cy="1276.6" r=".9" class="cls-3"/>
+    <circle cx="391.6" cy="1270.1" r=".5" class="cls-3"/>
+    <ellipse cx="393.1" cy="1263.8" class="cls-3" rx="2" ry=".6"/>
+    <circle cx="404.1" cy="1268.4" r="1.2" class="cls-3"/>
+    <circle cx="394.6" cy="1275.1" r="1.5" class="cls-3"/>
+    <circle cx="385.9" cy="1285.7" r="1.1" class="cls-3"/>
+    <ellipse cx="392.9" cy="1275.9" class="cls-3" rx="1.8" ry=".8"/>
+    <circle cx="385.9" cy="1278.7" r="1.1" class="cls-3"/>
+    <circle cx="419" cy="1260.2" r=".8" class="cls-3"/>
+    <circle cx="411.8" cy="1262.4" r="1.4" class="cls-3"/>
+    <circle cx="423.8" cy="1270.9" r=".7" class="cls-3"/>
+    <circle cx="434.6" cy="1265.3" r="2" class="cls-3"/>
+    <circle cx="451.9" cy="1269.3" r=".9" class="cls-3"/>
+    <circle cx="473" cy="1264.3" r="1" class="cls-3"/>
+    <circle cx="484.3" cy="1271.1" r=".5" class="cls-3"/>
+    <circle cx="496.2" cy="1266.3" r="1" class="cls-3"/>
+    <circle cx="510.8" cy="1268.4" r="1.2" class="cls-3"/>
+    <circle cx="516.9" cy="1261.7" r=".7" class="cls-3"/>
+    <circle cx="506.8" cy="1261.3" r="1.1" class="cls-3"/>
+    <circle cx="533.9" cy="1288.8" r="1.9" class="cls-3"/>
+    <ellipse cx="565.2" cy="1280.3" class="cls-3" rx="3.1" ry="1.6"/>
+    <circle cx="549.5" cy="1276.8" r="1.1" class="cls-3"/>
+    <circle cx="596.6" cy="1282.4" r="2.1" class="cls-3"/>
+    <circle cx="591" cy="1271.1" r=".5" class="cls-3"/>
+    <circle cx="581" cy="1269.7" r=".4" class="cls-3"/>
+    <circle cx="574" cy="1266.3" r="1" class="cls-3"/>
+    <circle cx="567.2" cy="1265.3" r="2" class="cls-3"/>
+    <circle cx="576.7" cy="1256.4" r="1.6" class="cls-3"/>
+    <circle cx="587.1" cy="1253.5" r="1.4" class="cls-3"/>
+    <ellipse cx="593" cy="1250.2" class="cls-3" rx="1.5" ry="3.3"/>
+    <circle cx="597" cy="1274.1" r="2.5" class="cls-3"/>
+    <circle cx="612.3" cy="1278.2" r="1.6" class="cls-3"/>
+    <circle cx="618.6" cy="1278.5" r="1.8" class="cls-3"/>
+    <circle cx="649" cy="1276" r=".9" class="cls-3"/>
+    <ellipse cx="660.1" cy="1284.6" class="cls-3" rx=".4" ry="2.2"/>
+    <circle cx="661.2" cy="1291.3" r=".6" class="cls-3"/>
+    <circle cx="651.3" cy="1292.9" r="1.5" class="cls-3"/>
+    <ellipse cx="628.2" cy="1295" class="cls-3" rx=".9" ry="3"/>
+    <ellipse cx="623.2" cy="1290.8" class="cls-3" rx=".2" ry="2"/>
+    <circle cx="597.9" cy="1302" r=".9" class="cls-3"/>
+    <circle cx="581" cy="1307.3" r=".4" class="cls-3"/>
+    <ellipse cx="567.6" cy="1323.6" class="cls-3" rx="2.4" ry="1"/>
+    <circle cx="573.3" cy="1312.5" r="3.3" class="cls-3"/>
+    <circle cx="579.4" cy="1299.2" r="1.1" class="cls-3"/>
+    <circle cx="591.5" cy="1297.4" r="3" class="cls-3"/>
+    <circle cx="605.7" cy="1290.8" r="2" class="cls-3"/>
+    <circle cx="671.9" cy="1295.5" r="2.6" class="cls-3"/>
+    <ellipse cx="680" cy="1300" class="cls-3" rx=".6" ry="4.6"/>
+    <circle cx="688.6" cy="1295.1" r="2.3" class="cls-3"/>
+    <ellipse cx="669.3" cy="1290" class="cls-3" rx="2.7" ry="2.3"/>
+    <ellipse cx="687.5" cy="1309.7" class="cls-3" rx="1.1" ry="2.8"/>
+    <circle cx="680.1" cy="1315" r=".8" class="cls-3"/>
+    <circle cx="684.9" cy="1315" r=".8" class="cls-3"/>
+    <circle cx="697.4" cy="1308.5" r="1.2" class="cls-3"/>
+    <circle cx="706.5" cy="1303.8" r=".9" class="cls-3"/>
+    <circle cx="728.5" cy="1308.2" r="1.4" class="cls-3"/>
+    <circle cx="733.6" cy="1313.4" r=".9" class="cls-3"/>
+    <circle cx="609" cy="1316.7" r="1.7" class="cls-3"/>
+    <circle cx="620.8" cy="1304.2" r="2.2" class="cls-3"/>
+    <circle cx="629.7" cy="1299.6" r="1.5" class="cls-3"/>
+    <circle cx="601.6" cy="1308.4" r="2.1" class="cls-3"/>
+    <circle cx="587.8" cy="1319.1" r=".7" class="cls-3"/>
+    <circle cx="588.2" cy="1324.9" r=".3" class="cls-3"/>
+    <circle cx="593.8" cy="1330.3" r=".7" class="cls-3"/>
+    <circle cx="596.8" cy="1338.5" r=".2" class="cls-3"/>
+    <circle cx="546" cy="1276.2" r=".4" class="cls-3"/>
+    <circle cx="554.7" cy="1278.2" r="2" class="cls-3"/>
+    <circle cx="559.2" cy="1264.8" r="2.4" class="cls-3"/>
+    <circle cx="570.7" cy="1260.9" r="1.5" class="cls-3"/>
+    <ellipse cx="569.6" cy="1257.1" class="cls-3" rx="1.1" ry="2.3"/>
+    <ellipse cx="565.8" cy="1254" class="cls-3" rx=".7" ry="3.1"/>
+    <circle cx="557.4" cy="1257.6" r="2.6" class="cls-3"/>
+    <circle cx="562.8" cy="1266" r="1.2" class="cls-3"/>
+    <circle cx="544" cy="1272.1" r="1.5" class="cls-3"/>
+    <ellipse cx="540.6" cy="1268.4" class="cls-3" rx="3.4" ry="2.2"/>
+    <ellipse cx="542.8" cy="1262.6" class="cls-3" rx="5.6" ry="4.6"/>
+    <ellipse cx="548.3" cy="1265.5" class="cls-3" rx="2.3" ry="4.6"/>
+    <ellipse cx="530.8" cy="1273.8" class="cls-3" rx="1.1" ry="3"/>
+    <circle cx="520.7" cy="1285.1" r=".6" class="cls-3"/>
+    <ellipse cx="529.2" cy="1280" class="cls-3" rx="2.8" ry=".2"/>
+    <circle cx="522.4" cy="1272.9" r="2.3" class="cls-3"/>
+    <circle cx="537" cy="1265" r="1.2" class="cls-3"/>
+    <circle cx="444.8" cy="1256.7" r=".3" class="cls-3"/>
+    <circle cx="425.9" cy="1311.1" r="1.4" class="cls-3"/>
+    <circle cx="545.6" cy="1322.6" r="2.8" class="cls-3"/>
+    <circle cx="462" cy="1265.3" r=".9" class="cls-3"/>
+    <circle cx="660.9" cy="1314.7" r=".3" class="cls-3"/>
+    <circle cx="662.9" cy="1305.2" r="1.1" class="cls-3"/>
+    <circle cx="657.2" cy="1305.8" r=".5" class="cls-3"/>
+    <circle cx="669.7" cy="1314.6" r=".4" class="cls-3"/>
+    <circle cx="675.2" cy="1303.5" r=".6" class="cls-3"/>
+    <circle cx="668.3" cy="1302.8" r=".8" class="cls-3"/>
+    <circle cx="667.1" cy="1293.9" r=".5" class="cls-3"/>
+    <circle cx="647.1" cy="1305.1" r="1" class="cls-3"/>
+    <circle cx="646.6" cy="1296" r=".5" class="cls-3"/>
+    <circle cx="658.3" cy="1298.6" r=".6" class="cls-3"/>
+    <circle cx="650.6" cy="1283.1" r=".8" class="cls-3"/>
+    <ellipse cx="646.1" cy="1285" class="cls-3" rx="1" ry="1.9"/>
+    <circle cx="642.3" cy="1291.4" r=".6" class="cls-3"/>
+    <circle cx="639.4" cy="1289.4" r=".6" class="cls-3"/>
+    <circle cx="646.6" cy="1287.3" r=".5" class="cls-3"/>
+    <circle cx="655.7" cy="1283.5" r=".4" class="cls-3"/>
+    <circle cx="656.4" cy="1279" r="1.1" class="cls-3"/>
+    <circle cx="667.4" cy="1284.3" r="1.9" class="cls-3"/>
+    <ellipse cx="659.7" cy="1290.3" class="cls-3" rx=".9" ry="1"/>
+    <circle cx="655.5" cy="1287.7" r=".2" class="cls-3"/>
+    <circle cx="658.1" cy="1286.6" r="2" class="cls-3"/>
+    <circle cx="665" cy="1295.4" r="1" class="cls-3"/>
+    <circle cx="667.7" cy="1291" r=".6" class="cls-3"/>
+    <circle cx="675.5" cy="1292.4" r="1" class="cls-3"/>
+    <circle cx="682" cy="1294" r="1.1" class="cls-3"/>
+    <circle cx="681.8" cy="1291.9" r=".9" class="cls-3"/>
+    <circle cx="688" cy="1292.2" r=".6" class="cls-3"/>
+    <circle cx="683.6" cy="1297.9" r=".6" class="cls-3"/>
+    <circle cx="678.9" cy="1296.1" r=".6" class="cls-3"/>
+    <ellipse cx="680.1" cy="1292.8" class="cls-3" rx=".8" ry="1.2"/>
+    <circle cx="677.1" cy="1290.7" r="1.3" class="cls-3"/>
+    <ellipse cx="672.6" cy="1290.2" class="cls-3" rx=".7" ry="1.5"/>
+    <ellipse cx="666.3" cy="1287.7" class="cls-3" rx=".3" ry="1.6"/>
+    <circle cx="662.9" cy="1287.9" r="1.1" class="cls-3"/>
+    <ellipse cx="663.4" cy="1292.9" class="cls-3" rx="1.6" ry="1.5"/>
+    <circle cx="654.9" cy="1299.1" r=".4" class="cls-3"/>
+    <circle cx="655.7" cy="1293.7" r=".9" class="cls-3"/>
+    <circle cx="661.5" cy="1295.8" r=".7" class="cls-3"/>
+    <ellipse cx="660" cy="1300.3" class="cls-3" rx="2.3" ry="1.7"/>
+    <circle cx="659" cy="1301.6" r="1.3" class="cls-3"/>
+    <ellipse cx="656.9" cy="1300" class="cls-3" rx=".8" ry="1.6"/>
+    <circle cx="650.2" cy="1300.8" r="1.2" class="cls-3"/>
+    <circle cx="650.3" cy="1305.5" r="1.3" class="cls-3"/>
+    <circle cx="658" cy="1307.1" r=".8" class="cls-3"/>
+    <circle cx="662.9" cy="1306.3" r="1.1" class="cls-3"/>
+    <circle cx="668.3" cy="1302.9" r="1.8" class="cls-3"/>
+    <circle cx="670.2" cy="1308" r="1.2" class="cls-3"/>
+    <ellipse cx="676" cy="1313.8" class="cls-3" rx="3.4" ry="1.3"/>
+    <ellipse cx="683.6" cy="1313.8" class="cls-3" rx=".6" ry="1.3"/>
+    <ellipse cx="688" cy="1311.1" class="cls-3" rx=".6" ry="1.4"/>
+    <circle cx="688.6" cy="1308" r="1.2" class="cls-3"/>
+    <circle cx="682.7" cy="1309.3" r=".9" class="cls-3"/>
+    <circle cx="695" cy="1306.6" r=".8" class="cls-3"/>
+    <circle cx="697.8" cy="1304.6" r=".9" class="cls-3"/>
+    <circle cx="702.1" cy="1302.9" r=".9" class="cls-3"/>
+    <ellipse cx="706" cy="1301.2" class="cls-3" rx=".4" ry="1.6"/>
+    <circle cx="720.2" cy="1308.1" r="1" class="cls-3"/>
+    <circle cx="723.4" cy="1304.6" r=".5" class="cls-3"/>
+    <circle cx="726.6" cy="1304.6" r=".9" class="cls-3"/>
+    <circle cx="730.6" cy="1310.3" r=".7" class="cls-3"/>
+    <circle cx="726.6" cy="1315.3" r=".9" class="cls-3"/>
+    <circle cx="733.2" cy="1316.3" r=".4" class="cls-3"/>
+    <circle cx="735.9" cy="1314.7" r="1.4" class="cls-3"/>
+    <circle cx="735.2" cy="1311.8" r=".7" class="cls-3"/>
+    <circle cx="736.8" cy="1310.1" r="1" class="cls-3"/>
+    <circle cx="741.7" cy="1316" r=".2" class="cls-3"/>
+    <ellipse cx="740.3" cy="1319.2" class="cls-3" rx=".1" ry=".8"/>
+    <ellipse cx="737.5" cy="1321.2" class="cls-3" rx=".3" ry="1.4"/>
+    <circle cx="726.4" cy="1325.6" r=".7" class="cls-3"/>
+    <circle cx="728.2" cy="1324.2" r="1.6" class="cls-3"/>
+    <circle cx="733.9" cy="1322.4" r="1.2" class="cls-3"/>
+    <ellipse cx="732.6" cy="1321.5" class="cls-3" rx="1.3" ry=".8"/>
+    <ellipse cx="724.1" cy="1320.3" class="cls-3" rx="2.9" ry="1.2"/>
+    <circle cx="730.6" cy="1315.5" r="2.1" class="cls-3"/>
+    <ellipse cx="720.7" cy="1312.7" class="cls-3" rx=".5" ry="1.6"/>
+    <circle cx="714.8" cy="1314.3" r=".5" class="cls-3"/>
+    <ellipse cx="713.9" cy="1314.7" class="cls-3" rx="1.5" ry=".3"/>
+    <circle cx="717.8" cy="1309.4" r="1" class="cls-3"/>
+    <ellipse cx="720.1" cy="1315" class="cls-3" rx=".9" ry=".8"/>
+    <circle cx="717.3" cy="1314.3" r=".5" class="cls-3"/>
+    <circle cx="716" cy="1311.8" r=".7" class="cls-3"/>
+    <circle cx="709.8" cy="1313.5" r="1.1" class="cls-3"/>
+    <circle cx="713.9" cy="1318.2" r="1.5" class="cls-3"/>
+    <ellipse cx="718" cy="1314.7" class="cls-3" rx="1.2" ry=".4"/>
+    <circle cx="717.5" cy="1319" r=".8" class="cls-3"/>
+    <circle cx="726.8" cy="1320.1" r="1.1" class="cls-3"/>
+    <circle cx="738.5" cy="1319.1" r=".7" class="cls-3"/>
+    <circle cx="740.7" cy="1315.5" r=".5" class="cls-3"/>
+    <circle cx="738.8" cy="1313.7" r="1" class="cls-3"/>
+    <ellipse cx="737.9" cy="1317.9" class="cls-3" rx=".6" ry="1.2"/>
+    <circle cx="736.7" cy="1323.2" r=".8" class="cls-3"/>
+    <circle cx="734.6" cy="1319.8" r=".6" class="cls-3"/>
+    <circle cx="734.9" cy="1317.7" r="1" class="cls-3"/>
+    <circle cx="731.2" cy="1316.1" r=".6" class="cls-3"/>
+    <circle cx="730.7" cy="1312.6" r=".8" class="cls-3"/>
+    <circle cx="726.4" cy="1311" r=".7" class="cls-3"/>
+    <circle cx="721.8" cy="1314.9" r=".6" class="cls-3"/>
+    <ellipse cx="732.4" cy="1311.4" class="cls-3" rx="1.2" ry="1.1"/>
+    <ellipse cx="736.8" cy="1308.5" class="cls-3" rx="1" ry="1.6"/>
+    <circle cx="745.6" cy="1320.9" r=".2" class="cls-3"/>
+    <circle cx="744.7" cy="1315.4" r=".4" class="cls-3"/>
+    <circle cx="746.1" cy="1314.3" r="1.8" class="cls-3"/>
+    <ellipse cx="741.3" cy="1313.7" class="cls-3" rx=".6" ry="2.3"/>
+    <circle cx="742.8" cy="1322.3" r=".9" class="cls-3"/>
+    <circle cx="738.4" cy="1324" r=".9" class="cls-3"/>
+    <circle cx="742.5" cy="1317.9" r="1.2" class="cls-3"/>
+    <ellipse cx="739.8" cy="1325.8" class="cls-3" rx=".6" ry="1.7"/>
+    <circle cx="738.3" cy="1326.8" r=".4" class="cls-3"/>
+    <circle cx="735.2" cy="1326.5" r=".7" class="cls-3"/>
+    <circle cx="733.2" cy="1326.7" r=".4" class="cls-3"/>
+    <circle cx="730.3" cy="1329.1" r=".4" class="cls-3"/>
+    <circle cx="730.8" cy="1331.5" r=".5" class="cls-3"/>
+    <circle cx="728.1" cy="1329" r=".3" class="cls-3"/>
+    <circle cx="735.8" cy="1330.2" r=".9" class="cls-3"/>
+    <ellipse cx="729.2" cy="1329.1" class="cls-3" rx=".7" ry=".1"/>
+    <circle cx="725.1" cy="1328.5" r="1" class="cls-3"/>
+    <ellipse cx="733.2" cy="1326.1" class="cls-3" rx=".4" ry=".7"/>
+    <ellipse cx="724.5" cy="1327.4" class="cls-3" rx=".6" ry="1.1"/>
+    <circle cx="719.7" cy="1327.2" r=".5" class="cls-3"/>
+    <circle cx="720.9" cy="1325.6" r=".7" class="cls-3"/>
+    <ellipse cx="724.9" cy="1325.1" class="cls-3" rx=".8" ry=".5"/>
+    <circle cx="730.6" cy="1330" r=".7" class="cls-3"/>
+    <circle cx="727.4" cy="1329.7" r=".6" class="cls-3"/>
+    <circle cx="728.8" cy="1332.4" r=".3" class="cls-3"/>
+    <circle cx="726.5" cy="1333.5" r=".8" class="cls-3"/>
+    <circle cx="737.5" cy="1331" r=".9" class="cls-3"/>
+    <circle cx="738.6" cy="1327.4" r=".7" class="cls-3"/>
+    <circle cx="735.4" cy="1327.3" r=".8" class="cls-3"/>
+    <ellipse cx="730.6" cy="1330.2" class="cls-3" rx=".7" ry="1.3"/>
+    <circle cx="684.5" cy="1319.4" r=".4" class="cls-3"/>
+    <circle cx="688" cy="1314.8" r=".6" class="cls-3"/>
+    <circle cx="691.3" cy="1311.4" r=".4" class="cls-3"/>
+    <ellipse cx="693" cy="1308.8" class="cls-3" rx="1.3" ry=".3"/>
+    <circle cx="695.8" cy="1311.8" r=".8" class="cls-3"/>
+    <circle cx="699.7" cy="1307.8" r="1" class="cls-3"/>
+    <circle cx="701.3" cy="1306.2" r=".7" class="cls-3"/>
+    <ellipse cx="703" cy="1305.8" class="cls-3" rx="1.8" ry=".5"/>
+    <circle cx="707.2" cy="1300.8" r="1.2" class="cls-3"/>
+    <circle cx="710.8" cy="1300.6" r="1" class="cls-3"/>
+    <ellipse cx="705.8" cy="1301.9" class="cls-3" rx=".2" ry="1.9"/>
+    <ellipse cx="699.2" cy="1306.2" class="cls-3" rx="2.2" ry=".7"/>
+    <ellipse cx="702.5" cy="1304.3" class="cls-3" rx=".4" ry="1.4"/>
+    <circle cx="704.5" cy="1302.5" r=".2" class="cls-3"/>
+    <circle cx="705.1" cy="1300.4" r=".4" class="cls-3"/>
+    <ellipse cx="703" cy="1302.4" class="cls-3" rx=".9" ry="1.3"/>
+    <circle cx="701.2" cy="1304.8" r=".5" class="cls-3"/>
+    <ellipse cx="698.8" cy="1306.7" class="cls-3" rx=".9" ry="2.1"/>
+    <ellipse cx="694" cy="1310.5" class="cls-3" rx=".5" ry="2.3"/>
+    <ellipse cx="690.3" cy="1291.1" class="cls-3" rx=".5" ry="1.8"/>
+    <circle cx="690.5" cy="1292.7" r="1.9" class="cls-3"/>
+    <circle cx="687.5" cy="1291.2" r="1.2" class="cls-3"/>
+    <circle cx="682.9" cy="1293" r=".2" class="cls-3"/>
+    <circle cx="686.6" cy="1291.5" r=".3" class="cls-3"/>
+    <ellipse cx="677.4" cy="1296.4" class="cls-3" rx=".3" ry=".4"/>
+    <circle cx="676.1" cy="1299" r=".6" class="cls-3"/>
+    <circle cx="680.3" cy="1298.3" r=".2" class="cls-3"/>
+    <circle cx="683.6" cy="1294.5" r=".6" class="cls-3"/>
+    <circle cx="686.8" cy="1290" r="1.1" class="cls-3"/>
+    <circle cx="686.3" cy="1293.7" r="2.6" class="cls-3"/>
+    <circle cx="684.2" cy="1297.9" r=".6" class="cls-3"/>
+    <ellipse cx="680" cy="1299.9" class="cls-3" rx="1.8" ry=".9"/>
+    <circle cx="677.1" cy="1300.6" r="1" class="cls-3"/>
+    <ellipse cx="675.8" cy="1298.4" class="cls-3" rx="1.3" ry=".1"/>
+    <circle cx="678.8" cy="1294.9" r="3.2" class="cls-3"/>
+    <circle cx="674.4" cy="1299.6" r="1.1" class="cls-3"/>
+    <ellipse cx="673.4" cy="1301.1" class="cls-3" rx="3.2" ry="1.6"/>
+    <circle cx="671.7" cy="1300.5" r=".2" class="cls-3"/>
+    <circle cx="668.8" cy="1302.3" r=".4" class="cls-3"/>
+    <ellipse cx="669.7" cy="1299.5" class="cls-3" rx="1.4" ry=".5"/>
+    <circle cx="664.7" cy="1301" r="1.8" class="cls-3"/>
+    <ellipse cx="666.9" cy="1296.7" class="cls-3" rx=".8" ry="1.3"/>
+    <ellipse cx="670.7" cy="1297.2" class="cls-3" rx="1.2" ry=".9"/>
+    <circle cx="672.1" cy="1303" r="1.9" class="cls-3"/>
+    <circle cx="678.6" cy="1308.9" r=".5" class="cls-3"/>
+    <ellipse cx="677.6" cy="1306.8" class="cls-3" rx=".9" ry="1.6"/>
+    <circle cx="674.3" cy="1310.9" r="2.9" class="cls-3"/>
+    <circle cx="682.3" cy="1314.6" r=".3" class="cls-3"/>
+    <ellipse cx="682.6" cy="1313.1" class="cls-3" rx="2.3" ry="1.2"/>
+    <ellipse cx="687.2" cy="1311.1" class="cls-3" rx=".8" ry="1.4"/>
+    <ellipse cx="682.2" cy="1314.6" class="cls-3" rx="1.4" ry=".4"/>
+    <ellipse cx="684.3" cy="1321.1" class="cls-3" rx=".7" ry="2.1"/>
+    <circle cx="687.1" cy="1321.9" r=".4" class="cls-3"/>
+    <ellipse cx="674.5" cy="1322.5" class="cls-3" rx="2.4" ry="3.1"/>
+    <circle cx="679.7" cy="1327.8" r="1.3" class="cls-3"/>
+    <circle cx="685" cy="1327.8" r=".3" class="cls-3"/>
+    <ellipse cx="687.4" cy="1326.1" class="cls-3" rx="2.9" ry=".7"/>
+    <circle cx="685.1" cy="1322.9" r=".6" class="cls-3"/>
+    <ellipse cx="681.3" cy="1324.7" class="cls-3" rx="1.8" ry="3.1"/>
+    <circle cx="682.5" cy="1330.7" r="1.1" class="cls-3"/>
+    <ellipse cx="681.1" cy="1329.9" class="cls-3" rx="1.4" ry=".8"/>
+    <ellipse cx="678.9" cy="1324.6" class="cls-3" rx="1.5" ry=".6"/>
+    <ellipse cx="676.3" cy="1328.8" class="cls-3" rx="1.1" ry="2.7"/>
+    <circle cx="680.3" cy="1330.2" r="1.3" class="cls-3"/>
+    <ellipse cx="689.9" cy="1329.7" class="cls-3" rx="1.8" ry=".6"/>
+    <circle cx="690.2" cy="1328.2" r="1.5" class="cls-3"/>
+    <circle cx="672.6" cy="1328.3" r=".5" class="cls-3"/>
+    <ellipse cx="670.4" cy="1331.7" class="cls-3" rx="2.7" ry="1"/>
+    <circle cx="672.9" cy="1336.3" r="1" class="cls-3"/>
+    <circle cx="677.4" cy="1333.8" r="1.1" class="cls-3"/>
+    <ellipse cx="684.3" cy="1330.7" class="cls-3" rx="1.9" ry=".8"/>
+    <circle cx="691.5" cy="1330.8" r="1.6" class="cls-3"/>
+    <ellipse cx="686.2" cy="1331.5" class="cls-3" rx="1.9" ry=".1"/>
+    <circle cx="681.3" cy="1334.8" r=".4" class="cls-3"/>
+    <circle cx="685" cy="1329" r=".8" class="cls-3"/>
+    <ellipse cx="688.8" cy="1325.5" class="cls-3" rx="1.4" ry="1.3"/>
+    <ellipse cx="695.6" cy="1327.4" class="cls-3" rx="3.2" ry="2.2"/>
+    <circle cx="706.5" cy="1328.1" r=".7" class="cls-3"/>
+    <circle cx="710.4" cy="1324.7" r=".7" class="cls-3"/>
+    <circle cx="689.9" cy="1322.2" r="1" class="cls-3"/>
+    <circle cx="691.5" cy="1317.7" r="1.7" class="cls-3"/>
+    <circle cx="685.6" cy="1319.6" r=".9" class="cls-3"/>
+    <circle cx="681.1" cy="1320.8" r="1.1" class="cls-3"/>
+    <ellipse cx="682.7" cy="1318.5" class="cls-3" rx="1.6" ry=".6"/>
+    <ellipse cx="673.6" cy="1318.8" class="cls-3" rx="2.2" ry="1.3"/>
+    <circle cx="667.6" cy="1319.8" r="1.1" class="cls-3"/>
+    <ellipse cx="661.8" cy="1319.4" class="cls-3" rx="1.6" ry=".3"/>
+    <circle cx="657.4" cy="1325.3" r=".8" class="cls-3"/>
+    <circle cx="660" cy="1328.5" r="1" class="cls-3"/>
+    <circle cx="647.3" cy="1320.3" r=".7" class="cls-3"/>
+    <circle cx="644.2" cy="1323.6" r="1.3" class="cls-3"/>
+    <circle cx="646.1" cy="1326.8" r="1.9" class="cls-3"/>
+    <circle cx="651.9" cy="1325.1" r=".6" class="cls-3"/>
+    <circle cx="658.4" cy="1321.4" r=".7" class="cls-3"/>
+    <circle cx="654.6" cy="1318.4" r="1.7" class="cls-3"/>
+    <circle cx="655.4" cy="1314.8" r=".5" class="cls-3"/>
+    <ellipse cx="659.7" cy="1309.7" class="cls-3" rx="1.7" ry="2.6"/>
+    <circle cx="662.6" cy="1313.4" r=".3" class="cls-3"/>
+    <circle cx="639.9" cy="1290.5" r="1.1" class="cls-3"/>
+    <circle cx="632" cy="1293.6" r=".8" class="cls-3"/>
+    <ellipse cx="637.1" cy="1301.5" class="cls-3" rx="2.8" ry="1.5"/>
+    <ellipse cx="644.9" cy="1298.7" class="cls-3" rx="1.7" ry=".3"/>
+    <circle cx="646.6" cy="1291.7" r=".5" class="cls-3"/>
+    <circle cx="641.2" cy="1297.9" r="2.4" class="cls-3"/>
+    <ellipse cx="634.5" cy="1293.9" class="cls-3" rx="2.5" ry="1"/>
+    <circle cx="635.2" cy="1290" r=".6" class="cls-3"/>
+    <ellipse cx="644.9" cy="1284.6" class="cls-3" rx="1.7" ry="2.2"/>
+    <circle cx="651.2" cy="1281.7" r="1.4" class="cls-3"/>
+    <ellipse cx="655.7" cy="1287.2" class="cls-3" rx=".4" ry=".5"/>
+    <circle cx="652.3" cy="1291.2" r="2.5" class="cls-3"/>
+    <circle cx="639.4" cy="1287.4" r=".6" class="cls-3"/>
+    <circle cx="628.6" cy="1286.4" r="1.3" class="cls-3"/>
+    <circle cx="632.8" cy="1284.7" r="1.5" class="cls-3"/>
+    <ellipse cx="639.4" cy="1287" class="cls-3" rx=".6" ry=".4"/>
+    <ellipse cx="635.3" cy="1289.4" class="cls-3" rx="4.1" ry=".6"/>
+    <ellipse cx="631.2" cy="1281.7" class="cls-3" rx="1.5" ry="1.4"/>
+    <ellipse cx="625.2" cy="1283.7" class="cls-3" rx="2.1" ry="5"/>
+    <circle cx="616.3" cy="1292.8" r="4" class="cls-3"/>
+    <circle cx="622.5" cy="1285.4" r="1.7" class="cls-3"/>
+    <ellipse cx="613.5" cy="1283.9" class="cls-3" rx="2.8" ry="1.1"/>
+    <ellipse cx="624" cy="1301.1" class="cls-3" rx="3.3" ry="1.6"/>
+    <ellipse cx="615.9" cy="1291" class="cls-3" rx=".9" ry="2"/>
+    <circle cx="609.9" cy="1288.8" r=".8" class="cls-3"/>
+    <circle cx="609.4" cy="1278.4" r="1.6" class="cls-3"/>
+    <ellipse cx="601.6" cy="1281.1" class="cls-3" rx="2.1" ry="4.3"/>
+    <circle cx="608.7" cy="1288.3" r=".5" class="cls-3"/>
+    <ellipse cx="612.2" cy="1280.7" class="cls-3" rx="1.2" ry="2.2"/>
+    <ellipse cx="625.5" cy="1282.7" class="cls-3" rx="3" ry="2.4"/>
+    <circle cx="642.7" cy="1279.6" r=".9" class="cls-3"/>
+    <circle cx="650.7" cy="1281.4" r="1.8" class="cls-3"/>
+    <ellipse cx="657.3" cy="1288.6" class="cls-3" rx=".7" ry="1.9"/>
+    <circle cx="645.6" cy="1292.6" r="1.5" class="cls-3"/>
+    <circle cx="648.6" cy="1289.9" r="2" class="cls-3"/>
+    <ellipse cx="655.5" cy="1285.6" class="cls-3" rx=".2" ry="2.1"/>
+    <circle cx="650.7" cy="1285.9" r=".9" class="cls-3"/>
+    <circle cx="656" cy="1282.8" r="1.1" class="cls-3"/>
+    <circle cx="663.1" cy="1280.9" r="1.9" class="cls-3"/>
+    <ellipse cx="663.3" cy="1286.7" class="cls-3" rx=".7" ry="1.2"/>
+    <ellipse cx="656.2" cy="1305" class="cls-3" rx="1.8" ry="1.3"/>
+    <circle cx="653.5" cy="1307.3" r="1.8" class="cls-3"/>
+    <ellipse cx="647.2" cy="1306.2" class="cls-3" rx="3" ry="1.8"/>
+    <circle cx="650.3" cy="1302.1" r="1.4" class="cls-3"/>
+    <circle cx="652.1" cy="1299.8" r="1.8" class="cls-3"/>
+    <ellipse cx="645" cy="1304.7" class="cls-3" rx="2.1" ry="1.4"/>
+    <ellipse cx="634.2" cy="1296.9" class="cls-3" rx="2.9" ry="3.2"/>
+    <path d="M630.6 1307.1c13.6 4.5-17.4 3.8-2.5-4.3 5.9-2 14.2 6.5 2.5 4.3z"/>
+    <ellipse cx="651" cy="1313.5" class="cls-3" rx="3.9" ry="1.2"/>
+    <circle cx="635.2" cy="1316.1" r=".6" class="cls-3"/>
+    <circle cx="644.3" cy="1310.6" r="1.4" class="cls-3"/>
+    <ellipse cx="642.7" cy="1310.9" class="cls-3" rx="2.7" ry="4.1"/>
+    <ellipse cx="638.5" cy="1309" class="cls-3" rx="1.4" ry="1.9"/>
+    <circle cx="637" cy="1313.3" r="2.5" class="cls-3"/>
+    <ellipse cx="658.7" cy="1313.2" class="cls-3" rx="2.1" ry="1.8"/>
+    <ellipse cx="659.7" cy="1317.1" class="cls-3" rx="3.8" ry="2.3"/>
+    <circle cx="655.1" cy="1310.8" r="1.6" class="cls-3"/>
+    <ellipse cx="670.5" cy="1310.2" class="cls-3" rx=".2" ry="2.2"/>
+    <ellipse cx="668.1" cy="1315" class="cls-3" rx="1.2" ry=".3"/>
+    <circle cx="667.8" cy="1310.2" r="1.3" class="cls-3"/>
+    <circle cx="663.6" cy="1311.9" r="2.2" class="cls-3"/>
+    <ellipse cx="667.1" cy="1317.7" class="cls-3" rx=".5" ry="1"/>
+    <circle cx="637.9" cy="1319.7" r="2" class="cls-3"/>
+    <circle cx="625.1" cy="1319.1" r=".9" class="cls-3"/>
+    <circle cx="621.6" cy="1323.4" r=".8" class="cls-3"/>
+    <circle cx="631.6" cy="1324.3" r="1.7" class="cls-3"/>
+    <circle cx="628.8" cy="1325.2" r=".6" class="cls-3"/>
+    <circle cx="629.4" cy="1318.9" r="1.2" class="cls-3"/>
+    <circle cx="623.7" cy="1324.7" r="1.3" class="cls-3"/>
+    <circle cx="619.6" cy="1319.4" r="1" class="cls-3"/>
+    <circle cx="622.9" cy="1314" r=".5" class="cls-3"/>
+    <circle cx="615.3" cy="1316.5" r=".3" class="cls-3"/>
+    <ellipse cx="614" cy="1321.5" class="cls-3" rx="1.3" ry="2.8"/>
+    <ellipse cx="618.8" cy="1322.2" class="cls-3" rx="2" ry="1.2"/>
+    <ellipse cx="619.1" cy="1317.6" class="cls-3" rx=".5" ry=".8"/>
+    <circle cx="612.3" cy="1313.8" r="1.3" class="cls-3"/>
+    <ellipse cx="610.9" cy="1319.9" class="cls-3" rx="1.9" ry="1.6"/>
+    <circle cx="606.6" cy="1322.8" r=".9" class="cls-3"/>
+    <circle cx="604.4" cy="1319.4" r=".7" class="cls-3"/>
+    <ellipse cx="618.9" cy="1316.4" class="cls-3" rx=".2" ry=".3"/>
+    <ellipse cx="618.3" cy="1323.8" class="cls-3" rx="3.3" ry=".4"/>
+    <circle cx="617.6" cy="1321.5" r="2.1" class="cls-3"/>
+    <circle cx="619.2" cy="1314.7" r="1.5" class="cls-3"/>
+    <circle cx="628.8" cy="1319.5" r=".6" class="cls-3"/>
+    <ellipse cx="629.2" cy="1321.7" class="cls-3" rx="4.1" ry="2.6"/>
+    <ellipse cx="623.8" cy="1322.6" class="cls-3" rx="1.3" ry="2.1"/>
+    <circle cx="624.3" cy="1314.9" r=".9" class="cls-3"/>
+    <circle cx="617.3" cy="1308.9" r=".5" class="cls-3"/>
+    <circle cx="622" cy="1308.1" r=".4" class="cls-3"/>
+    <circle cx="627" cy="1307.3" r="1" class="cls-3"/>
+    <circle cx="626.4" cy="1311.5" r=".5" class="cls-3"/>
+    <circle cx="619.6" cy="1310.8" r="1.8" class="cls-3"/>
+    <circle cx="619.7" cy="1305.2" r="1.1" class="cls-3"/>
+    <circle cx="609.8" cy="1297.3" r="1.2" class="cls-3"/>
+    <ellipse cx="614.8" cy="1302.7" class="cls-3" rx="3.8" ry="1.6"/>
+    <circle cx="609.8" cy="1298.5" r="1.2" class="cls-3"/>
+    <ellipse cx="603.4" cy="1301.8" class="cls-3" rx="5.6" ry="3.4"/>
+    <circle cx="616.5" cy="1304.4" r="1.7" class="cls-3"/>
+    <ellipse cx="617.3" cy="1301.6" class="cls-3" rx="2.4" ry="2.5"/>
+    <circle cx="610.5" cy="1302.3" r="2.8" class="cls-3"/>
+    <circle cx="613.7" cy="1309.5" r=".9" class="cls-3"/>
+    <circle cx="665.7" cy="1300.1" r=".9" class="cls-3"/>
+    <ellipse cx="651" cy="1297.5" class="cls-3" rx="1.1" ry="2.4"/>
+    <ellipse cx="647.5" cy="1298.6" class="cls-3" rx="3.9" ry="2.2"/>
+    <circle cx="655.6" cy="1296.9" r=".8" class="cls-3"/>
+    <ellipse cx="658.3" cy="1294.3" class="cls-3" rx="2.6" ry="1.5"/>
+    <ellipse cx="661.5" cy="1292.4" class="cls-3" rx="1.9" ry="2"/>
+    <ellipse cx="653.6" cy="1296.4" class="cls-3" rx="1.3" ry="2.7"/>
+    <ellipse cx="650.3" cy="1297.6" class="cls-3" rx=".5" ry="2.1"/>
+    <circle cx="643" cy="1297.3" r="1.8" class="cls-3"/>
+    <circle cx="666.6" cy="1304.7" r="1.9" class="cls-3"/>
+    <circle cx="676.2" cy="1310" r="2" class="cls-3"/>
+    <ellipse cx="680.6" cy="1308.5" class="cls-3" rx="2.1" ry="1.7"/>
+    <circle cx="689.2" cy="1309.7" r=".5" class="cls-3"/>
+    <ellipse cx="686.8" cy="1311.8" class="cls-3" rx=".4" ry=".7"/>
+    <ellipse cx="684.6" cy="1316.2" class="cls-3" rx="1" ry="2.5"/>
+    <ellipse cx="686.6" cy="1321" class="cls-3" rx="2.3" ry="2.2"/>
+    <ellipse cx="680.3" cy="1320.3" class="cls-3" rx=".8" ry="1.6"/>
+    <circle cx="676.8" cy="1320.7" r="2.3" class="cls-3"/>
+    <ellipse cx="680.2" cy="1317.5" class="cls-3" rx="2.5" ry=".4"/>
+    <ellipse cx="673.5" cy="1316.3" class="cls-3" rx=".1" ry="3.8"/>
+    <ellipse cx="672" cy="1322.4" class="cls-3" rx="1.6" ry=".4"/>
+    <ellipse cx="669.2" cy="1316" class="cls-3" rx="2.1" ry="2.8"/>
+    <circle cx="668.2" cy="1318.8" r="2.4" class="cls-3"/>
+    <ellipse cx="677.4" cy="1326.9" class="cls-3" rx="1.1" ry=".9"/>
+    <ellipse cx="667.6" cy="1318.7" class="cls-3" rx="4.4" ry="3.3"/>
+    <ellipse cx="646.4" cy="1323.3" class="cls-3" rx="2.2" ry="1"/>
+    <ellipse cx="654.3" cy="1326.1" class="cls-3" rx="7.4" ry=".1"/>
+    <circle cx="654.1" cy="1322.9" r=".5" class="cls-3"/>
+    <circle cx="631.3" cy="1317.2" r=".7" class="cls-3"/>
+    <circle cx="628" cy="1313.6" r="1.6" class="cls-3"/>
+    <circle cx="618" cy="1316.8" r=".7" class="cls-3"/>
+    <ellipse cx="607.4" cy="1315.8" class="cls-3" rx="1.6" ry=".9"/>
+    <circle cx="598.7" cy="1320.4" r="1.7" class="cls-3"/>
+    <circle cx="594.9" cy="1325.2" r="1.9" class="cls-3"/>
+    <ellipse cx="599.1" cy="1333.4" class="cls-3" rx="2.5" ry="1"/>
+    <circle cx="601.5" cy="1341.2" r="1.1" class="cls-3"/>
+    <ellipse cx="604.4" cy="1346.1" class="cls-3" rx="2.9" ry="1.5"/>
+    <circle cx="613.1" cy="1345.5" r=".9" class="cls-3"/>
+    <circle cx="610.5" cy="1351.7" r="2" class="cls-3"/>
+    <circle cx="618.2" cy="1351" r="1.4" class="cls-3"/>
+    <ellipse cx="626.3" cy="1349.7" class="cls-3" rx="4.3" ry="2"/>
+    <circle cx="629.6" cy="1347.8" r="1.6" class="cls-3"/>
+    <circle cx="629.3" cy="1343.5" r="1.3" class="cls-3"/>
+    <ellipse cx="627.8" cy="1340.5" class="cls-3" rx="1.4" ry="1.8"/>
+    <ellipse cx="624" cy="1339.4" class="cls-3" rx="2.4" ry="1.1"/>
+    <circle cx="619.7" cy="1339.8" r="1.1" class="cls-3"/>
+    <circle cx="615" cy="1338.1" r="1.8" class="cls-3"/>
+    <circle cx="620.8" cy="1334" r="1.3" class="cls-3"/>
+    <ellipse cx="625.9" cy="1338.5" class="cls-3" rx="1.9" ry=".2"/>
+    <circle cx="612.9" cy="1341.3" r="1.9" class="cls-3"/>
+    <circle cx="607.8" cy="1341.8" r=".5" class="cls-3"/>
+    <circle cx="606.3" cy="1342.5" r="1.2" class="cls-3"/>
+    <circle cx="605.4" cy="1352.2" r="2.8" class="cls-3"/>
+    <circle cx="613.6" cy="1362.1" r="1.4" class="cls-3"/>
+    <circle cx="608" cy="1363.5" r="1.4" class="cls-3"/>
+    <circle cx="613.1" cy="1365.3" r="1.8" class="cls-3"/>
+    <circle cx="582.1" cy="1343.9" r=".7" class="cls-3"/>
+    <circle cx="590.8" cy="1339.5" r=".3" class="cls-3"/>
+    <ellipse cx="580.8" cy="1343.5" class="cls-3" rx="1.4" ry="1.2"/>
+    <circle cx="588.7" cy="1343.1" r=".9" class="cls-3"/>
+    <ellipse cx="595.8" cy="1341.9" class="cls-3" rx="2.1" ry=".6"/>
+    <circle cx="598.7" cy="1338.1" r=".8" class="cls-3"/>
+    <circle cx="601.6" cy="1336.8" r="2.5" class="cls-3"/>
+    <circle cx="595.7" cy="1341.3" r="1.9" class="cls-3"/>
+    <circle cx="597.2" cy="1344.7" r="1.5" class="cls-3"/>
+    <circle cx="584.3" cy="1347" r="1.5" class="cls-3"/>
+    <circle cx="578.6" cy="1350.8" r="1.9" class="cls-3"/>
+    <ellipse cx="586.5" cy="1345.9" class="cls-3" rx="2.2" ry=".3"/>
+    <circle cx="590" cy="1349.8" r="1.3" class="cls-3"/>
+    <circle cx="584.3" cy="1351.2" r="1.5" class="cls-3"/>
+    <ellipse cx="593.3" cy="1347.2" class="cls-3" rx="3.8" ry="1.6"/>
+    <circle cx="590.2" cy="1335.3" r="2" class="cls-3"/>
+    <ellipse cx="594.8" cy="1331.8" class="cls-3" rx="1.8" ry="1.5"/>
+    <circle cx="601.5" cy="1325.9" r="1" class="cls-3"/>
+    <circle cx="601.8" cy="1321.8" r="1.4" class="cls-3"/>
+    <circle cx="601.6" cy="1315.3" r="1.2" class="cls-3"/>
+    <circle cx="599.1" cy="1308.9" r="1.2" class="cls-3"/>
+    <circle cx="591" cy="1312.5" r="1.5" class="cls-3"/>
+    <circle cx="586.9" cy="1313.7" r="1.1" class="cls-3"/>
+    <circle cx="593.2" cy="1309.2" r="1.9" class="cls-3"/>
+    <circle cx="590.9" cy="1305" r="2.3" class="cls-3"/>
+    <circle cx="593.7" cy="1302.5" r="2.2" class="cls-3"/>
+    <circle cx="599.5" cy="1296.9" r=".4" class="cls-3"/>
+    <ellipse cx="608.6" cy="1297.6" class="cls-3" rx=".8" ry="4.7"/>
+    <circle cx="614.8" cy="1298.3" r="1.6" class="cls-3"/>
+    <circle cx="605.7" cy="1297.8" r="1.3" class="cls-3"/>
+    <circle cx="601" cy="1292.9" r=".7" class="cls-3"/>
+    <circle cx="593.1" cy="1289.7" r="1.8" class="cls-3"/>
+    <ellipse cx="603.8" cy="1289.6" class="cls-3" rx="2" ry="1.2"/>
+    <circle cx="596.6" cy="1286.9" r="1" class="cls-3"/>
+    <ellipse cx="608.1" cy="1286.3" class="cls-3" rx="1.8" ry="1.7"/>
+    <circle cx="607.8" cy="1282.5" r="1.5" class="cls-3"/>
+    <circle cx="607.8" cy="1274.3" r=".4" class="cls-3"/>
+    <circle cx="603.1" cy="1274.2" r="1.3" class="cls-3"/>
+    <circle cx="616" cy="1273" r="1.4" class="cls-3"/>
+    <circle cx="613.9" cy="1273.7" r="1.6" class="cls-3"/>
+    <ellipse cx="623.8" cy="1279.1" class="cls-3" rx="1.7" ry="1.2"/>
+    <circle cx="617" cy="1284.6" r=".7" class="cls-3"/>
+    <circle cx="653.9" cy="1276" r=".9" class="cls-3"/>
+    <circle cx="660.6" cy="1275.2" r=".4" class="cls-3"/>
+    <circle cx="572.4" cy="1286.1" r=".2" class="cls-3"/>
+    <circle cx="575.8" cy="1281.4" r="1.8" class="cls-3"/>
+    <circle cx="573.5" cy="1275.6" r="1.3" class="cls-3"/>
+    <circle cx="558.7" cy="1273.4" r="1.3" class="cls-3"/>
+    <ellipse cx="568.6" cy="1275.2" class="cls-3" rx="2.1" ry="4.4"/>
+    <circle cx="563.5" cy="1293.1" r="1.9" class="cls-3"/>
+    <circle cx="562.4" cy="1283.1" r=".8" class="cls-3"/>
+    <circle cx="564" cy="1288.6" r="1.7" class="cls-3"/>
+    <circle cx="574.4" cy="1286.8" r="1.8" class="cls-3"/>
+    <circle cx="580.3" cy="1286" r="2" class="cls-3"/>
+    <circle cx="573.7" cy="1299.3" r="1.5" class="cls-3"/>
+    <circle cx="564.8" cy="1299.2" r="2" class="cls-3"/>
+    <circle cx="560.1" cy="1304.7" r="1.5" class="cls-3"/>
+    <circle cx="552.4" cy="1307.3" r="1.8" class="cls-3"/>
+    <ellipse cx="546" cy="1315.4" class="cls-3" rx=".5" ry="2.8"/>
+    <circle cx="539.5" cy="1316.7" r="1.2" class="cls-3"/>
+    <circle cx="532" cy="1318.3" r="1.2" class="cls-3"/>
+    <circle cx="526.7" cy="1315.7" r="2" class="cls-3"/>
+    <circle cx="529.2" cy="1311" r="2.5" class="cls-3"/>
+    <circle cx="522" cy="1310" r="1.8" class="cls-3"/>
+    <circle cx="534.4" cy="1320.6" r=".5" class="cls-3"/>
+    <ellipse cx="537.2" cy="1316.3" class="cls-3" rx="2.3" ry="1.5"/>
+    <circle cx="551" cy="1318" r="1.5" class="cls-3"/>
+    <ellipse cx="551.6" cy="1312.5" class="cls-3" rx="3.2" ry="2.1"/>
+    <circle cx="550.6" cy="1308.5" r="2.2" class="cls-3"/>
+    <circle cx="565.4" cy="1304.7" r="1.4" class="cls-3"/>
+    <circle cx="560.7" cy="1301.7" r="2" class="cls-3"/>
+    <circle cx="561.4" cy="1310.7" r="2.7" class="cls-3"/>
+    <circle cx="560.5" cy="1319.8" r="1.8" class="cls-3"/>
+    <circle cx="552.9" cy="1323.5" r="2.5" class="cls-3"/>
+    <circle cx="550.5" cy="1330" r="2.2" class="cls-3"/>
+    <ellipse cx="546.9" cy="1329.5" class="cls-3" rx="1.4" ry=".6"/>
+    <circle cx="538.6" cy="1323.3" r="1.6" class="cls-3"/>
+    <circle cx="532.5" cy="1327.6" r="1.7" class="cls-3"/>
+    <circle cx="529.4" cy="1323.4" r="1.4" class="cls-3"/>
+    <ellipse cx="526.6" cy="1322.8" class="cls-3" rx="2.8" ry="2.1"/>
+    <ellipse cx="520.7" cy="1319.1" class="cls-3" rx="3.1" ry="3.7"/>
+    <ellipse cx="522.4" cy="1314.8" class="cls-3" rx="2.3" ry="1"/>
+    <ellipse cx="519.4" cy="1308.2" class="cls-3" rx="2.5" ry="1.9"/>
+    <ellipse cx="544.1" cy="1319.4" class="cls-3" rx="5.4" ry=".7"/>
+    <ellipse cx="555.8" cy="1321.9" class="cls-3" rx="2.9" ry=".9"/>
+    <ellipse cx="562" cy="1319.8" class="cls-3" rx="6.6" ry="1.9"/>
+    <ellipse cx="572.3" cy="1313.6" class="cls-3" rx=".1" ry="3.2"/>
+    <circle cx="545.5" cy="1317.9" r="1.4" class="cls-3"/>
+    <circle cx="561.8" cy="1335.2" r="1" class="cls-3"/>
+    <ellipse cx="559.8" cy="1328.3" class="cls-3" rx="3" ry="1.3"/>
+    <circle cx="565.7" cy="1325.9" r="2.5" class="cls-3"/>
+    <circle cx="574" cy="1327.6" r=".6" class="cls-3"/>
+    <ellipse cx="577" cy="1322.2" class="cls-3" rx="1.2" ry="3.1"/>
+    <circle cx="573.3" cy="1320.8" r="1.1" class="cls-3"/>
+    <ellipse cx="577.2" cy="1319.2" class="cls-3" rx="4.9" ry="2.5"/>
+    <ellipse cx="585" cy="1312.3" class="cls-3" rx=".7" ry="1.4"/>
+    <ellipse cx="583.2" cy="1309.8" class="cls-3" rx="1.8" ry="2.5"/>
+    <ellipse cx="583.6" cy="1307" class="cls-3" rx="1.5" ry="2.7"/>
+    <ellipse cx="575.4" cy="1305.3" class="cls-3" rx="1.7" ry=".2"/>
+    <circle cx="541.4" cy="1313" r="2" class="cls-3"/>
+    <circle cx="545.5" cy="1309.2" r="1.5" class="cls-3"/>
+    <circle cx="533.1" cy="1312.5" r="1.5" class="cls-3"/>
+    <ellipse cx="550.4" cy="1303.7" class="cls-3" rx="2" ry="1.7"/>
+    <circle cx="552.9" cy="1299.1" r="1.3" class="cls-3"/>
+    <circle cx="545.7" cy="1305.4" r="1.6" class="cls-3"/>
+    <circle cx="539.6" cy="1302.2" r="1" class="cls-3"/>
+    <ellipse cx="535.9" cy="1315.2" class="cls-3" rx="1.3" ry="2.7"/>
+    <circle cx="529.3" cy="1320.3" r="2.6" class="cls-3"/>
+    <ellipse cx="537.2" cy="1323.6" class="cls-3" rx="1.4" ry="1.3"/>
+    <ellipse cx="535.9" cy="1320" class="cls-3" rx="2.7" ry="1.7"/>
+    <ellipse cx="547.8" cy="1322.5" class="cls-3" rx="3.8" ry="2.4"/>
+    <ellipse cx="553.2" cy="1318.1" class="cls-3" rx="2.2" ry="1.7"/>
+    <circle cx="560.7" cy="1316.8" r="2" class="cls-3"/>
+    <circle cx="569.4" cy="1316.2" r="3.7" class="cls-3"/>
+    <circle cx="580.7" cy="1314" r="3.2" class="cls-3"/>
+    <circle cx="579.2" cy="1307.5" r="2.2" class="cls-3"/>
+    <ellipse cx="575.8" cy="1303.8" class="cls-3" rx="1.2" ry="1.5"/>
+    <ellipse cx="584.7" cy="1301.8" class="cls-3" rx="5.3" ry=".6"/>
+    <circle cx="584.7" cy="1298.7" r="2.6" class="cls-3"/>
+    <circle cx="585.5" cy="1306.3" r="1.9" class="cls-3"/>
+    <ellipse cx="587" cy="1321.7" class="cls-3" rx="1.5" ry="3.2"/>
+    <circle cx="580.2" cy="1322.4" r="1.6" class="cls-3"/>
+    <ellipse cx="590.8" cy="1323.4" class="cls-3" rx="2.2" ry="1.8"/>
+    <circle cx="591.9" cy="1318" r="2.3" class="cls-3"/>
+    <ellipse cx="610" cy="1295.1" class="cls-3" rx="3.3" ry="3.2"/>
+    <ellipse cx="603" cy="1295.3" class="cls-3" rx="2.7" ry="2.4"/>
+    <circle cx="610.8" cy="1304.5" r="2.3" class="cls-3"/>
+    <circle cx="606.1" cy="1307.8" r="2.6" class="cls-3"/>
+    <circle cx="615.9" cy="1308.1" r=".9" class="cls-3"/>
+    <circle cx="632.6" cy="1301" r="2.9" class="cls-3"/>
+    <ellipse cx="642" cy="1302.5" class="cls-3" rx=".9" ry="2.2"/>
+    <circle cx="648.2" cy="1300.2" r="1.8" class="cls-3"/>
+    <circle cx="646.1" cy="1294.6" r="1.9" class="cls-3"/>
+    <circle cx="639.3" cy="1292.1" r="2.2" class="cls-3"/>
+    <circle cx="494.8" cy="1262.1" r="1.2" class="cls-3"/>
+    <ellipse cx="499.3" cy="1255.9" class="cls-3" rx="2.1" ry="1.1"/>
+    <circle cx="495.1" cy="1254.4" r="1.6" class="cls-3"/>
+    <circle cx="497" cy="1265.6" r="2.3" class="cls-3"/>
+    <circle cx="501.2" cy="1259" r="1.9" class="cls-3"/>
+    <circle cx="508.8" cy="1255.9" r="3.1" class="cls-3"/>
+    <ellipse cx="517.2" cy="1263.1" class="cls-3" rx="3" ry="2.9"/>
+    <circle cx="518.2" cy="1257.2" r="1.3" class="cls-3"/>
+    <ellipse cx="520.4" cy="1252.2" class="cls-3" rx="4.2" ry="2.6"/>
+    <ellipse cx="531.3" cy="1248.4" class="cls-3" rx="3.3" ry="3.8"/>
+    <circle cx="521.4" cy="1244.9" r="2" class="cls-3"/>
+    <circle cx="522.7" cy="1243" r="3.3" class="cls-3"/>
+    <circle cx="535.9" cy="1244.4" r="2.7" class="cls-3"/>
+    <circle cx="533.6" cy="1253.6" r="2.8" class="cls-3"/>
+    <circle cx="525.7" cy="1250.3" r="1.9" class="cls-3"/>
+    <ellipse cx="513.5" cy="1247" class="cls-3" rx="2.7" ry="2.6"/>
+    <circle cx="513.2" cy="1242" r="2.4" class="cls-3"/>
+    <circle cx="518.8" cy="1238.7" r="1.6" class="cls-3"/>
+    <circle cx="521.8" cy="1232.8" r="1.6" class="cls-3"/>
+    <ellipse cx="529.4" cy="1241.6" class="cls-3" rx="1.9" ry="3"/>
+    <circle cx="509.5" cy="1236.4" r=".7" class="cls-3"/>
+    <ellipse cx="505.2" cy="1241.8" class="cls-3" rx="1.6" ry="3.1"/>
+    <circle cx="497.3" cy="1248.3" r="2" class="cls-3"/>
+    <ellipse cx="507" cy="1251.6" class="cls-3" rx="1.8" ry="1.2"/>
+    <ellipse cx="501.2" cy="1243.8" class="cls-3" rx="1.9" ry=".8"/>
+    <ellipse cx="505.1" cy="1249.3" class="cls-3" rx="1.9" ry="1"/>
+    <ellipse cx="508.8" cy="1245.9" class="cls-3" rx="2" ry="1"/>
+    <circle cx="503.1" cy="1263.9" r="3.8" class="cls-3"/>
+    <circle cx="490.3" cy="1258.7" r="2.3" class="cls-3"/>
+    <circle cx="483.6" cy="1257.6" r="1.7" class="cls-3"/>
+    <circle cx="474.7" cy="1259.7" r="1.6" class="cls-3"/>
+    <ellipse cx="476.3" cy="1266.9" class="cls-3" rx="1.6" ry=".9"/>
+    <circle cx="482.7" cy="1264.1" r="2.8" class="cls-3"/>
+    <circle cx="479.1" cy="1260.5" r="1.2" class="cls-3"/>
+    <circle cx="471.6" cy="1252.2" r="1.4" class="cls-3"/>
+    <circle cx="462.4" cy="1250.8" r="1.3" class="cls-3"/>
+    <circle cx="455.2" cy="1250.3" r=".1" class="cls-3"/>
+    <circle cx="461.3" cy="1257.4" r="1.5" class="cls-3"/>
+    <circle cx="460.1" cy="1252.5" r=".3" class="cls-3"/>
+    <circle cx="466.3" cy="1252.8" r="2" class="cls-3"/>
+    <circle cx="468.4" cy="1266.1" r="1.7" class="cls-3"/>
+    <circle cx="469.5" cy="1261.4" r="1.2" class="cls-3"/>
+    <circle cx="447.8" cy="1262.2" r=".4" class="cls-3"/>
+    <circle cx="452.5" cy="1268.7" r="1.4" class="cls-3"/>
+    <circle cx="453.8" cy="1265.3" r="2" class="cls-3"/>
+    <circle cx="464.8" cy="1274.8" r="2" class="cls-3"/>
+    <circle cx="457" cy="1272.3" r="1.1" class="cls-3"/>
+    <circle cx="461.2" cy="1269" r="1.2" class="cls-3"/>
+    <circle cx="473.1" cy="1271.2" r="1.5" class="cls-3"/>
+    <ellipse cx="490.3" cy="1272.5" class="cls-3" rx="2.3" ry=".4"/>
+    <circle cx="493.8" cy="1267.2" r="1.2" class="cls-3"/>
+    <circle cx="498" cy="1272.9" r="1.3" class="cls-3"/>
+    <ellipse cx="487.9" cy="1268.7" class="cls-3" rx="2.4" ry="1"/>
+    <circle cx="486.9" cy="1275.6" r="1.3" class="cls-3"/>
+    <circle cx="497" cy="1278" r="2.3" class="cls-3"/>
+    <ellipse cx="495.9" cy="1272.9" class="cls-3" rx="2.1" ry="1.3"/>
+    <circle cx="505.1" cy="1271.8" r="2.1" class="cls-3"/>
+    <ellipse cx="504.3" cy="1269.4" class="cls-3" rx="2.9" ry="2.4"/>
+    <circle cx="497.6" cy="1272.2" r="3.8" class="cls-3"/>
+    <circle cx="510.7" cy="1271.2" r="2.8" class="cls-3"/>
+    <circle cx="512.4" cy="1264.9" r="2.3" class="cls-3"/>
+    <circle cx="513.7" cy="1258.9" r="1.3" class="cls-3"/>
+    <ellipse cx="511.9" cy="1255.2" class="cls-3" rx="3.1" ry="3.7"/>
+    <ellipse cx="501.4" cy="1255.9" class="cls-3" rx="2.1" ry="1.1"/>
+    <circle cx="525.6" cy="1264.7" r=".8" class="cls-3"/>
+    <circle cx="529.8" cy="1259.5" r="1.1" class="cls-3"/>
+    <ellipse cx="537" cy="1259.9" class="cls-3" rx="4.4" ry=".3"/>
+    <circle cx="545.2" cy="1253" r="2.7" class="cls-3"/>
+    <ellipse cx="541.1" cy="1253.7" class="cls-3" rx="1.7" ry="4.3"/>
+    <ellipse cx="537.3" cy="1256" class="cls-3" rx="4.1" ry="3.9"/>
+    <ellipse cx="531.3" cy="1262.6" class="cls-3" rx="4.6" ry="2.4"/>
+    <circle cx="532.7" cy="1269.2" r="2.9" class="cls-3"/>
+    <circle cx="527.2" cy="1268.7" r="2.5" class="cls-3"/>
+    <ellipse cx="521.5" cy="1266.7" class="cls-3" rx="3.3" ry="2"/>
+    <circle cx="516.6" cy="1270.1" r="1.7" class="cls-3"/>
+    <ellipse cx="522.9" cy="1282.5" class="cls-3" rx=".9" ry="7.4"/>
+    <circle cx="508.5" cy="1277.8" r="1.6" class="cls-3"/>
+    <ellipse cx="517.9" cy="1273.3" class="cls-3" rx="6.6" ry="4.7" transform="rotate(-25.2 530.6 1266.1)"/>
+    <circle cx="541.9" cy="1279.5" r="3.7" class="cls-3"/>
+    <circle cx="538.4" cy="1284.9" r="2.5" class="cls-3"/>
+    <ellipse cx="535" cy="1284.4" class="cls-3" rx="3.4" ry="3"/>
+    <circle cx="536.8" cy="1277.3" r="2.2" class="cls-3"/>
+    <ellipse cx="524.8" cy="1281.7" class="cls-3" rx="4.2" ry="4.9" transform="rotate(-45 532.7 1279)"/>
+    <ellipse cx="546.2" cy="1275.2" class="cls-3" rx="2.2" ry="1.6"/>
+    <ellipse cx="555.8" cy="1270.3" class="cls-3" rx="1.6" ry="3.1"/>
+    <ellipse cx="548.5" cy="1269.7" class="cls-3" rx="2.5" ry="1.2"/>
+    <ellipse cx="554.6" cy="1262.7" class="cls-3" rx="2.2" ry="2.1"/>
+    <circle cx="556.3" cy="1252.4" r="1.6" class="cls-3"/>
+    <circle cx="557.3" cy="1245.5" r="2.5" class="cls-3"/>
+    <circle cx="566.5" cy="1245.5" r="2.5" class="cls-3"/>
+    <ellipse cx="554.8" cy="1237.9" class="cls-3" rx="1.9" ry=".8"/>
+    <circle cx="547.3" cy="1238.4" r="1.3" class="cls-3"/>
+    <circle cx="541.1" cy="1237.9" r=".9" class="cls-3"/>
+    <circle cx="537.3" cy="1243" r="1.4" class="cls-3"/>
+    <ellipse cx="534.7" cy="1237.7" class="cls-3" rx="2.1" ry=".7"/>
+    <circle cx="539" cy="1233.4" r=".6" class="cls-3"/>
+    <circle cx="540.3" cy="1242.5" r=".8" class="cls-3"/>
+    <circle cx="547.9" cy="1240.2" r="1.8" class="cls-3"/>
+    <ellipse cx="555.8" cy="1241.6" class="cls-3" rx="1.5" ry="1.4"/>
+    <circle cx="556" cy="1246.8" r="1.3" class="cls-3"/>
+    <ellipse cx="554.3" cy="1248.9" class="cls-3" rx="1.9" ry="2"/>
+    <ellipse cx="553.7" cy="1242.3" class="cls-3" rx="2.1" ry=".7"/>
+    <ellipse cx="563.6" cy="1250.5" class="cls-3" rx="2.2" ry="3.4"/>
+    <ellipse cx="564.3" cy="1244" class="cls-3" rx="2.2" ry="1.5"/>
+    <circle cx="562.5" cy="1257.9" r="2.7" class="cls-3"/>
+    <circle cx="569.8" cy="1255.8" r="1.8" class="cls-3"/>
+    <ellipse cx="575.7" cy="1253.8" class="cls-3" rx=".9" ry="1"/>
+    <circle cx="580.2" cy="1250.5" r="1" class="cls-3"/>
+    <circle cx="584.3" cy="1256.9" r="1.1" class="cls-3"/>
+    <circle cx="578.4" cy="1264.3" r="1.2" class="cls-3"/>
+    <ellipse cx="577.1" cy="1262.8" class="cls-3" rx="2.5" ry="1.5"/>
+    <circle cx="568.3" cy="1270.9" r="2.5" class="cls-3"/>
+    <ellipse cx="564.5" cy="1273.1" class="cls-3" rx="2" ry="2.2"/>
+    <circle cx="578.3" cy="1274.3" r="3.6" class="cls-3"/>
+    <circle cx="583.7" cy="1269.2" r="3" class="cls-3"/>
+    <circle cx="580.9" cy="1287.5" r=".6" class="cls-3"/>
+    <ellipse cx="561.9" cy="1277.7" class="cls-3" rx="3.3" ry="4.2"/>
+    <circle cx="555.6" cy="1288.9" r="1" class="cls-3"/>
+    <ellipse cx="570.8" cy="1285.6" class="cls-3" rx="3.6" ry="3"/>
+    <ellipse cx="571.2" cy="1330.6" class="cls-3" rx="2.8" ry="1.3"/>
+    <circle cx="581.4" cy="1331.1" r="2.2" class="cls-3"/>
+    <circle cx="587.7" cy="1325.6" r="2.7" class="cls-3"/>
+    <circle cx="580.8" cy="1332.8" r="1.6" class="cls-3"/>
+    <ellipse cx="576" cy="1341" class="cls-3" rx="3.4" ry="2.5"/>
+    <circle cx="585.6" cy="1338.6" r="1.3" class="cls-3"/>
+    <ellipse cx="588.3" cy="1333.4" class="cls-3" rx="1.8" ry="1.9"/>
+    <circle cx="581.7" cy="1343.3" r="2.3" class="cls-3"/>
+    <ellipse cx="596.7" cy="1342.9" class="cls-3" rx="5.9" ry="1.8"/>
+    <circle cx="552" cy="1336" r="2.3" class="cls-3"/>
+    <circle cx="481.6" cy="1276.8" r="1.3" class="cls-3"/>
+    <circle cx="479.1" cy="1270.4" r="1.2" class="cls-3"/>
+    <ellipse cx="474.7" cy="1274.3" class="cls-3" rx="1.6" ry="3"/>
+    <circle cx="468.1" cy="1269.5" r="1.8" class="cls-3"/>
+    <ellipse cx="458.7" cy="1264.3" class="cls-3" rx="3.4" ry="1.9"/>
+    <circle cx="467.3" cy="1265" r="3" class="cls-3"/>
+    <ellipse cx="477.5" cy="1265" class="cls-3" rx="2.8" ry="5.4"/>
+    <circle cx="475.3" cy="1278.1" r="3.3" class="cls-3"/>
+    <circle cx="486.3" cy="1278.1" r="1.9" class="cls-3"/>
+    <circle cx="498.6" cy="1278.9" r="2.7" class="cls-3"/>
+    <circle cx="508.8" cy="1279.9" r="2" class="cls-3"/>
+    <ellipse cx="496.1" cy="1277.7" class="cls-3" rx="2.5" ry="3.8"/>
+    <circle cx="490.4" cy="1274.9" r="2.4" class="cls-3"/>
+    <ellipse cx="487" cy="1270.3" class="cls-3" rx="6.8" ry="3.6"/>
+    <ellipse cx="494.8" cy="1261" class="cls-3" rx="2.2" ry="2.3"/>
+    <circle cx="641" cy="1305.5" r="4" class="cls-3"/>
+    <ellipse cx="598.3" cy="1330.7" class="cls-3" rx="3.3" ry="3.6"/>
+    <circle cx="601.3" cy="1324.7" r="2.5" class="cls-3"/>
+    <circle cx="586.8" cy="1292.6" r="2.9" class="cls-3"/>
+    <ellipse cx="599.8" cy="1290.4" class="cls-3" rx="3.2" ry="2.5"/>
+    <circle cx="441.9" cy="1260.9" r="2.2" class="cls-3"/>
+    <ellipse cx="430" cy="1257.7" class="cls-3" rx="2.7" ry=".8"/>
+    <ellipse cx="422.2" cy="1264" class="cls-3" rx="2.3" ry=".9"/>
+    <circle cx="422.7" cy="1283.7" r=".5" class="cls-3"/>
+    <circle cx="424.2" cy="1290.5" r="1.2" class="cls-3"/>
+    <circle cx="417.1" cy="1296.5" r="1.5" class="cls-3"/>
+    <circle cx="418" cy="1291" r="2.4" class="cls-3"/>
+    <circle cx="430.9" cy="1285.9" r=".9" class="cls-3"/>
+    <circle cx="426.4" cy="1291.5" r="1" class="cls-3"/>
+    <circle cx="414.4" cy="1280.1" r="1.3" class="cls-3"/>
+    <circle cx="399.1" cy="1268.4" r=".6" class="cls-3"/>
+    <circle cx="397.6" cy="1273.3" r="1.5" class="cls-3"/>
+    <circle cx="392.9" cy="1295.3" r=".8" class="cls-3"/>
+    <circle cx="400.5" cy="1285.3" r=".8" class="cls-3"/>
+    <circle cx="427.8" cy="1323.2" r="1.5" class="cls-3"/>
+    <circle cx="431.9" cy="1330.8" r="2.6" class="cls-3"/>
+    <circle cx="436.9" cy="1326.1" r="2.3" class="cls-3"/>
+    <circle cx="438.1" cy="1334" r="1.3" class="cls-3"/>
+    <circle cx="437.9" cy="1329.3" r="1" class="cls-3"/>
+    <ellipse cx="431.4" cy="1327.2" class="cls-3" rx=".5" ry="1.1"/>
+    <ellipse cx="451.1" cy="1347.6" class="cls-3" rx="2.9" ry="1.2"/>
+    <circle cx="440.3" cy="1347" r=".6" class="cls-3"/>
+    <circle cx="444.4" cy="1350.4" r=".4" class="cls-3"/>
+    <circle cx="452.2" cy="1352.6" r=".4" class="cls-3"/>
+    <circle cx="581.2" cy="1252.6" r="1" class="cls-3"/>
+    <circle cx="581.9" cy="1257.9" r="1" class="cls-3"/>
+    <ellipse cx="647.5" cy="1279.6" class="cls-3" rx="1.4" ry="1.7"/>
+    <circle cx="724.4" cy="1307.8" r=".6" class="cls-3"/>
+    <circle cx="619.1" cy="1344" r=".9" class="cls-3"/>
+    <circle cx="595.2" cy="1355.7" r=".7" class="cls-3"/>
+    <circle cx="591" cy="1352.1" r="1.1" class="cls-3"/>
+    <circle cx="587.2" cy="1358.3" r="1.5" class="cls-3"/>
+    <circle cx="595.6" cy="1359.4" r="1.1" class="cls-3"/>
+    <circle cx="568.7" cy="1342.9" r="1.1" class="cls-3"/>
+    <circle cx="529.8" cy="1352.8" r="1.1" class="cls-3"/>
+    <circle cx="525.7" cy="1354.7" r=".9" class="cls-3"/>
+    <circle cx="521.9" cy="1359.8" r=".5" class="cls-3"/>
+    <circle cx="516.5" cy="1360.1" r=".4" class="cls-3"/>
+    <circle cx="521.2" cy="1357.1" r=".8" class="cls-3"/>
+    <circle cx="526" cy="1350.8" r=".4" class="cls-3"/>
+    <ellipse cx="531.6" cy="1349.3" class="cls-3" rx="2.6" ry=".5"/>
+    <circle cx="545.9" cy="1369.9" r=".3" class="cls-3"/>
+    <circle cx="546" cy="1364.3" r=".9" class="cls-3"/>
+    <circle cx="550.3" cy="1363.7" r=".6" class="cls-3"/>
+    <circle cx="558" cy="1380.5" r=".7" class="cls-3"/>
+    <circle cx="556.2" cy="1376.8" r=".6" class="cls-3"/>
+    <ellipse cx="553.9" cy="1382.4" class="cls-3" rx=".7" ry="1.9"/>
+    <circle cx="550.3" cy="1378.1" r=".8" class="cls-3"/>
+    <circle cx="550.3" cy="1383.2" r=".8" class="cls-3"/>
+    <circle cx="554.2" cy="1378.7" r=".5" class="cls-3"/>
+    <circle cx="601.2" cy="1357.1" r=".8" class="cls-3"/>
+    <circle cx="605.9" cy="1358.6" r=".8" class="cls-3"/>
+    <circle cx="600.1" cy="1361.7" r="1" class="cls-3"/>
+    <circle cx="576.5" cy="1332.7" r=".8" class="cls-3"/>
+    <circle cx="575" cy="1329.3" r="1" class="cls-3"/>
+    <circle cx="610.3" cy="1324.5" r=".4" class="cls-3"/>
+    <circle cx="578.2" cy="1294.8" r=".7" class="cls-3"/>
+    <circle cx="570.7" cy="1302" r=".7" class="cls-3"/>
+    <circle cx="567.6" cy="1302" r="2.8" class="cls-3"/>
+    <ellipse cx="573" cy="1302.9" class="cls-3" rx="1.6" ry=".9"/>
+    <circle cx="598.4" cy="1299" r="1.8" class="cls-3"/>
+    <circle cx="595.2" cy="1293.7" r="2.1" class="cls-3"/>
+    <circle cx="591" cy="1286.2" r=".9" class="cls-3"/>
+    <ellipse cx="594.5" cy="1271.8" class="cls-3" rx="2.6" ry="2.3"/>
+    <circle cx="586.7" cy="1275" r=".9" class="cls-3"/>
+    <ellipse cx="589.4" cy="1270.9" class="cls-3" rx="1.7" ry=".7"/>
+    <circle cx="582.6" cy="1275.8" r="2.4" class="cls-3"/>
+    <circle cx="577" cy="1269.3" r="1.3" class="cls-3"/>
+    <circle cx="571.3" cy="1269.6" r="1.9" class="cls-3"/>
+    <ellipse cx="572.3" cy="1263.1" class="cls-3" rx="1.7" ry="2.2"/>
+    <circle cx="618.9" cy="1283.6" r="1.9" class="cls-3"/>
+    <ellipse cx="605" cy="1281" class="cls-3" rx="1.3" ry="1.4"/>
+    <ellipse cx="608.3" cy="1277.5" class="cls-3" rx="3.9" ry=".9"/>
+    <circle cx="609.3" cy="1275.4" r="1.5" class="cls-3"/>
+    <ellipse cx="633.5" cy="1288.5" class="cls-3" rx=".7" ry="2.3"/>
+    <circle cx="644.7" cy="1289.3" r="3" class="cls-3"/>
+    <ellipse cx="652.6" cy="1286.7" class="cls-3" rx="2.1" ry="2.8"/>
+    <ellipse cx="654.6" cy="1304.6" class="cls-3" rx="2.5" ry="2.6"/>
+    <ellipse cx="664.8" cy="1303.8" class="cls-3" rx="1.8" ry="2.8"/>
+    <ellipse cx="659.5" cy="1306.5" class="cls-3" rx="1.9" ry="3.2"/>
+    <circle cx="643.8" cy="1321.2" r=".9" class="cls-3"/>
+    <ellipse cx="653.2" cy="1324.6" class="cls-3" rx="1.1" ry="1.6"/>
+    <circle cx="648.2" cy="1324.2" r="1.8" class="cls-3"/>
+    <circle cx="686.3" cy="1309.2" r="2.1" class="cls-3"/>
+    <circle cx="565.4" cy="1332.6" r="1.8" class="cls-3"/>
+    <circle cx="568.4" cy="1326.1" r="1.2" class="cls-3"/>
+    <ellipse cx="572.7" cy="1325" class="cls-3" rx="1.3" ry="2"/>
+    <circle cx="557.8" cy="1335.8" r="1" class="cls-3"/>
+    <circle cx="545.8" cy="1333.6" r="1.7" class="cls-3"/>
+    <circle cx="543" cy="1326.9" r="1.6" class="cls-3"/>
+    <ellipse cx="556.5" cy="1301.9" class="cls-3" rx="2.2" ry="2.8"/>
+    <circle cx="556.4" cy="1294.7" r="1" class="cls-3"/>
+    <circle cx="560.1" cy="1283.7" r="1.3" class="cls-3"/>
+    <ellipse cx="566.2" cy="1283.8" class="cls-3" rx="1" ry="1.9"/>
+    <ellipse cx="559.1" cy="1281" class="cls-3" rx="2.3" ry="2.7"/>
+    <ellipse cx="551.1" cy="1277.5" class="cls-3" rx="1.6" ry=".7"/>
+    <circle cx="550.4" cy="1270.3" r="1.9" class="cls-3"/>
+    <circle cx="550.9" cy="1262.9" r="1.2" class="cls-3"/>
+    <ellipse cx="550.7" cy="1261.2" class="cls-3" rx="3.8" ry=".6"/>
+    <circle cx="550.1" cy="1257.5" r="3.1" class="cls-3"/>
+    <circle cx="616.2" cy="1280.5" r="2.3" class="cls-3"/>
+    <circle cx="603.8" cy="1285.2" r="2.3" class="cls-3"/>
+    <circle cx="597.1" cy="1286.2" r="2.6" class="cls-3"/>
+    <ellipse cx="597.2" cy="1278.7" class="cls-3" rx="2.3" ry="2.5"/>
+    <ellipse cx="588.4" cy="1272.2" class="cls-3" rx="1.7" ry="2.9"/>
+    <ellipse cx="571.4" cy="1293.5" class="cls-3" rx="2.3" ry="4.3"/>
+    <ellipse cx="570" cy="1292.5" class="cls-3" rx="1.4" ry="1"/>
+    <circle cx="565.1" cy="1294.7" r="1.6" class="cls-3"/>
+    <circle cx="567.4" cy="1290.2" r="1.6" class="cls-3"/>
+    <ellipse cx="570.3" cy="1297.5" class="cls-3" rx="1.9" ry="1.7"/>
+    <ellipse cx="576.7" cy="1296.9" class="cls-3" rx="1.5" ry="2.3"/>
+    <ellipse cx="580.7" cy="1294.8" class="cls-3" rx="1.5" ry="2.3"/>
+    <circle cx="543.2" cy="1350.9" r="1.3" class="cls-3"/>
+    <circle cx="539" cy="1346.7" r="1.2" class="cls-3"/>
+    <circle cx="531.3" cy="1347.4" r="1.5" class="cls-3"/>
+    <circle cx="529.4" cy="1356.1" r="1.4" class="cls-3"/>
+    <circle cx="522.8" cy="1358" r=".9" class="cls-3"/>
+    <circle cx="526.4" cy="1354.5" r=".8" class="cls-3"/>
+    <circle cx="524.2" cy="1358.5" r="1.4" class="cls-3"/>
+    <circle cx="542" cy="1355.8" r="1.3" class="cls-3"/>
+    <circle cx="551.3" cy="1361.4" r="1" class="cls-3"/>
+    <circle cx="543" cy="1368.2" r="1.1" class="cls-3"/>
+    <circle cx="517" cy="1345.1" r=".4" class="cls-3"/>
+    <ellipse cx="555.1" cy="1341.8" class="cls-3" rx=".5" ry="2.9"/>
+    <circle cx="592.1" cy="1355.8" r="1.3" class="cls-3"/>
+    <circle cx="601.8" cy="1349.3" r="1.3" class="cls-3"/>
+    <circle cx="605.3" cy="1340.2" r="1.3" class="cls-3"/>
+    <circle cx="604.8" cy="1332" r="1.4" class="cls-3"/>
+    <circle cx="617.4" cy="1336.3" r="1.1" class="cls-3"/>
+    <circle cx="611.3" cy="1347.6" r="1.4" class="cls-3"/>
+    <circle cx="609.7" cy="1355.7" r="1" class="cls-3"/>
+    <circle cx="535.1" cy="1374.3" r=".5" class="cls-3"/>
+    <circle cx="532.2" cy="1366.3" r="1.4" class="cls-3"/>
+    <circle cx="538.7" cy="1362.1" r="1.4" class="cls-3"/>
+    <circle cx="541.1" cy="1368.2" r="1.1" class="cls-3"/>
+    <circle cx="534.6" cy="1367.3" r="1" class="cls-3"/>
+    <circle cx="539.1" cy="1370.8" r=".9" class="cls-3"/>
+    <circle cx="537.8" cy="1365.9" r=".6" class="cls-3"/>
+    <circle cx="533.7" cy="1362.6" r=".5" class="cls-3"/>
+    <circle cx="525.3" cy="1372.7" r="1" class="cls-3"/>
+    <circle cx="531.7" cy="1377" r=".9" class="cls-3"/>
+    <circle cx="531.1" cy="1372.9" r=".2" class="cls-3"/>
+    <circle cx="544.8" cy="1380.6" r="1.4" class="cls-3"/>
+    <circle cx="545.7" cy="1385.5" r="1.2" class="cls-3"/>
+    <circle cx="540.8" cy="1387.4" r=".6" class="cls-3"/>
+    <circle cx="542.7" cy="1383.8" r=".6" class="cls-3"/>
+    <circle cx="555.5" cy="1373.5" r=".4" class="cls-3"/>
+    <circle cx="554.7" cy="1369.2" r="1" class="cls-3"/>
+    <circle cx="558.9" cy="1364.5" r=".2" class="cls-3"/>
+    <circle cx="555.3" cy="1362.4" r=".7" class="cls-3"/>
+    <circle cx="594.5" cy="1364.1" r=".4" class="cls-3"/>
+    <circle cx="574.5" cy="1345.9" r=".8" class="cls-3"/>
+    <circle cx="570" cy="1345.8" r=".3" class="cls-3"/>
+    <circle cx="566.5" cy="1346.2" r="1.5" class="cls-3"/>
+    <circle cx="494.2" cy="1291" r="1.4" class="cls-3"/>
+    <circle cx="494" cy="1285.4" r="1.4" class="cls-3"/>
+    <circle cx="490" cy="1289.2" r="1.8" class="cls-3"/>
+    <circle cx="496.9" cy="1288.7" r=".7" class="cls-3"/>
+    <circle cx="496.9" cy="1292.2" r="1.3" class="cls-3"/>
+    <circle cx="496.6" cy="1286.5" r="1.1" class="cls-3"/>
+    <circle cx="499.7" cy="1282.7" r="1.2" class="cls-3"/>
+    <ellipse cx="504.1" cy="1278.6" class="cls-3" rx="2.7" ry="1.3"/>
+    <circle cx="491.1" cy="1279.5" r=".8" class="cls-3"/>
+    <circle cx="504.2" cy="1274.2" r="1.2" class="cls-3"/>
+    <ellipse cx="511.6" cy="1277" class="cls-3" rx="1.5" ry="1.9"/>
+    <circle cx="516.9" cy="1275.2" r="1.4" class="cls-3"/>
+    <circle cx="513.7" cy="1285.5" r=".5" class="cls-3"/>
+    <circle cx="518.8" cy="1289.7" r="1.4" class="cls-3"/>
+    <ellipse cx="518.7" cy="1284.5" class="cls-3" rx="1.5" ry=".6"/>
+    <ellipse cx="515.6" cy="1279.8" class="cls-3" rx=".6" ry="1.1"/>
+    <circle cx="509.3" cy="1262.6" r="1.3" class="cls-3"/>
+    <circle cx="493.8" cy="1256.2" r="1.9" class="cls-3"/>
+    <circle cx="501.3" cy="1250.2" r="1.9" class="cls-3"/>
+    <ellipse cx="561.8" cy="1269.9" class="cls-3" rx="2.7" ry=".9"/>
+    <ellipse cx="565.8" cy="1262.5" class="cls-3" rx="1.3" ry="2.8"/>
+    <ellipse cx="553.6" cy="1250.6" class="cls-3" rx="1.2" ry="1.8"/>
+    <ellipse cx="550.5" cy="1248.4" class="cls-3" rx="1.9" ry="2.2"/>
+    <circle cx="540" cy="1247.2" r="2.8" class="cls-3"/>
+    <circle cx="535.2" cy="1239.9" r="1.3" class="cls-3"/>
+    <circle cx="525.9" cy="1236.5" r="2.2" class="cls-3"/>
+    <circle cx="517.4" cy="1241.5" r="2.7" class="cls-3"/>
+    <ellipse cx="511.3" cy="1238.4" class="cls-3" rx="1.9" ry="1.3"/>
+    <circle cx="507.6" cy="1242.6" r=".8" class="cls-3"/>
+    <circle cx="488.6" cy="1264.4" r="2.3" class="cls-3"/>
+    <ellipse cx="478.9" cy="1273.6" class="cls-3" rx="2.6" ry="1.8"/>
+    <circle cx="483.1" cy="1281.5" r="1.2" class="cls-3"/>
+    <circle cx="458.9" cy="1271.9" r="2" class="cls-3"/>
+    <circle cx="468" cy="1271.1" r="1.6" class="cls-3"/>
+    <ellipse cx="450" cy="1264.6" class="cls-3" rx="1.8" ry=".7"/>
+    <circle cx="448" cy="1258.7" r=".6" class="cls-3"/>
+    <ellipse cx="421" cy="1264.4" class="cls-3" rx="1.2" ry=".4"/>
+    <circle cx="415" cy="1258.3" r=".6" class="cls-3"/>
+    <circle cx="415.5" cy="1263.4" r=".5" class="cls-3"/>
+    <circle cx="423.5" cy="1261.1" r="1.4" class="cls-3"/>
+    <circle cx="426.2" cy="1265.4" r=".9" class="cls-3"/>
+    <circle cx="428.5" cy="1262" r="1.4" class="cls-3"/>
+    <circle cx="430.3" cy="1268.7" r="1" class="cls-3"/>
+    <circle cx="426.7" cy="1269.6" r=".4" class="cls-3"/>
+    <circle cx="432.9" cy="1260.5" r="1.5" class="cls-3"/>
+    <circle cx="437.4" cy="1256.6" r=".8" class="cls-3"/>
+    <circle cx="437.4" cy="1262.2" r=".5" class="cls-3"/>
+    <circle cx="438.7" cy="1267.2" r=".9" class="cls-3"/>
+    <circle cx="445.8" cy="1266.3" r=".7" class="cls-3"/>
+    <circle cx="443.4" cy="1269.7" r=".7" class="cls-3"/>
+    <circle cx="399.9" cy="1261.2" r=".8" class="cls-3"/>
+    <circle cx="404.7" cy="1257.6" r="1.8" class="cls-3"/>
+    <circle cx="412.9" cy="1254.7" r="1.2" class="cls-3"/>
+    <circle cx="408.9" cy="1257.7" r="1" class="cls-3"/>
+    <circle cx="406.3" cy="1264.5" r="1.6" class="cls-3"/>
+    <circle cx="412.6" cy="1272.4" r=".9" class="cls-3"/>
+    <circle cx="421.6" cy="1271.3" r="1.1" class="cls-3"/>
+    <circle cx="424.1" cy="1277.2" r="1.4" class="cls-3"/>
+    <circle cx="420.7" cy="1277.4" r="1.7" class="cls-3"/>
+    <circle cx="428.9" cy="1287.3" r="1.1" class="cls-3"/>
+    <ellipse cx="429.7" cy="1283.4" class="cls-3" rx="1.2" ry="1.5"/>
+    <circle cx="430.1" cy="1276.9" r=".8" class="cls-3"/>
+    <circle cx="433.8" cy="1274.7" r=".9" class="cls-3"/>
+    <circle cx="439" cy="1278.3" r="1.1" class="cls-3"/>
+    <circle cx="436" cy="1282.4" r="1.3" class="cls-3"/>
+    <circle cx="432.1" cy="1278" r="1.1" class="cls-3"/>
+    <ellipse cx="421.9" cy="1284.6" class="cls-3" rx=".9" ry=".3"/>
+    <circle cx="425.2" cy="1283.6" r=".7" class="cls-3"/>
+    <circle cx="401.2" cy="1283.8" r=".7" class="cls-3"/>
+    <circle cx="405.6" cy="1278.6" r=".9" class="cls-3"/>
+    <circle cx="406.6" cy="1269.7" r="1.3" class="cls-3"/>
+    <ellipse cx="401.2" cy="1276.1" class="cls-3" rx="3.5" ry="2"/>
+    <ellipse cx="402.1" cy="1267.8" class="cls-3" rx=".8" ry=".6"/>
+    <ellipse cx="396.4" cy="1271.8" class="cls-3" rx=".8" ry=".6"/>
+    <ellipse cx="433.7" cy="1295.4" class="cls-3" rx=".8" ry=".6"/>
+    <circle cx="426.4" cy="1297.7" r="1.9" class="cls-3"/>
+    <circle cx="420.5" cy="1293.9" r="1" class="cls-3"/>
+    <circle cx="419.7" cy="1299.4" r="1" class="cls-3"/>
+    <circle cx="427.6" cy="1293.7" r="1.2" class="cls-3"/>
+    <circle cx="434.3" cy="1292.6" r="1.4" class="cls-3"/>
+    <circle cx="435.2" cy="1287.6" r=".9" class="cls-3"/>
+    <circle cx="439.1" cy="1284.1" r="1.7" class="cls-3"/>
+    <circle cx="440.5" cy="1290.3" r="1.1" class="cls-3"/>
+    <circle cx="438.1" cy="1296" r="1.5" class="cls-3"/>
+    <circle cx="581.1" cy="1280.2" r="1.5" class="cls-3"/>
+    <ellipse cx="572.2" cy="1279.5" class="cls-3" rx="1.9" ry="1.8"/>
+    <ellipse cx="577" cy="1284.6" class="cls-3" rx="1.2" ry="1.4"/>
+    <circle cx="555.6" cy="1285" r="2.3" class="cls-3"/>
+    <ellipse cx="561.2" cy="1286.8" class="cls-3" rx="1.1" ry="1.8"/>
+    <circle cx="549.6" cy="1280.4" r="1" class="cls-3"/>
+    <ellipse cx="541.6" cy="1271.4" class="cls-3" rx="1" ry=".7"/>
+    <circle cx="537.9" cy="1271.5" r="2.3" class="cls-3"/>
+    <circle cx="532.3" cy="1278.3" r="1.5" class="cls-3"/>
+    <ellipse cx="522.6" cy="1262.3" class="cls-3" rx="2.2" ry="2.4"/>
+    <ellipse cx="503.5" cy="1254" class="cls-3" rx="2.2" ry="1.9"/>
+    <circle cx="487.2" cy="1253.8" r="1" class="cls-3"/>
+    <circle cx="477.8" cy="1256.2" r="1.4" class="cls-3"/>
+    <ellipse cx="471.8" cy="1256.6" class="cls-3" rx="2.8" ry="1.4"/>
+    <circle cx="471.2" cy="1266" r=".9" class="cls-3"/>
+    <ellipse cx="481.1" cy="1279.1" class="cls-3" rx=".8" ry="2.4"/>
+    <circle cx="469.8" cy="1275.7" r="1.4" class="cls-3"/>
+    <circle cx="555.8" cy="1308.9" r="1.6" class="cls-5"/>
+    <circle cx="418.7" cy="1256.4" r=".5" class="cls-4"/>
+    <circle cx="423.4" cy="1257.9" r=".7" class="cls-4"/>
+    <circle cx="398.5" cy="1263.7" r=".9" class="cls-4"/>
+    <circle cx="416.8" cy="1266.6" r="1.1" class="cls-4"/>
+    <ellipse cx="415.5" cy="1275.6" class="cls-4" rx=".5" ry="1.6"/>
+    <circle cx="436.8" cy="1302.3" r=".6" class="cls-4"/>
+    <circle cx="441.2" cy="1298.1" r=".3" class="cls-4"/>
+    <circle cx="443.6" cy="1293.5" r=".9" class="cls-4"/>
+    <circle cx="445.9" cy="1299.2" r="1.1" class="cls-4"/>
+    <circle cx="442.2" cy="1295.8" r=".3" class="cls-4"/>
+    <circle cx="446.9" cy="1295.2" r=".4" class="cls-4"/>
+    <circle cx="445.1" cy="1290.8" r=".6" class="cls-4"/>
+    <circle cx="442.3" cy="1287.5" r=".8" class="cls-4"/>
+    <circle cx="463.1" cy="1285.4" r=".8" class="cls-4"/>
+    <circle cx="468.1" cy="1288.6" r=".8" class="cls-4"/>
+    <circle cx="474.6" cy="1291" r=".6" class="cls-4"/>
+    <circle cx="471.7" cy="1289" r=".9" class="cls-4"/>
+    <circle cx="466.9" cy="1284.8" r=".6" class="cls-4"/>
+    <circle cx="461.3" cy="1275.3" r=".4" class="cls-4"/>
+    <circle cx="453" cy="1272.6" r=".3" class="cls-4"/>
+    <circle cx="447.4" cy="1270.4" r=".9" class="cls-4"/>
+    <circle cx="448.1" cy="1267.4" r=".7" class="cls-4"/>
+    <circle cx="452.6" cy="1259.7" r=".8" class="cls-4"/>
+    <circle cx="456.6" cy="1250.8" r=".8" class="cls-4"/>
+    <circle cx="460.3" cy="1246.5" r=".6" class="cls-4"/>
+    <circle cx="467.1" cy="1248" r=".8" class="cls-4"/>
+    <circle cx="463.2" cy="1248" r=".8" class="cls-4"/>
+    <circle cx="461.1" cy="1248.5" r=".3" class="cls-4"/>
+    <circle cx="458.2" cy="1250.1" r=".8" class="cls-4"/>
+    <circle cx="487.9" cy="1245.6" r=".6" class="cls-4"/>
+    <circle cx="491.1" cy="1249.5" r=".7" class="cls-4"/>
+    <circle cx="491.2" cy="1245.3" r=".3" class="cls-4"/>
+    <circle cx="498.2" cy="1239.2" r=".5" class="cls-4"/>
+    <ellipse cx="503.3" cy="1235.5" class="cls-4" rx=".3" ry="1.1"/>
+    <circle cx="507.1" cy="1236.7" r=".3" class="cls-4"/>
+    <circle cx="509.1" cy="1233.7" r=".3" class="cls-4"/>
+    <circle cx="514.6" cy="1234.8" r=".4" class="cls-4"/>
+    <circle cx="513.8" cy="1239" r=".7" class="cls-4"/>
+    <circle cx="521.9" cy="1236.9" r=".5" class="cls-4"/>
+    <circle cx="426.4" cy="1275.5" r="1.1" class="cls-4"/>
+    <circle cx="428" cy="1279.3" r=".4" class="cls-4"/>
+    <circle cx="424.8" cy="1279.2" r=".6" class="cls-4"/>
+    <circle cx="420.7" cy="1280.6" r=".2" class="cls-4"/>
+    <circle cx="416.5" cy="1279.8" r=".5" class="cls-4"/>
+    <circle cx="410.4" cy="1273.9" r=".5" class="cls-4"/>
+    <circle cx="395.9" cy="1267.2" r=".3" class="cls-4"/>
+    <circle cx="391.8" cy="1266.3" r=".7" class="cls-4"/>
+    <circle cx="386.5" cy="1266.1" r=".6" class="cls-4"/>
+    <circle cx="386.2" cy="1269.8" r=".3" class="cls-4"/>
+    <circle cx="389" cy="1268.9" r=".5" class="cls-4"/>
+    <circle cx="387.4" cy="1273.9" r=".3" class="cls-4"/>
+    <circle cx="384.1" cy="1273.8" r=".3" class="cls-4"/>
+    <circle cx="390.3" cy="1273.7" r=".8" class="cls-4"/>
+    <circle cx="390.2" cy="1276.9" r=".7" class="cls-4"/>
+    <circle cx="389" cy="1280.4" r=".6" class="cls-4"/>
+    <circle cx="429.9" cy="1290.3" r=".6" class="cls-4"/>
+    <circle cx="423.7" cy="1287.8" r=".4" class="cls-4"/>
+    <circle cx="416.4" cy="1284.8" r=".7" class="cls-4"/>
+    <circle cx="401.7" cy="1272.9" r="2" class="cls-4"/>
+    <circle cx="406.6" cy="1275.4" r=".3" class="cls-4"/>
+    <circle cx="404.1" cy="1273.3" r=".4" class="cls-4"/>
+    <circle cx="399.3" cy="1279.4" r=".8" class="cls-4"/>
+    <circle cx="395.8" cy="1276.9" r=".3" class="cls-4"/>
+    <circle cx="395.1" cy="1271.8" r=".5" class="cls-4"/>
+    <circle cx="395.2" cy="1268.4" r=".6" class="cls-4"/>
+    <circle cx="392.2" cy="1270.3" r=".6" class="cls-4"/>
+    <ellipse cx="391.6" cy="1273.3" class="cls-4" rx="1.3" ry=".3"/>
+    <circle cx="388.6" cy="1271.5" r=".8" class="cls-4"/>
+    <circle cx="384.8" cy="1272.6" r="1" class="cls-4"/>
+    <circle cx="396.8" cy="1269.5" r="1.1" class="cls-4"/>
+    <circle cx="486.7" cy="1260.1" r="1.1" class="cls-4"/>
+    <circle cx="487.5" cy="1256.8" r=".9" class="cls-4"/>
+    <ellipse cx="528.9" cy="1266.9" class="cls-4" rx=".9" ry="1.9"/>
+    <ellipse cx="520.7" cy="1270.9" class="cls-4" rx="1.2" ry="2.2"/>
+    <ellipse cx="513.9" cy="1269.4" class="cls-4" rx="1" ry=".7"/>
+    <circle cx="514.7" cy="1266.3" r=".8" class="cls-4"/>
+    <circle cx="518.3" cy="1271.8" r="1.1" class="cls-4"/>
+    <circle cx="513.7" cy="1273.3" r=".8" class="cls-4"/>
+    <ellipse cx="514.4" cy="1277.8" class="cls-4" rx="1.2" ry=".9"/>
+    <ellipse cx="518.2" cy="1288.4" class="cls-4" rx="2" ry="1.3"/>
+    <ellipse cx="516.9" cy="1285.2" class="cls-4" rx="1.3" ry="1.8"/>
+    <circle cx="514" cy="1282.7" r="1" class="cls-4"/>
+    <circle cx="522.7" cy="1287.5" r=".9" class="cls-4"/>
+    <circle cx="521.1" cy="1290.5" r="1" class="cls-4"/>
+    <circle cx="524.4" cy="1290.3" r=".6" class="cls-4"/>
+    <circle cx="532.7" cy="1280.1" r="1" class="cls-4"/>
+    <circle cx="528.5" cy="1280.6" r="1.3" class="cls-4"/>
+    <circle cx="541.8" cy="1274.3" r="1.5" class="cls-4"/>
+    <circle cx="534.5" cy="1274.8" r="1.8" class="cls-4"/>
+    <circle cx="527.5" cy="1272.8" r="1.2" class="cls-4"/>
+    <circle cx="563.9" cy="1267.2" r="1.1" class="cls-4"/>
+    <circle cx="562.7" cy="1263.4" r="1.4" class="cls-4"/>
+    <ellipse cx="552.7" cy="1266.7" class="cls-4" rx="2.1" ry="1.2"/>
+    <circle cx="553.9" cy="1272" r="1.6" class="cls-4"/>
+    <ellipse cx="550.3" cy="1276.3" class="cls-4" rx=".8" ry=".5"/>
+    <ellipse cx="548.7" cy="1279.3" class="cls-4" rx=".9" ry="1.1"/>
+    <circle cx="553.4" cy="1280.4" r=".7" class="cls-4"/>
+    <circle cx="546.6" cy="1280.4" r=".9" class="cls-4"/>
+    <circle cx="514.8" cy="1304.6" r=".9" class="cls-4"/>
+    <circle cx="516.6" cy="1301.5" r=".4" class="cls-4"/>
+    <circle cx="515.6" cy="1307.8" r="1.6" class="cls-4"/>
+    <circle cx="517.2" cy="1312" r="1" class="cls-4"/>
+    <circle cx="518.7" cy="1304" r="1.3" class="cls-4"/>
+    <circle cx="549" cy="1326" r="1.1" class="cls-4"/>
+    <circle cx="541.5" cy="1330.6" r="1.3" class="cls-4"/>
+    <circle cx="538.3" cy="1326" r="1.1" class="cls-4"/>
+    <circle cx="534.9" cy="1323.6" r="1.7" class="cls-4"/>
+    <circle cx="544.7" cy="1316" r="1.7" class="cls-4"/>
+    <circle cx="547.4" cy="1314" r="1.4" class="cls-4"/>
+    <ellipse cx="555.5" cy="1327.2" class="cls-4" rx="1.3" ry="1.1"/>
+    <circle cx="558.3" cy="1324.4" r="1" class="cls-4"/>
+    <ellipse cx="562.3" cy="1322.8" class="cls-4" rx=".3" ry="1.1"/>
+    <circle cx="555.8" cy="1331.5" r="1.2" class="cls-4"/>
+    <ellipse cx="548.6" cy="1334.8" class="cls-4" rx="1.1" ry="1.2"/>
+    <circle cx="536.5" cy="1330.4" r=".9" class="cls-4"/>
+    <circle cx="535.8" cy="1327.6" r=".7" class="cls-4"/>
+    <circle cx="577.7" cy="1289.2" r="1.2" class="cls-4"/>
+    <circle cx="582.8" cy="1285.7" r="1.2" class="cls-4"/>
+    <circle cx="578.7" cy="1281.1" r=".9" class="cls-4"/>
+    <ellipse cx="575.3" cy="1278.5" class="cls-4" rx=".5" ry="1.1"/>
+    <circle cx="574.8" cy="1271.2" r="1.6" class="cls-4"/>
+    <ellipse cx="577.4" cy="1265.9" class="cls-4" rx=".3" ry="1.6"/>
+    <circle cx="571" cy="1266.3" r="2.3" class="cls-4"/>
+    <circle cx="573.2" cy="1257.4" r="1.6" class="cls-4"/>
+    <circle cx="577.4" cy="1258.8" r=".8" class="cls-4"/>
+    <circle cx="577.8" cy="1252.1" r="1.5" class="cls-4"/>
+    <circle cx="569" cy="1253.6" r="1.1" class="cls-4"/>
+    <ellipse cx="561.5" cy="1253.4" class="cls-4" rx="1" ry="1.8"/>
+    <ellipse cx="558.9" cy="1250.2" class="cls-4" rx="2.6" ry="1.4"/>
+    <ellipse cx="561.7" cy="1246.3" class="cls-4" rx="1.9" ry=".8"/>
+    <circle cx="551.3" cy="1243.9" r="1.6" class="cls-4"/>
+    <ellipse cx="544.5" cy="1241.6" class="cls-4" rx="2" ry="1.4"/>
+    <ellipse cx="538.5" cy="1239.7" class="cls-4" rx="1.8" ry="2"/>
+    <ellipse cx="518.7" cy="1247.1" class="cls-4" rx="2.5" ry="1.5"/>
+    <circle cx="505.7" cy="1259.2" r="2.2" class="cls-4"/>
+    <circle cx="498.2" cy="1259.8" r="1.6" class="cls-4"/>
+    <ellipse cx="492.6" cy="1264" class="cls-4" rx="2.2" ry="1.6"/>
+    <circle cx="492.5" cy="1251.6" r="1.4" class="cls-4"/>
+    <circle cx="480.7" cy="1257.7" r="1.5" class="cls-4"/>
+    <ellipse cx="472.2" cy="1268.8" class="cls-4" rx="1" ry=".9"/>
+    <circle cx="473.8" cy="1262.1" r="2" class="cls-4"/>
+    <circle cx="463.2" cy="1264" r="1.8" class="cls-4"/>
+    <circle cx="463.6" cy="1270.2" r="1.2" class="cls-4"/>
+    <ellipse cx="458.8" cy="1268.1" class="cls-4" rx="1.3" ry=".9"/>
+    <circle cx="455" cy="1271.5" r="2.3" class="cls-4"/>
+    <ellipse cx="460.1" cy="1274.8" class="cls-4" rx="1.2" ry="1"/>
+    <circle cx="467.6" cy="1277.6" r="1.3" class="cls-4"/>
+    <ellipse cx="489.2" cy="1278.8" class="cls-4" rx=".8" ry="1.6"/>
+    <circle cx="493.1" cy="1277.8" r="1.6" class="cls-4"/>
+    <circle cx="483.8" cy="1267.5" r="2" class="cls-4"/>
+    <circle cx="483.9" cy="1275.9" r="2.3" class="cls-4"/>
+    <circle cx="494" cy="1271.8" r="1.5" class="cls-4"/>
+    <circle cx="491.1" cy="1266.9" r="1.9" class="cls-4"/>
+    <ellipse cx="502.5" cy="1270.9" class="cls-4" rx="1.9" ry=".9"/>
+    <circle cx="509.2" cy="1265.9" r="1.3" class="cls-4"/>
+    <circle cx="503.8" cy="1276.2" r="1.3" class="cls-4"/>
+    <circle cx="501.1" cy="1274.8" r="1.4" class="cls-4"/>
+    <circle cx="507.9" cy="1273.6" r="1.1" class="cls-4"/>
+    <ellipse cx="510.2" cy="1260.9" class="cls-4" rx="2.3" ry="1.7"/>
+    <circle cx="516.6" cy="1256.8" r="1.6" class="cls-4"/>
+    <circle cx="509.2" cy="1248.3" r="2.3" class="cls-4"/>
+    <ellipse cx="525.9" cy="1246.4" class="cls-4" rx="2.1" ry="2"/>
+    <circle cx="430.7" cy="1301.2" r=".8" class="cls-4"/>
+    <circle cx="430.3" cy="1296.7" r=".6" class="cls-4"/>
+    <circle cx="434.5" cy="1299.4" r=".2" class="cls-4"/>
+    <circle cx="430.5" cy="1298.9" r=".5" class="cls-4"/>
+    <ellipse cx="430.3" cy="1292.5" class="cls-4" rx="2.7" ry="2.9"/>
+    <ellipse cx="423.5" cy="1294.3" class="cls-4" rx="3" ry="1.4"/>
+    <circle cx="435.6" cy="1291.2" r="1.9" class="cls-4"/>
+    <circle cx="420.3" cy="1298.2" r="1.6" class="cls-4"/>
+    <ellipse cx="414.5" cy="1299.8" class="cls-4" rx="2.3" ry="1.4"/>
+    <circle cx="438.9" cy="1301.2" r="2" class="cls-4"/>
+    <circle cx="431.4" cy="1318.2" r="1.4" class="cls-4"/>
+    <ellipse cx="423.2" cy="1314.6" class="cls-4" rx="2.2" ry=".8"/>
+    <circle cx="430.9" cy="1322.8" r="2" class="cls-4"/>
+    <circle cx="436.2" cy="1321.8" r="1.5" class="cls-4"/>
+    <ellipse cx="419.8" cy="1312.1" class="cls-4" rx="1.2" ry="2.5"/>
+    <circle cx="423.4" cy="1299.7" r="1.6" class="cls-4"/>
+    <circle cx="479.1" cy="1290.3" r=".5" class="cls-4"/>
+    <circle cx="481.8" cy="1294.2" r=".7" class="cls-4"/>
+    <circle cx="476.5" cy="1292.3" r="1.4" class="cls-4"/>
+    <circle cx="474.7" cy="1289.1" r=".9" class="cls-4"/>
+    <circle cx="471.5" cy="1286.1" r="1" class="cls-4"/>
+    <circle cx="467.4" cy="1285.8" r="1" class="cls-4"/>
+    <circle cx="436.1" cy="1271.5" r=".8" class="cls-4"/>
+    <circle cx="440.3" cy="1270.6" r=".7" class="cls-4"/>
+    <circle cx="439.9" cy="1275.2" r="1" class="cls-4"/>
+    <circle cx="437.3" cy="1273.5" r="1.2" class="cls-4"/>
+    <circle cx="437.9" cy="1269.3" r=".6" class="cls-4"/>
+    <circle cx="434.2" cy="1270.4" r="1" class="cls-4"/>
+    <ellipse cx="431.1" cy="1273.5" class="cls-4" rx="1.8" ry="1.2"/>
+    <circle cx="430.1" cy="1266" r=".4" class="cls-4"/>
+    <circle cx="427.4" cy="1263.9" r="1.1" class="cls-4"/>
+    <circle cx="418.2" cy="1262.8" r="1.1" class="cls-4"/>
+    <circle cx="414.5" cy="1260.3" r="1.1" class="cls-4"/>
+    <circle cx="411.3" cy="1257.3" r="1.4" class="cls-4"/>
+    <ellipse cx="426.3" cy="1259.9" class="cls-4" rx="2.2" ry="2.1"/>
+    <circle cx="437.6" cy="1259" r="1.6" class="cls-4"/>
+    <circle cx="433.7" cy="1256.9" r="1.7" class="cls-4"/>
+    <ellipse cx="426.8" cy="1282.3" class="cls-4" rx="1.7" ry="1.1"/>
+    <ellipse cx="423" cy="1288.1" class="cls-4" rx="1.2" ry="1.3"/>
+    <ellipse cx="428" cy="1286.9" class="cls-4" rx="2.6" ry="1.6"/>
+    <ellipse cx="437.9" cy="1289" class="cls-4" rx="2.6" ry="2.4"/>
+    <ellipse cx="418.4" cy="1295.1" class="cls-4" rx="1.9" ry="1.4"/>
+    <ellipse cx="414.6" cy="1293.7" class="cls-4" rx="1.9" ry="1.4"/>
+    <ellipse cx="420.5" cy="1287.8" class="cls-4" rx="1.4" ry=".3"/>
+    <ellipse cx="416.3" cy="1288.1" class="cls-4" rx=".8" ry="1.9"/>
+    <circle cx="390" cy="1295.2" r=".6" class="cls-4"/>
+    <circle cx="388.4" cy="1298" r=".7" class="cls-4"/>
+    <circle cx="389.2" cy="1303" r=".8" class="cls-4"/>
+    <circle cx="391.2" cy="1299" r=".3" class="cls-4"/>
+    <ellipse cx="490.8" cy="1282.4" class="cls-4" rx="2.6" ry=".1"/>
+    <ellipse cx="491.6" cy="1281.4" class="cls-4" rx="2.4" ry="2.6"/>
+    <circle cx="441.5" cy="1264.3" r="1.2" class="cls-4"/>
+    <circle cx="437.1" cy="1263.9" r="1.7" class="cls-4"/>
+    <ellipse cx="430.6" cy="1264.6" class="cls-4" rx="2.1" ry=".7"/>
+    <circle cx="431" cy="1262.4" r="2.5" class="cls-4"/>
+    <circle cx="413.1" cy="1266.2" r="2.8" class="cls-4"/>
+    <ellipse cx="418.9" cy="1261.7" class="cls-4" rx="3.3" ry="1.4"/>
+    <circle cx="448.1" cy="1300.3" r="1.1" class="cls-4"/>
+    <ellipse cx="446.3" cy="1297.2" class="cls-4" rx="1.8" ry="2"/>
+    <circle cx="452" cy="1296.8" r="1" class="cls-4"/>
+    <circle cx="443.2" cy="1305.7" r="1.4" class="cls-4"/>
+    <circle cx="435.5" cy="1303.4" r="2.6" class="cls-4"/>
+    <circle cx="435.7" cy="1295.4" r="1.4" class="cls-4"/>
+    <ellipse cx="427.4" cy="1298" class="cls-4" rx="3.2" ry="2.5"/>
+    <ellipse cx="438.9" cy="1293.7" class="cls-4" rx="3.3" ry="2.4"/>
+    <circle cx="433.3" cy="1300.1" r="2.8" class="cls-4"/>
+    <circle cx="444.4" cy="1302.1" r="2.3" class="cls-4"/>
+    <circle cx="449.9" cy="1299" r="1.8" class="cls-4"/>
+    <circle cx="478.1" cy="1333" r=".3" class="cls-4"/>
+    <circle cx="479.3" cy="1327.5" r=".3" class="cls-4"/>
+    <circle cx="475.3" cy="1336.7" r="1.4" class="cls-4"/>
+    <circle cx="468.8" cy="1338.9" r=".8" class="cls-4"/>
+    <circle cx="434.3" cy="1348" r="1.6" class="cls-4"/>
+    <circle cx="426.6" cy="1347" r="1.1" class="cls-4"/>
+    <circle cx="421.9" cy="1346.7" r=".3" class="cls-4"/>
+    <ellipse cx="432.1" cy="1344.3" class="cls-4" rx=".6" ry="2.1"/>
+    <ellipse cx="428.3" cy="1334.9" class="cls-4" rx="2" ry=".9"/>
+    <circle cx="425.6" cy="1331.3" r=".8" class="cls-4"/>
+    <circle cx="426.6" cy="1327.5" r=".3" class="cls-4"/>
+    <circle cx="423.1" cy="1323.1" r=".3" class="cls-4"/>
+    <circle cx="427.9" cy="1319.1" r=".3" class="cls-4"/>
+    <circle cx="430.1" cy="1314.2" r="1.6" class="cls-4"/>
+    <circle cx="437" cy="1311.2" r="1.1" class="cls-4"/>
+    <circle cx="445.4" cy="1314.8" r="2.3" class="cls-4"/>
+    <circle cx="407" cy="1280.9" r="1.4" class="cls-4"/>
+    <circle cx="413.9" cy="1283.3" r=".9" class="cls-4"/>
+    <circle cx="415" cy="1292.7" r=".4" class="cls-4"/>
+    <circle cx="411.5" cy="1294.2" r="1.1" class="cls-4"/>
+    <ellipse cx="413.6" cy="1291.7" class="cls-4" rx="1.4" ry=".6"/>
+    <circle cx="454" cy="1296.6" r=".9" class="cls-4"/>
+    <circle cx="449.6" cy="1293.3" r=".4" class="cls-4"/>
+    <ellipse cx="448" cy="1292" class="cls-4" rx="1.1" ry="1.3"/>
+    <circle cx="458.5" cy="1300.6" r="1.9" class="cls-4"/>
+    <circle cx="452.5" cy="1302.2" r="1.4" class="cls-4"/>
+    <circle cx="448" cy="1305.5" r="1.1" class="cls-4"/>
+    <circle cx="461.5" cy="1302.7" r=".7" class="cls-4"/>
+    <circle cx="465.9" cy="1298.9" r=".9" class="cls-4"/>
+    <circle cx="452.1" cy="1314.6" r="2.1" class="cls-4"/>
+    <circle cx="454.6" cy="1311.6" r="2" class="cls-4"/>
+    <circle cx="446.6" cy="1311.2" r=".7" class="cls-4"/>
+    <circle cx="449.3" cy="1310.1" r=".9" class="cls-4"/>
+    <ellipse cx="453" cy="1314.1" class="cls-4" rx="1.1" ry=".5"/>
+    <circle cx="478.3" cy="1340.1" r=".8" class="cls-4"/>
+    <circle cx="480" cy="1337.2" r=".3" class="cls-4"/>
+    <ellipse cx="480.6" cy="1336" class="cls-4" rx=".3" ry="1.1"/>
+    <circle cx="478.3" cy="1340.6" r="1.6" class="cls-4"/>
+    <circle cx="474.6" cy="1341.6" r=".6" class="cls-4"/>
+    <circle cx="470.7" cy="1347.2" r=".4" class="cls-4"/>
+    <circle cx="465.5" cy="1351.9" r=".7" class="cls-4"/>
+    <circle cx="459.1" cy="1353.6" r=".6" class="cls-4"/>
+    <circle cx="455.2" cy="1354.6" r="1" class="cls-4"/>
+    <circle cx="462.1" cy="1352.2" r="1" class="cls-4"/>
+    <circle cx="466.4" cy="1349.7" r=".9" class="cls-4"/>
+    <ellipse cx="470.7" cy="1346.3" class="cls-4" rx=".4" ry=".8"/>
+    <circle cx="458.1" cy="1343.6" r=".7" class="cls-4"/>
+    <ellipse cx="453.8" cy="1343.7" class="cls-4" rx="2.8" ry="2.7"/>
+    <ellipse cx="447.6" cy="1347.2" class="cls-4" rx=".6" ry=".4"/>
+    <ellipse cx="443.8" cy="1348.7" class="cls-4" rx="1.1" ry="1.7"/>
+    <circle cx="442.3" cy="1350.8" r=".8" class="cls-4"/>
+    <circle cx="434.7" cy="1353.8" r="1" class="cls-4"/>
+    <circle cx="454.6" cy="1340.2" r=".8" class="cls-4"/>
+    <circle cx="456.9" cy="1338.6" r=".3" class="cls-4"/>
+    <circle cx="517" cy="1357.7" r=".8" class="cls-4"/>
+    <circle cx="520.7" cy="1344.9" r="1.2" class="cls-4"/>
+    <circle cx="512.3" cy="1341.5" r=".9" class="cls-4"/>
+    <circle cx="516.1" cy="1338.3" r=".5" class="cls-4"/>
+    <circle cx="519.8" cy="1340.9" r=".4" class="cls-4"/>
+    <ellipse cx="518.2" cy="1344.8" class="cls-4" rx="1.2" ry=".1"/>
+    <ellipse cx="527.8" cy="1350.9" class="cls-4" rx="1.7" ry="1.2"/>
+    <ellipse cx="524.1" cy="1357.3" class="cls-4" rx="1.5" ry="1.2"/>
+    <ellipse cx="463.5" cy="1361.9" class="cls-4" rx="1.5" ry="1.2"/>
+    <circle cx="450" cy="1359.5" r="1.2" class="cls-4"/>
+    <circle cx="453.4" cy="1358" r=".7" class="cls-4"/>
+    <circle cx="457.6" cy="1357.3" r=".2" class="cls-4"/>
+    <circle cx="462.7" cy="1356.8" r=".7" class="cls-4"/>
+    <circle cx="466.7" cy="1353.8" r="1.2" class="cls-4"/>
+    <circle cx="468.6" cy="1345.3" r=".2" class="cls-4"/>
+    <ellipse cx="473.2" cy="1340.9" class="cls-4" rx=".8" ry=".7"/>
+    <circle cx="476" cy="1336" r=".7" class="cls-4"/>
+    <circle cx="480.4" cy="1330.1" r=".5" class="cls-4"/>
+    <circle cx="482.1" cy="1327.9" r=".6" class="cls-4"/>
+    <circle cx="442.6" cy="1337" r="1.1" class="cls-4"/>
+    <circle cx="445.7" cy="1334.6" r=".9" class="cls-4"/>
+    <circle cx="442.5" cy="1332.4" r="1.1" class="cls-4"/>
+    <circle cx="439.3" cy="1326.6" r="1.2" class="cls-4"/>
+    <circle cx="437.4" cy="1321.5" r="1.2" class="cls-4"/>
+    <circle cx="437.6" cy="1316.2" r="1" class="cls-4"/>
+    <circle cx="434.8" cy="1318.8" r="1.1" class="cls-4"/>
+    <ellipse cx="435.6" cy="1315.4" class="cls-4" rx="1" ry=".8"/>
+    <ellipse cx="430.1" cy="1321.3" class="cls-4" rx=".8" ry="1.6"/>
+    <circle cx="423.6" cy="1329.5" r=".6" class="cls-4"/>
+    <circle cx="421.5" cy="1333.8" r=".4" class="cls-4"/>
+    <circle cx="421.9" cy="1340.1" r=".5" class="cls-4"/>
+    <circle cx="420.2" cy="1339.7" r=".3" class="cls-4"/>
+    <circle cx="416.4" cy="1310" r="1.4" class="cls-4"/>
+    <circle cx="412" cy="1311.1" r=".6" class="cls-4"/>
+    <circle cx="408.3" cy="1311.2" r=".5" class="cls-4"/>
+    <circle cx="399.7" cy="1306.7" r=".6" class="cls-4"/>
+    <circle cx="404.9" cy="1305.5" r=".4" class="cls-4"/>
+    <circle cx="413.3" cy="1287.5" r=".6" class="cls-4"/>
+    <ellipse cx="410.7" cy="1292.5" class="cls-4" rx=".8" ry=".6"/>
+    <ellipse cx="413.8" cy="1297.4" class="cls-4" rx=".6" ry="1"/>
+    <circle cx="419" cy="1302.7" r="1.2" class="cls-4"/>
+    <circle cx="427.1" cy="1304" r=".9" class="cls-4"/>
+    <circle cx="429.3" cy="1300.8" r="1" class="cls-4"/>
+    <circle cx="433.1" cy="1304.4" r="1.1" class="cls-4"/>
+    <circle cx="429.6" cy="1304.7" r=".3" class="cls-4"/>
+    <circle cx="427" cy="1300.9" r=".8" class="cls-4"/>
+    <circle cx="432.9" cy="1289.1" r=".9" class="cls-4"/>
+    <ellipse cx="436.5" cy="1296.7" class="cls-4" rx=".8" ry="1.7"/>
+    <circle cx="443.8" cy="1298.2" r=".8" class="cls-4"/>
+    <circle cx="440.4" cy="1298" r=".8" class="cls-4"/>
+    <ellipse cx="433.1" cy="1285" class="cls-4" rx="2.2" ry="1.6"/>
+    <circle cx="431.8" cy="1281.3" r="1.1" class="cls-4"/>
+    <ellipse cx="443.6" cy="1290.1" class="cls-4" rx=".9" ry=".7"/>
+    <ellipse cx="419.7" cy="1284.6" class="cls-4" rx="2.7" ry="1.4"/>
+    <circle cx="451.6" cy="1367.1" r=".6" class="cls-4"/>
+    <circle cx="456.4" cy="1366.4" r=".6" class="cls-4"/>
+    <circle cx="457.4" cy="1362.4" r=".4" class="cls-4"/>
+    <circle cx="461.3" cy="1358.8" r=".4" class="cls-4"/>
+    <circle cx="466.9" cy="1352.6" r=".7" class="cls-4"/>
+    <circle cx="472.1" cy="1348.4" r=".5" class="cls-4"/>
+    <ellipse cx="469.7" cy="1349.3" class="cls-4" rx=".2" ry="1.4"/>
+    <circle cx="472.2" cy="1344.7" r=".4" class="cls-4"/>
+    <circle cx="473.1" cy="1337.7" r=".6" class="cls-4"/>
+    <circle cx="468.4" cy="1336" r=".8" class="cls-4"/>
+    <circle cx="475.8" cy="1331.1" r=".5" class="cls-4"/>
+    <circle cx="476.8" cy="1327.8" r=".5" class="cls-4"/>
+    <circle cx="471.3" cy="1332.7" r=".8" class="cls-4"/>
+    <circle cx="472.6" cy="1329.7" r=".4" class="cls-4"/>
+    <circle cx="474.4" cy="1326.7" r=".6" class="cls-4"/>
+    <circle cx="451.6" cy="1329.1" r=".6" class="cls-4"/>
+    <circle cx="439.7" cy="1326.7" r=".8" class="cls-4"/>
+    <ellipse cx="438.6" cy="1324.3" class="cls-4" rx="1.1" ry="1.6"/>
+    <circle cx="432" cy="1327.8" r=".6" class="cls-4"/>
+    <circle cx="433.3" cy="1324.5" r="1.6" class="cls-4"/>
+    <circle cx="431.3" cy="1325.7" r="1.4" class="cls-4"/>
+    <ellipse cx="427.9" cy="1329.9" class="cls-4" rx="1.4" ry="1"/>
+    <circle cx="428.1" cy="1327.3" r="1.2" class="cls-4"/>
+    <ellipse cx="433.8" cy="1321.5" class="cls-4" rx="2.4" ry="1.8"/>
+    <circle cx="435.4" cy="1316.2" r=".8" class="cls-4"/>
+    <ellipse cx="433.3" cy="1315.9" class="cls-4" rx="1.5" ry="1.8"/>
+    <circle cx="425" cy="1315.5" r=".9" class="cls-4"/>
+    <ellipse cx="426" cy="1320.3" class="cls-4" rx="1.9" ry="1.4"/>
+    <ellipse cx="429.2" cy="1317.2" class="cls-4" rx=".8" ry="1"/>
+    <circle cx="427.7" cy="1315.4" r=".6" class="cls-4"/>
+    <ellipse cx="428.3" cy="1313.1" class="cls-4" rx="3.8" ry="2.1"/>
+    <ellipse cx="422.5" cy="1312.8" class="cls-4" rx=".8" ry="1.8"/>
+    <circle cx="417.3" cy="1318.2" r=".5" class="cls-4"/>
+    <circle cx="425.6" cy="1318.3" r="1.1" class="cls-4"/>
+    <circle cx="422.9" cy="1323.3" r=".2" class="cls-4"/>
+    <ellipse cx="429.4" cy="1324.3" class="cls-4" rx=".5" ry="1.4"/>
+    <circle cx="425.6" cy="1324.7" r=".4" class="cls-4"/>
+    <circle cx="442.1" cy="1322.3" r=".6" class="cls-4"/>
+    <circle cx="439.1" cy="1316.7" r=".6" class="cls-4"/>
+    <circle cx="439.3" cy="1319.7" r=".3" class="cls-4"/>
+    <circle cx="465.8" cy="1294.9" r=".3" class="cls-4"/>
+    <circle cx="404.4" cy="1286.1" r=".3" class="cls-4"/>
+    <circle cx="400.8" cy="1286.4" r=".3" class="cls-4"/>
+    <circle cx="400.4" cy="1291.3" r="1.3" class="cls-4"/>
+    <circle cx="406.2" cy="1290.2" r="1.3" class="cls-4"/>
+    <circle cx="487" cy="1320.9" r=".8" class="cls-4"/>
+    <circle cx="491.2" cy="1313.1" r=".3" class="cls-4"/>
+    <circle cx="490.5" cy="1321" r=".3" class="cls-4"/>
+    <circle cx="484.5" cy="1336.8" r=".7" class="cls-4"/>
+    <circle cx="486.6" cy="1334.5" r=".3" class="cls-4"/>
+    <circle cx="484.9" cy="1346.4" r="1.3" class="cls-4"/>
+    <ellipse cx="491.3" cy="1350.7" class="cls-4" rx="1.3" ry=".1"/>
+    <circle cx="495.7" cy="1346" r=".9" class="cls-4"/>
+    <circle cx="501.9" cy="1344.2" r="1.3" class="cls-4"/>
+    <ellipse cx="510.9" cy="1342.4" class="cls-4" rx=".4" ry=".8"/>
+    <circle cx="491.9" cy="1348.3" r=".6" class="cls-4"/>
+    <circle cx="482.1" cy="1356.9" r=".6" class="cls-4"/>
+    <circle cx="477.9" cy="1354.5" r=".6" class="cls-4"/>
+    <circle cx="486" cy="1355.6" r="1.1" class="cls-4"/>
+    <circle cx="482.9" cy="1361.8" r=".3" class="cls-4"/>
+    <circle cx="467.2" cy="1373.6" r=".4" class="cls-4"/>
+    <circle cx="468.7" cy="1369.9" r=".3" class="cls-4"/>
+    <circle cx="468.8" cy="1363.6" r=".5" class="cls-4"/>
+    <circle cx="471.1" cy="1356.5" r=".4" class="cls-4"/>
+    <ellipse cx="474.3" cy="1354.6" class="cls-4" rx="1" ry="2.5"/>
+    <circle cx="473.7" cy="1369.8" r=".6" class="cls-4"/>
+    <circle cx="476" cy="1365.4" r=".6" class="cls-4"/>
+  </g>
+</svg>

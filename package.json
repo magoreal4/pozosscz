@@ -12,9 +12,8 @@
     "vite": "^2.8.6"
   },
   "scripts": {
-    "tw:dev": "npx tailwind -i ./src/tailwind.css -o ./static/css/main.css -w",
+    "tw:dev": "tailwindcss -i ./src/tailwind.css -o ./static/css/main.css -w",
     "tw:prod": "postcss ./src/tailwind.css -o ./static/css/main.css -w",
-    "prod": "npm run tw:prod",
     "build": "vite build --watch"
   },
   "repository": {
