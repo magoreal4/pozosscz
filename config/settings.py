@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'livereload',
     'django.contrib.staticfiles',
     'svg',
-    'main.apps.MainConfig'
+    'import_export',
+    'rest_framework',
+
+    'main.apps.MainConfig',
+    'mapa',
 ]
 
 MIDDLEWARE = [
@@ -138,3 +142,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 SVG_DIRS=[
     os.path.join(BASE_DIR, 'media/icon')
 ]
+

@@ -4,12 +4,40 @@
 
 
 @layer components {
-  .shadow {
+
+  /* control positioning */
+  .leaflet-center {
+    position: relative;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .leaflet-center .leaflet-control {
+    bottom: 0;
+  }
+
+  .leaflet-control-container .leaflet-control-bottomcenter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .sombra {
     -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
   }
 
-  .shadow-x2 {
+  .sombra-x2 {
     -webkit-filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
     filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
   }
@@ -40,12 +68,16 @@
   }
 
   #toastTitulo {
-    left: 50%; 
-    transform: translate(-50%, 0);     
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 
   .centrearXY {
     @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .puntos {
+    @apply ml-2 inline-block border-black border-2 w-4 h-4 text-center rounded-full
   }
 
 }

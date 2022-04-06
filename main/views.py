@@ -8,4 +8,5 @@ class Home(TemplateView):
     def get_context_data(self, **kwargs):
         alcance = Alcance.objects.all()
         quienes = AQuien.objects.all()
-        return {'descripciones': alcance, 'quienes': quienes}
+        title = "Limpieza de Pozos Santa Cruz"
+        return {'descripciones': alcance, 'quienes': quienes, 'titulo':title}

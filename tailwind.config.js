@@ -1,5 +1,10 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./templates/**/*.html"],
+  content: [
+    "./src/**/*.{html,js}", 
+    "./templates/**/*.html", 
+    "./mapa/src/js/**/*.{html,js}", 
+    "./mapa/src/js/*.js", 
+  ],
   theme: {
     extend: {
       colors: {
@@ -7,6 +12,16 @@ module.exports = {
         'secondary': '#FF4444',
         'error': '#E64444',
         'warning': '#FACC15',
+        'precio300': '#ffff00',
+        'precio350': '#fba657',
+        'precio400': '#4ade80',
+        'precio450': '#52b551',
+        'precio500': '#ff0000',
+        'precio600': '#00ffff',
+        'precio700': '#50dbff',
+        'precio800': '#5eb9fc',
+        'precio900': '#6199ee',
+        'precio1000': '#808080'
         // green: {
         //   650: '#1f8e43'
         // }

@@ -6,9 +6,12 @@ from config import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('main.urls'))
+    path('admin/', admin.site.urls, name='Admin'),
+    path('', include('main.urls')),
+    path('mapa/', include('mapa.urls'))
 ]
 
 if settings.DEBUG:

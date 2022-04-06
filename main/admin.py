@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import AQuien, Alcance
 from django.utils.html import format_html
 
+@admin.register(Alcance)
 class AlcanceAdmin(admin.ModelAdmin):
     readonly_fields = ('created_at',)
     list_display = (
@@ -20,13 +21,7 @@ class AlcanceAdmin(admin.ModelAdmin):
     def image_tag(self, obj):
         return format_html('<img src="{}" width="50" height="50" />'.format(obj.svg.url))
 
-    # def imagesvg(self, obj):
-    #     if(obj.svg):
-    #         return format_html("<img src={} width='130' height='100'/>", obj.svg)
-    #     else:
-    #         return format_html("<h2>Sin imagen</h2>")
-
-admin.site.register(Alcance, AlcanceAdmin)
+# admin.site.register(Alcance, AlcanceAdmin)
 
 
 class AQuienAdmin(admin.ModelAdmin):
