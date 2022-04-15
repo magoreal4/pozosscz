@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./src/**/*.{html,js}", 
     "./templates/**/*.html", 
+    "./templates/template-parts/*.html", 
     "./mapa/src/js/**/*.{html,js}", 
     "./mapa/src/js/*.js", 
   ],
@@ -21,7 +22,8 @@ module.exports = {
         'precio700': '#50dbff',
         'precio800': '#5eb9fc',
         'precio900': '#6199ee',
-        'precio1000': '#808080'
+        'precio1000': '#808080',
+        'precioNegro': 'black'
         // green: {
         //   650: '#1f8e43'
         // }

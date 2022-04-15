@@ -5,43 +5,6 @@
 
 @layer components {
 
-  /* control positioning */
-  .leaflet-center {
-    position: relative;
-    left: 0;
-    right: 0;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .leaflet-center .leaflet-control {
-    bottom: 0;
-  }
-
-  .leaflet-control-container .leaflet-control-bottomcenter {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-
-  .sombra {
-    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
-    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
-  }
-
-  .sombra-x2 {
-    -webkit-filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
-    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
-  }
-
   .clientes {
     @apply p-6 mx-auto flex flex-col text-center items-center;
   }
@@ -67,11 +30,6 @@
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1));
   }
 
-  #toastTitulo {
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-
   .centrearXY {
     @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
   }
@@ -80,4 +38,142 @@
     @apply ml-2 inline-block border-black border-2 w-4 h-4 text-center rounded-full
   }
 
+  .botonGrande {
+    @apply w-36 mb-3 mr-2 font-medium rounded-lg text-sm py-2.5
+  }
+
+  .botonPequeno {
+    @apply w-16 my-1 rounded-lg py-1
+  }
+
+}
+
+#toastTitulo {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.sombra {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.sombra-x2 {
+  -webkit-filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
+  filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, .7));
+}
+
+/* control positioning */
+.leaflet-center {
+  position: relative;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leaflet-center .leaflet-control {
+  bottom: 0;
+}
+
+.leaflet-control-container .leaflet-control-bottomcenter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.leaflet-cluster-anim .leaflet-marker-icon,
+.leaflet-cluster-anim .leaflet-marker-shadow {
+  /* -webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+      -moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+      -o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in; */
+  transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+
+.leaflet-cluster-spider-leg {
+  /* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+  /* -webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+      -moz-transition: -moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;
+      -o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in; */
+  transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+
+
+.marker-cluster-small {
+  background-color: rgba(181, 226, 140, 0.6);
+}
+
+.marker-cluster-small div {
+  background-color: rgba(110, 204, 57, 0.6);
+}
+
+.marker-cluster-medium {
+  background-color: rgba(241, 211, 87, 0.6);
+}
+
+.marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 0.6);
+}
+
+.marker-cluster-large {
+  background-color: rgba(253, 156, 115, 0.6);
+}
+
+.marker-cluster-large div {
+  background-color: rgba(241, 128, 23, 0.6);
+}
+
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 20px;
+}
+
+.marker-cluster div {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+
+  text-align: center;
+  border-radius: 15px;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.marker-cluster span {
+  line-height: 30px;
+}
+
+#panel {
+  position: absolute;
+  width: 130px;
+  background-color: white;
+  top: 70px;
+  right: 10px;
+  z-index: 999;
+  padding: 2em;
+  opacity: 0.8;
+  font-size: 80%;
+  overflow-y: scroll;
+}
+
+.leaflet-control-layers-group-name {
+  font-weight: bold;
+  margin-bottom: .2em;
+  margin-left: 3px;
+}
+
+.leaflet-control-layers-group {
+  margin-bottom: .5em;
+}
+
+.leaflet-control-layers-scrollbar {
+  overflow-y: scroll;
+  padding-right: 10px;
 }

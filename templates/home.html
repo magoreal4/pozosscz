@@ -1,22 +1,29 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load svg %}
+
+{% block meta %}
+<meta name="description" content="{{ setMain.meta }}"/>
+{% endblock meta %}
+
+{% block title %}
+{{ setMain.title }}
+{% endblock title %}
+
 {% block content %}
-
-
 <div class="bg-gradient-to-b from-primary to-white">
     <div class="max-w-7xl mx-auto">
-
         <section id="bgBanner" class="overflow-hidden relative h-screen90 w-full">
             <div class="absolute fondosvg h-full w-full bg-center bg-cover"
-                style="background-image: url({% static './img/fotoCristo2.svg' %})"></div>
+                style="background-image: url(media/{{ setMain.svg }})"></div>
+            {% if  setMain.display %}
             <div class="absolute fondoscz h-full w-full bg-left bg-cover"
-                style="background-image: url({% static './img/fotoCristo1.webp' %})"></div>
-
-            <div class="absolute inset-0 flex items-center justify-center mt-28 sm:mt-40 md:mt-52 lg:mt-72 xl:mt-72">
+                style="background-image: url(media/{{ setMain.img }})"></div>
+            {% endif %}
+            <div class="absolute inset-0 flex items-center justify-center mt-28 sm:mt-40 md:mt-52 lg:mt-60">
                 <h1 id="titulo"
-                    class="overflow-hidden py-1 md:py-2 lg:py-4 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-primary">
-                    Limpieza de pozos septicos
+                    class="overflow-hidden py-1 md:py-2 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-primary">
+                    {{ setMain.h1 }}
                 </h1>
             </div>
 
@@ -43,11 +50,11 @@
                         d="M14.3 46c-2.5-.1-5.1.9-6.8 2.6C6 49.9 6 50.3 6 52.4c0 1.2.3 2.7.5 3.2.7 1.3 2.6 3.9 3.3 4.6l3.3 3.7 2.8 3.3c.5.5 2.3 3 2.3 3.3l.7 1.7c2.3 3.6 4.4 11 4.4 16.3 0 3.1-.9 7.8-1.7 9.6l-1.1 2.3c-1.7 3.5-5 6.4-7.3 6.4-.8 0-2.8-1.8-3.9-3.5-1.4-2.3-2.3-6-2-9.1.4-5.8 3.5-12.8 6.4-14.5 1.6-1 1.9-2.6.4-3-4-1-8 2.3-10.5 8.3C2 88.4 2 88.8 2 94.4c0 5.7 0 6 1.2 8.1 2.2 4 4.4 5.9 8 7v-.1c3.3 1 6 .6 10-1.5 2.6-1.5 3.4-2 5.2-4.9 1.6-2.4 2.2-3.7 3.4-7 1-2.4 1-11.9.1-14.8A43 43 0 0 0 17 60c-3-3.3-5-6.1-5-7.4 0-2.5 2.5-4.3 5-3.5 1.4.5 2.9 2.3 2.9 3.7 0 .7 1.6 1.3 3 1 .5 0 .8-.6.9-1.8.1-1.3-.1-1.8-1.1-2.8a14.4 14.4 0 0 0-8.4-3.4z" />
                 </svg>
             </div>
-            <div id="contratanos" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center pb-1 ">
-                <h3 class="text-lg lg:text-xl pb-1">¿ya nos conoces?</h3>
-                <button type="button"
+            <div id="contratanos" class="absolute bottom-3 left-1/2 transform -translate-x-1/2 text-center pb-1 ">
+                <h3 class="text-lg lg:text-xl mb-3">¿ya nos conoces?</h3>
+                <a type="button" href="{% url 'mapa_app:Mapa' %}"
                     class="text-white bg-red-500 hover:bg-red-600 md:tracking-widest focus:ring-4 focus:ring-red-300 shadow-lg shadow-red-500/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2">
-                    Contratanos</button>
+                    Contratanos</a>
             </div>
         </section>
     </div>
@@ -67,19 +74,21 @@
     </div>
 
         <div class="flex flex-col px-16 md:px-2 sm:-m-4 md:flex-row ">
-            {% for alcance in descripciones %}
+            {% for d in descripciones %}
             <div class="flex flex-col text-center mb-5 items-center max-auto md:w-1/3 md:mx-6 ">
                 <!-- icono -->
                 <div
                     class="w-20 h-20 inline-flex text-primary items-center justify-center rounded-full bg-green-100 mb-5 flex-shrink-0">
                     <div class="p-2">
-                        {% svg alcance.svg|cut:"icon/"|cut:".svg" %}
+                    {% if d.svg %}
+                        {% svg d.svg|cut:"icon/"|cut:".svg" %}
+                    {% endif %}    
                     </div>
                 </div>
                 <div class="flex-grow ">
-                    <h2 class="text-xl lg:text-2xl mb-3">{{ alcance.title }}</h2>
+                    <h2 class="text-xl lg:text-2xl mb-3">{{ d.title }}</h2>
                     <p class="text-gray-800 leading-relaxed text-lg sm:text-lg lg:text-xl ">
-                        {{ alcance.description }}
+                        {{ d.description }}
                 </div>
                 <div class="flex mt-6 justify-center">
                     <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
@@ -88,8 +97,6 @@
             {% endfor %}
         </div>
 
-        {% comment %} <button
-            class="flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button> {% endcomment %}
     </div>
 </section>
 
@@ -103,12 +110,12 @@
             </div>
 
             <div class="flex flex-wrap-reverse">
-                {% for cliente in quienes %}
+                {% for q in quienes %}
                 <div class="clientes">
                     <div class="item" >
-                        {% svg cliente.svg|cut:"icon/"|cut:".svg" %}
+                        {% svg q.svg|cut:"icon/"|cut:".svg" %}
                     </div>
-                    <h2 >{{ cliente.title|title}}</h2>
+                    <h2 >{{ q.title|title}}</h2>
                 </div>
                 {% endfor %}
             </div>

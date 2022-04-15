@@ -1,5 +1,6 @@
 from django.db import models
 from .validators import validate_file_extension
+from django.utils.html import mark_safe
 
 class Alcance(models.Model): # Tabla con nombre Alcance
     title = models.CharField("titulo", default="", max_length=50)
@@ -17,6 +18,13 @@ class Alcance(models.Model): # Tabla con nombre Alcance
     def __str__(self):
         return self.title
 
+    @property
+    def thumbnail_preview(self):
+        if self.svg:
+            return mark_safe('<img src="{}" width="30" height="30" />'.format(self.svg.url))
+        return ""
+
+
 class AQuien(models.Model): 
     title = models.CharField("cliente", default="", max_length=50)
     svg = models.FileField(upload_to='icon/', validators=[validate_file_extension], default="", blank=True)
@@ -30,3 +38,9 @@ class AQuien(models.Model):
     
     def __str__(self):
         return self.title
+
+    @property
+    def thumbnail_preview(self):
+        if self.svg:
+            return mark_safe('<img src="{}" width="30" height="30" />'.format(self.svg.url))
+        return ""

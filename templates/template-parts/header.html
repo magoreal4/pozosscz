@@ -12,24 +12,25 @@
 
         <!-- https://codepen.io/huphtur/pen/ordMeN -->
         {% if request.user.is_authenticated %}
-        <div class="dropdown inline-block relative object-contain">
+        <div class="ml-auto md:mr-8 dropdown inline-block relative object-contain">
             <button class="text-white font-semibold">
                 <span class="mr-1">{{ request.user.username|title }}</span>
             </button>
             <ul class="dropdown-menu text-sm absolute hidden text-gray-700 pt-1 ">
-                <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 inline-block " href="{% url 'admin:index' %}">Panel Administración</a></li>
-                                                                                                                                            
-                <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block " href="{% url 'admin:logout' %}">Cerrar Sesión</a></li>
-                
-            </ul>
-            </div>
-        {% endif %}
+                <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 inline-block "
+                        href="{% url 'admin:index' %}">Panel Administración</a></li>
 
+                <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block "
+                        href="{% url 'admin:logout' %}">Cerrar Sesión</a></li>
+
+            </ul>
+        </div>
+        {% endif %}
 
         <!-- Burguer -->
         <button id="burger" type="button"
             class="inline-flex items-center p-2 ml-3 md:hidden hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-gray-200 ">
-            <span class="sr-only">Open main menu</span>
+            <span class="sr-only">Abrir Menu Principal</span>
             <svg class="w-6 h-6" fill="#fff" viewBox="0 0 20 20">
                 <path fill-rule="evenodd"
                     d="M3 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z"
@@ -50,33 +51,32 @@
                 class="flex flex-col md:flex-row text-base 2xl:text-xl justify-around ml-auto text-center w-full h-40 md:bg-transparent md:h-full md:space-x-8 md:pr-5">
                 <li>
                     {% url 'main_app:Home' as url %}
-                    <a href="{% url 'main_app:Home' %}"
-                        class=" {% if request.path == url %} pointer-events-none font-normal 
+                    <a href="{% url 'main_app:Home' %}" class=" {% if request.path == url %} pointer-events-none font-normal 
                                     {% else %} md:hover:sombra 
                                 {% endif %} block py-2 pr-4 pl-3  md:p-0">
                         Inicio</a>
                 </li>
+
                 <li>
-                    {% if request.user.is_authenticated %}
-                        {% url 'mapa_app:Cotiza-Admin' as url %}
-                        <a href="{% url 'mapa_app:Cotiza-Admin' %}"
-                            class=" {% if request.path == url %} pointer-events-none font-normal 
+                    {% url 'mapa_app:Mapa' as url %}
+                    <a href="{% url 'mapa_app:Mapa' %}" class=" {% if request.path == url %} pointer-events-none font-normal 
                                         {% else %} md:hover:sombra 
                                     {% endif %} block py-2 pr-4 pl-3 md:p-0">
-                            Cotiza</a>
-                    {% else %}
-                        {% url 'mapa_app:Cotiza' as url %}
-                        <a href="{% url 'mapa_app:Cotiza' %}"
-                            class=" {% if request.path == url %} pointer-events-none font-normal 
-                                        {% else %} md:hover:sombra 
-                                    {% endif %} block py-2 pr-4 pl-3 md:p-0">
-                            Cotiza</a>
-                    {% endif %}
+                        Cotiza</a>
                 </li>
+                {% if request.user.is_authenticated %}
+                <li>
+                    {% url 'mapa_app:Mapa-Admin' as url %}
+                    <a href="{% url 'mapa_app:Mapa-Admin' %}" class=" {% if request.path == url %} pointer-events-none font-normal 
+                                        {% else %} md:hover:sombra 
+                                    {% endif %} block py-2 pr-4 pl-3 md:p-0">
+                        Mapa</a>
+
+                </li>
+                {% endif %}
                 <li>
                     {% url 'contacto_app:Contacto' as url %}
-                    <a href="#"
-                        class=" block py-2 pr-4 pl-3  md:hover:sombra md:p-0">
+                    <a href="#" class=" block py-2 pr-4 pl-3  md:hover:sombra md:p-0">
                         Contactanos</a>
                 </li>
             </ul>

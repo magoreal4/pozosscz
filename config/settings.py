@@ -30,21 +30,30 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [    
+    # 'django.contrib.sites',
+    'grappelli',
+    # 'constance',
+    # 'constance.backends.database',
     'django.contrib.admin',
+    'django.contrib.staticfiles',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+
     'livereload',
-    'django.contrib.staticfiles',
     'svg',
     'import_export',
     'rest_framework',
-
+    # 'solo.apps.SoloAppConfig',
+    # 'grappelli.dashboard',
+    'settings_app',
     'main.apps.MainConfig',
     'mapa',
 ]
+
+# CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -67,14 +76,24 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'settings_app.context_processors.settings',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            # 'loaders': [
+            #     'admin_tools.template_loaders.Loader',
+            #     'django.template.loaders.filesystem.Loader',
+            #     'django.template.loaders.app_directories.Loader',
+            # ],
         },
     },
 ]
+
+# TEMPLATE_LOADERS = [{
+#     'admin_tools.template_loaders.Loader'
+# }]
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
@@ -112,11 +131,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
+# LANGUAGE_CODE = 'es-bo'
 LANGUAGE_CODE = 'es-bo'
 
 TIME_ZONE = 'UTC'
 
-USE_I18N = True
+USE_I18N = True 
 
 USE_TZ = True
 
@@ -143,3 +163,31 @@ SVG_DIRS=[
     os.path.join(BASE_DIR, 'media/icon')
 ]
 
+GRAPPELLI_ADMIN_TITLE = "Pozos SCZ"
+
+# # CONSTANCE_CONFIG = {
+# #     'THE_ANSWER': (42, 'Answer to the Ultimate Question of Life, '
+# #                        'The Universe, and Everything'),
+# # }
+
+# CONSTANCE_ADDITIONAL_FIELDS = {
+#     'yes_no_null_select': ['django.forms.fields.ChoiceField', {
+#         'widget': 'django.forms.Select', 'choices': ((None, "-----"), ("yes", "Yes"), ("no", "No"))
+#         }],
+#     'image_field': ['django.forms.ImageField', {}]
+# }
+
+# # CONSTANCE_CONFIG_FIELDSETS = {
+# #     'General Options': ('SITE_NAME', 'SITE_DESCRIPTION'),
+# #     'Theme Options': ('THEME','LOGO_IMAGE'),
+# # }
+
+# CONSTANCE_CONFIG = {
+#     'LOGO_IMAGE': ('default.png', 'Company logo', 'image_field'),
+#     # 'MY_SELECT_KEY': ('yes', 'select yes or no', 'yes_no_null_select'),
+#     # 'SITE_NAME': ('My Title', 'Website title'),
+#     # 'SITE_DESCRIPTION': ('', 'Website description'),
+#     # 'THEME': ('light-blue', 'Website theme'),
+# }
+
+# # CONSTANCE_IGNORE_ADMIN_VERSION_CHECK = True

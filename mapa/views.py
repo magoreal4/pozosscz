@@ -1,22 +1,22 @@
 
 from django.views.generic import TemplateView, ListView
+
 from .models import Cliente
-from rest_framework.generics import ListAPIView
-from .serializers import ClienteSerializers
+from rest_framework.generics import ListAPIView, CreateAPIView
+from .serializers import ClienteGet, ClientePost
 
-class Cotiza(TemplateView):
-    template_name = "cotiza.html"
+class Mapa(TemplateView):
+    template_name = "mapa.html"
 
-class CotizaAdmin(ListView):
-    template_name = "cotiza-admin.html"
-    context_object_name = 'clientes'
-
-    def get_queryset(self):
-        return Cliente.objects.all()
+class MapaAdmin(ListView):
+    template_name = "mapa-admin.html"
+    model = Cliente
 
 class ClienteListApiView(ListAPIView):
-
-    serializer_class = ClienteSerializers
+    serializer_class = ClienteGet
 
     def get_queryset(self):
         return Cliente.objects.all()
+
+class ClienteCreateApiView(CreateAPIView):
+    serializer_class = ClientePost
