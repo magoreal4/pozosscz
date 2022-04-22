@@ -3,7 +3,7 @@ const { defineConfig } = require('vite')
 module.exports = defineConfig({
     build: {
         outDir: path.resolve(__dirname, '../static/js'),
-        minify: false,
+        minify: true,
         rollupOptions: {
             input: './src/js/index-mapa-admin.js',
             output: {

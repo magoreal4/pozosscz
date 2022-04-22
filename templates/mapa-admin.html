@@ -21,66 +21,65 @@ Pozos Santa Cruz | Admin
 
   <!-- Mapa -->
   <div id="map" class="h-screen max-w-full">
-    {% include "template-parts/waitingSpinner.html" %}
+  </div>
 
+  {% include "template-parts/overlaySpinner.html" %}
+
+  <div id="panel" class="absolute text-xs w-32 bg-white top-16 right-2 z-[999] p-5 opacity-80 rounded-lg" >
+    <div id="panelRefesh">
+      <p class="select-row">Opacidad:</p>
+      <select id="mapopacity-select">
+        <option value="0.2">0.2</option>
+        <option value="0.5">0.5</option>
+        <option value="0.8">0.8</option>
+        <option value="1" selected>1</option>
+      </select>
+
+      <p class="select-row">Marca:</p>
+      <select id="elms-shape-select">
+        <option value="circulo" selected>circulo</option>
+        <option value="marca">globo</option>
+      </select>
+
+      <p class="select-row">Cobertura:</p>
+      <select id="showCoverageOnHover-select">
+        <option value="true" selected>true</option>
+        <option value="false">false</option>
+      </select>
+
+      <p class="select-row">Radio Max:</p>
+      <select id="maxClusterRadius-select">
+        <option value="1">1</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+        <option value="70">70</option>
+        <option value="80" selected>80</option>
+        <option value="100">100</option>
+        <option value="140">140</option>
+        <option value="180">180</option>
+      </select>
+    </div>
+
+    <div class="ml-2">
+      <input id="URLwhatsapp" type="text" class="-ml-4 mt-4 border-4 w-24" placeholder="Whatsapp">
+      <button id="putMarker"
+        class="cursor-not-allowed botonPequeno text-white bg-primary hover:bg-green-800 opacity-70">
+        Ubicar
+      </button>
+      <button id="cotiza" class="cursor-not-allowed botonPequeno text-white bg-error hover:bg-red-800 opacity-70"
+        disabled>
+        Cotizar
+      </button>
+    </div>
   </div>
 
 
-
-    <div id="panel">
-      <div id="panelRefesh">
-        <p class="select-row">Opacidad:</p>
-        <select id="mapopacity-select">
-          <option value="0.2">0.2</option>
-          <option value="0.5">0.5</option>
-          <option value="0.8">0.8</option>
-          <option value="1" selected>1</option>
-        </select>
-
-        <p class="select-row">Marca:</p>
-        <select id="elms-shape-select">
-          <option value="circulo" selected>circulo</option>
-          <option value="marca">globo</option>
-        </select>
-
-        <p class="select-row">Cobertura:</p>
-        <select id="showCoverageOnHover-select">
-          <option value="true" selected>true</option>
-          <option value="false">false</option>
-        </select>
-
-        <p class="select-row">Radio Max:</p>
-        <select id="maxClusterRadius-select">
-          <option value="1">1</option>
-          <option value="10">10</option>
-          <option value="20">20</option>
-          <option value="30">30</option>
-          <option value="40">40</option>
-          <option value="50">50</option>
-          <option value="60">60</option>
-          <option value="70">70</option>
-          <option value="80" selected>80</option>
-          <option value="100">100</option>
-          <option value="140">140</option>
-          <option value="180">180</option>
-        </select>
-      </div>
-      <div class="ml-2">
-        <input id="URLwhatsapp" type="text" class="-ml-4 mt-4 border-4 w-24" placeholder="Whatsapp">
-        <button id="putMarker"
-          class="cursor-not-allowed botonPequeno text-white bg-primary hover:bg-green-800 opacity-70">
-          Ubicar
-        </button>
-        <button id="cotiza" class="cursor-not-allowed botonPequeno text-white bg-error hover:bg-red-800 opacity-70"
-          disabled>
-          Cotizar
-        </button>
-      </div>
-    </div>
-  
-
   <!-- Modal Precio-->
-  <div id="modal" class="absolute left-1/2 top-0 transform -translate-x-1/2 z-[10000]">
+  <div id="modalPrecio" class="invisible absolute left-1/2 top-0 transform -translate-x-1/2 z-[1000]">
     <div class="relative w-full h-full md:h-auto">
       <!-- Modal content -->
       <div class="relative bg-white rounded-lg shadow">
@@ -126,18 +125,44 @@ Pozos Santa Cruz | Admin
           </thead>
           <tbody id="tbMenor" class="bg-gray-100">
           </tbody>
-        
 
-        <thead class="bg-gray-300">
-          <tr>
-            <th class="px-6">Ajuste</th>
-            <th class="px-2">Precio Sugerido</th>
-            <th class="px-2">Precio Facturado</th>
-          </tr>
-        </thead>
-        <tbody id="tbFinal" class="bg-gray-100">
-        </tbody>
-      </table>
+          <thead class="bg-gray-300">
+            <tr>
+              <th class="px-6">Ajuste</th>
+              <th class="px-2">Precio Sugerido</th>
+              <th class="px-2">Precio Facturado</th>
+            </tr>
+          </thead>
+          <tbody id="tbFinal" class="bg-gray-100">
+          </tbody>
+        </table>
+
+        <div class="max-w-xs p-4">
+          <div class="flex">
+
+            <div class="w-3/4 mx-auto mt-1">
+              <input id="formName"
+                class="w-full text-sm text-gray-700 border border-black rounded py-1 px-2 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                type="text" placeholder="Nombre">
+
+              <input id="formPhone"
+                class="w-full text-sm text-gray-700 border border-black rounded py-1 px-2 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                type="text" placeholder="Telefono">
+              
+                <input id="formCost"
+                class="w-full text-sm text-gray-700 border border-black rounded py-1 px-2 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                type="number" placeholder="Precio" step=10>
+            </div>
+
+            <button id="saveData" class="mx-2 text-sm my-2 botonPequeno text-white bg-primary hover:bg-green-800">
+              Guardar Datos
+            </button>
+
+          </div>
+        </div>
+
+
+
 
         {% comment %} <div id="precio" class="p-6 pt-0 text-center ">
           <p class="text-4xl pb-2">Bs.XXX</p>
@@ -148,6 +173,8 @@ Pozos Santa Cruz | Admin
             CONFIRMAR
           </button>
         </div> {% endcomment %}
+
+
       </div>
     </div>
   </div>
@@ -156,6 +183,7 @@ Pozos Santa Cruz | Admin
 <script type="text/javascript">
   var auth = "{{request.user.is_authenticated}}";
   var static_url = "{% get_static_prefix %}";
+  var csrft = "{{ csrf_token }}";
   // var media_url = "{% get_media_prefix %}";
 </script>
 

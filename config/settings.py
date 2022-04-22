@@ -11,30 +11,29 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os
+import environ
 from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+env = environ.Env()
+environ.Env.read_env()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-71lff=*x2xo9u^--wiq7v2&&q3+r0xg6bmk51yqv*-q8(&*azc'
+SECRET_KEY = env.str('SECRET_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = tuple(env.list('ALLOWED_HOSTS', default=[]))
 
 # Application definition
 
 INSTALLED_APPS = [    
-    # 'django.contrib.sites',
     'grappelli',
-    # 'constance',
-    # 'constance.backends.database',
     'django.contrib.admin',
     'django.contrib.staticfiles',
     'django.contrib.auth',
@@ -46,14 +45,11 @@ INSTALLED_APPS = [
     'svg',
     'import_export',
     'rest_framework',
-    # 'solo.apps.SoloAppConfig',
-    # 'grappelli.dashboard',
     'settings_app',
     'main.apps.MainConfig',
     'mapa',
+    'fcontact'
 ]
-
-# CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -91,9 +87,6 @@ TEMPLATES = [
     },
 ]
 
-# TEMPLATE_LOADERS = [{
-#     'admin_tools.template_loaders.Loader'
-# }]
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
@@ -165,29 +158,3 @@ SVG_DIRS=[
 
 GRAPPELLI_ADMIN_TITLE = "Pozos SCZ"
 
-# # CONSTANCE_CONFIG = {
-# #     'THE_ANSWER': (42, 'Answer to the Ultimate Question of Life, '
-# #                        'The Universe, and Everything'),
-# # }
-
-# CONSTANCE_ADDITIONAL_FIELDS = {
-#     'yes_no_null_select': ['django.forms.fields.ChoiceField', {
-#         'widget': 'django.forms.Select', 'choices': ((None, "-----"), ("yes", "Yes"), ("no", "No"))
-#         }],
-#     'image_field': ['django.forms.ImageField', {}]
-# }
-
-# # CONSTANCE_CONFIG_FIELDSETS = {
-# #     'General Options': ('SITE_NAME', 'SITE_DESCRIPTION'),
-# #     'Theme Options': ('THEME','LOGO_IMAGE'),
-# # }
-
-# CONSTANCE_CONFIG = {
-#     'LOGO_IMAGE': ('default.png', 'Company logo', 'image_field'),
-#     # 'MY_SELECT_KEY': ('yes', 'select yes or no', 'yes_no_null_select'),
-#     # 'SITE_NAME': ('My Title', 'Website title'),
-#     # 'SITE_DESCRIPTION': ('', 'Website description'),
-#     # 'THEME': ('light-blue', 'Website theme'),
-# }
-
-# # CONSTANCE_IGNORE_ADMIN_VERSION_CHECK = True

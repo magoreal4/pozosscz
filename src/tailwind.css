@@ -39,7 +39,7 @@
   }
 
   .botonGrande {
-    @apply w-36 mb-3 mr-2 font-medium rounded-lg text-sm py-2.5
+    @apply w-32 mb-3 font-semibold rounded-lg text-lg py-2
   }
 
   .botonPequeno {
@@ -148,19 +148,6 @@
 
 .marker-cluster span {
   line-height: 30px;
-}
-
-#panel {
-  position: absolute;
-  width: 130px;
-  background-color: white;
-  top: 70px;
-  right: 10px;
-  z-index: 999;
-  padding: 2em;
-  opacity: 0.8;
-  font-size: 80%;
-  overflow-y: scroll;
 }
 
 .leaflet-control-layers-group-name {

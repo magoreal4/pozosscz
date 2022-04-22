@@ -6,11 +6,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta property="og:image:height" content="327">
+    <meta property="og:image:width" content="624">
+    <meta property="og:title" content="Limpieza de Pozos S&eacute;pticos | Santa Cruz">
+    <meta property="og:description" content="Servicio de limpieza de pozos y c&aacute;maras s&eacute;pticas en Santa Cruz y sus provincias. Cotiza en l&iacute;nea...">
+    <meta property="og:url" content="pozosscz.com">
+    <meta property="og:image" content="{% static 'og-image.jpg' %}">
+    {% comment %}
+    <meta http-equiv="Cache-Control" content="no-store" /> {% endcomment %}
     {% block meta %}
     {% endblock %}
-    {% comment %}
-    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}" /> {% endcomment %}
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{% static './css/main.css' %}" />
     {% block css %}
     {% endblock %}
@@ -23,16 +30,13 @@
 <body class="font-roboto">
     {% block beforeHeader  %}
     {% endblock %}
-    
+
     {% include "template-parts/header.html" %}
 
-    <!-- Content Dinamico-->
     {% block content %}
     {% endblock %}
 
-    <!-- Footer Dinamico-->
-    {% comment %} {% include "template-parts/footer.html" %} {% endcomment %}
-    
+
 </body>
 
 </html>

@@ -10,9 +10,7 @@ import {
   urubo,
   warnes
 } from "./poligonos";
-// import "./Leaflet.AccuratePosition";
-// import "leaflet-control-custom";
-// import "./leaflet.Control.Center";
+
 import "leaflet.markercluster";
 import 'leaflet.markercluster.layersupport';
 import 'leaflet-groupedlayercontrol';
@@ -20,12 +18,22 @@ import {
   rutas
 } from './rutas';
 
+import {
+  postDatos
+} from './postData';
+
+import {
+  createToast
+} from './toast';
+
 
 document.addEventListener('DOMContentLoaded', function () {
   navbar(); // js para el navbar
   auth == 'True' ? auth = true : auth = false;
   var map;
   var marker = "";
+  var paths = [];
+  var precio;
   var loadData = false;
   var p300 = [],
     p350 = [],
@@ -64,34 +72,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
           switch (color) {
             case 0:
-              p300.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p300.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 1:
-              p350.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p350.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 2:
-              p400.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p400.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 3:
-              p450.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p450.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 4:
-              p500.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p500.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 5:
-              p600.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p600.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 6:
-              p700.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p700.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 7:
-              p800.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p800.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 8:
-              p900.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p900.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
             case 9:
-              p1000.push([e.lat, e.lon, e.cost, e.status, e.user]);
+              p1000.push([e.lat, e.lon, e.cost, e.status, e.user, e.tel1]);
               break;
           }
           loadData = true;
@@ -179,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
       groupCLC = L.layerGroup(),
       groupCLX = L.layerGroup(),
       groupNegro = L.layerGroup(),
-      titulo, marca;
+      titulo, marca, tel1;
 
     mcgLayerSupportGroup.addTo(map);
 
@@ -189,15 +197,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     pTodos.forEach((pn, i) => {
       pn.forEach((e) => {
-
         titulo = e[2].toString();
+        e[5] ? tel1 = e[5].toString() : tel1 = "ND"
         marca =
           tipoMarca === "circulo" ?
-          L.circleMarker(L.latLng(e[0], e[1]), (e[3] == "NEG") ? circleStyle(10) : circleStyle(i), {
-            title: titulo
-          }) :
+          L.circleMarker(L.latLng(e[0], e[1]), (e[3] == "NEG") ? circleStyle(10) : circleStyle(i)) :
           L.marker([e[0], e[1]], {
-            title: titulo
+            title: tel1
           });
         marca.bindPopup(titulo);
         if (e[3] == "COT") {
@@ -295,7 +301,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     map.on('click', onMapClick);
 
-
   }
 
   panelRefesh.addEventListener('change', () => {
@@ -348,11 +353,6 @@ document.addEventListener('DOMContentLoaded', function () {
       let lat = izq[1];
       let lon = der[0];
 
-      marker != "" ? map.removeLayer(marker) : null
-      marker = L.marker([lat, lon], {
-        icon: iconRed
-      });
-      marker.addTo(map);
       map.flyTo([lat, lon], 16);
       URLwhatsapp.value = '';
       if (marker != "") {
@@ -361,6 +361,11 @@ document.addEventListener('DOMContentLoaded', function () {
         cotiza.disabled = false;
         cotiza.classList.remove('cursor-not-allowed', 'opacity-70');
       }
+      marker = L.marker([lat, lon], {
+        icon: iconRed
+      });
+      marker.addTo(map);
+
     } catch {
       alert("Algo salió mal");
       URLwhatsapp.value = '';
@@ -381,35 +386,40 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   cotiza.onclick = (event) => {
+    spinner.classList.toggle("invisible");
+    overlay.classList.toggle("invisible");
     event.preventDefault();
-    const prueba1 = [-17.68524100, -63.08830261, 'prueba1'];
-    const prueba2 = [-17.72252621, -63.04779052, 'prueba2'];
-    const saguapac = [-17.74620847, -63.12672898, 'saguapac'];
-    const garaje = [-17.78595813, -63.12451243, 'garaje'];
-    let origen = [saguapac, garaje, prueba1, prueba2];
-    let colorPath = ['red', 'blue', 'green', 'cyan'];
 
+    let colorPath = ['red', 'blue', 'green', 'cyan'];
     async function allPaths() {
       // Archivo rutas.js
-      return rutas(marker, origen) //Devuelve distancia,tiempo,origen y ruta
+      return rutas(marker) //Devuelve distancia,tiempo,origen y ruta
         .then(result => {
+          console.log(result);
           result.forEach((r, i) => {
-            L.polyline(r.ruta, {
-              color: colorPath[i],
-              opacity: 1
-            }).addTo(map);
+            if (r != null) {
+              paths[i] = L.polyline(r.ruta, {
+                color: colorPath[i],
+                opacity: 1
+              }).addTo(map);
+            } else {
+              alert("Algo paso!!!");
+              spinner.classList.add("invisible");
+              overlay.classList.add("invisible");
+            }
           })
           return result;
         })
     }
+
     async function precios() {
       let result = await allPaths();
-      var precio;
       var precioFac;
       var distancia = 0;
       var menor;
       var factor = 1;
       result.forEach((r, i) => {
+        // Despliega distancia y tiempo de los resultados
         let row = document.createElement('tr');
         let row_origen = document.createElement('td');
         let row_dist = document.createElement('td');
@@ -423,25 +433,12 @@ document.addEventListener('DOMContentLoaded', function () {
         row.appendChild(row_tiempo);
         tbValores.appendChild(row);
 
-        let row2 = document.createElement('tr');
-        let row2_origen = document.createElement('td');
-        let row2_pDist = document.createElement('td');
-        let row2_pTiempo = document.createElement('td');
-        row2_origen.innerHTML = r.origen;
-        row2_origen.style.color = colorPath[i];
-        row2_pDist.innerHTML = (r.distancia * 11 + 260).toFixed();
-        row2_pTiempo.innerHTML = (r.tiempo * 12.5 + 212.50).toFixed();
-        row2.appendChild(row2_origen);
-        row2.appendChild(row2_pDist);
-        row2.appendChild(row2_pTiempo);
-        tbPrecios.appendChild(row2);
-
         if (distancia == 0) {
           distancia = r.distancia;
           menor = [
             r.origen,
             (r.distancia * 11 + 260).toFixed(),
-            (r.tiempo * 12.5 + 212.50).toFixed()
+            (r.tiempo * 6.25 + 212.5).toFixed()
           ]
         }
         if (r.distancia < distancia) {
@@ -449,9 +446,22 @@ document.addEventListener('DOMContentLoaded', function () {
           menor = [
             r.origen,
             (r.distancia * 11 + 260).toFixed(),
-            (r.tiempo * 12.5 + 212.50).toFixed()
+            (r.tiempo * 6.25 + 212.5).toFixed()
           ]
         }
+
+        let row2 = document.createElement('tr');
+        let row2_origen = document.createElement('td');
+        let row2_pDist = document.createElement('td');
+        let row2_pTiempo = document.createElement('td');
+        row2_origen.innerHTML = r.origen;
+        row2_origen.style.color = colorPath[i];
+        row2_pDist.innerHTML = (r.distancia * 11 + 260).toFixed();
+        row2_pTiempo.innerHTML = (r.tiempo * 6.25 + 212.50).toFixed();
+        row2.appendChild(row2_origen);
+        row2.appendChild(row2_pDist);
+        row2.appendChild(row2_pTiempo);
+        tbPrecios.appendChild(row2);
 
       })
       var zonasDiferenciadas = [satNorte, intNorte, laguardia, urubo, warnes];
@@ -466,9 +476,11 @@ document.addEventListener('DOMContentLoaded', function () {
       let row_menor = document.createElement('td');
       let row_factor = document.createElement('td');
       row_origen.innerHTML = menor[0];
-      precio = menor[1] < menor[2] ? menor[1] : menor[2];
+      // Escogemos el mayor entre tiempo y distancia
+      precio = menor[1] > menor[2] ? menor[1] : menor[2];
       row_menor.innerHTML = precio;
       row_factor.innerHTML = factor;
+      factor != 1 ? row_factor.style.color = "red" : null
       row.appendChild(row_origen);
       row.appendChild(row_menor);
       row.appendChild(row_factor);
@@ -479,23 +491,29 @@ document.addEventListener('DOMContentLoaded', function () {
       let rowf_ajuste = document.createElement('td');
       let rowf_precio = document.createElement('td');
       let rowf_facturado = document.createElement('td');
-      // console.log(menor[0]);
-      // console.log(factor);
       precio = precio * factor;
       rowf_ajuste.innerHTML = precio;
       precio = precio < 300 ? 300 : Math.floor(precio / 10) * 10;
       rowf_precio.innerHTML = precio;
-      rowf_precio.classList.add('text-lg', 'font-normal');
-      precioFac = Math.floor(precio*1.18 / 10) * 10;
+      rowf_precio.classList.add('text-lg', 'font-medium');
+      precioFac = Math.floor(precio * 1.18 / 10) * 10;
       rowf_facturado.innerHTML = precioFac;
       rowf.appendChild(rowf_ajuste);
       rowf.appendChild(rowf_precio);
       rowf.appendChild(rowf_facturado);
       tbFinal.appendChild(rowf);
+
+      formCost.value = precio;
+
+
+      modalPrecio.classList.toggle("invisible");
+      spinner.classList.toggle("invisible");
+      overlay.classList.toggle("invisible");
+      cotiza.disabled = true;
+      map.off('click', onMapClick);
+
     }
-
     precios();
-
   };
 
   function inscrito(marker, polygon) {
@@ -515,6 +533,94 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     return inside;
   };
+
+  xModal.onclick = () => {
+    limpiarModal();
+    limpiarPaths();
+    cotiza.disabled = false;
+    modalPrecio.classList.toggle("invisible");
+    map.on('click', onMapClick);
+  }
+
+  function limpiarPaths() {
+    paths.forEach((p) => {
+      p.remove();
+    })
+  }
+
+  function limpiarModal() {
+    while (tbValores.firstChild) {
+      tbValores.removeChild(tbValores.firstChild);
+    }
+    while (tbPrecios.firstChild) {
+      tbPrecios.removeChild(tbPrecios.firstChild);
+    }
+    while (tbMenor.firstChild) {
+      tbMenor.removeChild(tbMenor.firstChild);
+    }
+    while (tbFinal.firstChild) {
+      tbFinal.removeChild(tbFinal.firstChild);
+    }
+    formName.value = "";
+    formPhone.value = "";
+    formCost.value = "";
+
+  }
+
+  saveData.onclick = function () {
+
+    let nombre = formName.value;
+    let telefono = formPhone.value;
+    let precioform = formCost.value;
+
+    if (auth) {
+      postDatos(nombre, telefono, precioform, marker, 'COT', 'ADM')
+        .then((resp) => {
+          console.log('Success:', resp)
+          limpiarModal();
+          limpiarPaths();
+          cotiza.disabled = false;
+          modalPrecio.classList.toggle("invisible");
+          map.on('click', onMapClick);
+
+          // Crea el Toast de datos Guardados
+          let idToast = 'datosGuardados';
+          let iconToast = `
+          <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 20 20" >
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>`;
+          let colorToast = 'primary';
+          let tituloToast = 'CLIENTE ' + resp.id;
+          let textoToast = `Se guardaron los datos.`;
+          createToast(idToast, iconToast, colorToast, tituloToast, textoToast, 'center');
+          canceldatosGuardados.onclick = () => {
+            datosGuardados.remove();
+          }
+
+        })
+    } else {
+      // Crea el Toast de loguear
+      let idToast = 'logueado';
+      let iconToast = `
+      <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <path
+          d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM21.6667 28.3333H18.3334V25H21.6667V28.3333ZM21.6667 21.6666H18.3334V11.6666H21.6667V21.6666Z" />
+      </svg>`;
+      let colorToast = 'warning';
+      let tituloToast = 'Sesión no iniciada ';
+      let textoToast = `Debes iniciar sesión para guardar los datos.`;
+      createToast(idToast, iconToast, colorToast, tituloToast, textoToast, 'center');
+      cancellogueado.onclick = () => {
+        logueado.remove();
+      }
+    }
+
+
+
+
+
+
+  }
 
 
 });

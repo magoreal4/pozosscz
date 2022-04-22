@@ -11,17 +11,22 @@ class ClienteGet(serializers.ModelSerializer):
             'lon',
             'cost',
             'status',
-            'user'
+            'user',
+            'tel1'
         )
 
 class ClientePost(serializers.ModelSerializer):
     class Meta:
         model = Cliente
-        fields = (
-            'id',
-            'lat',
-            'lon',
-            'cost',
-            'status',
-            'user'
-        )
+        fields = ('__all__')
+
+        # fields = (
+        #     'id',
+        #     'name',
+        #     'tel1',
+        #     'cost',
+        #     'lat',
+        #     'lon',
+        #     'status',
+        #     'user'
+        # )

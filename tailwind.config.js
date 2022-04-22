@@ -1,6 +1,7 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}", 
+    "./templates/*.html", 
     "./templates/**/*.html", 
     "./templates/template-parts/*.html", 
     "./mapa/src/js/**/*.{html,js}", 

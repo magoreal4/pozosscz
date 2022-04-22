@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ setMain.title }}
+{% endblock title %}
+
+{% block content %}
+<div class="bg-gradient-to-b from-primary to-white">
+    <div class="max-w-md text-white mx-auto">
+
+        <form method="post" class="pt-10">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input
+                class="uppercase text-sm font-bold tracking-wide bg-red-600 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+                type="submit" value="Enviar mensaje">
+        </form>
+
+    </div>
+</div>
+<div class="bg-gradient-to-b from-white to-primary">
+    {% include "template-parts/footer.html" %}
+
+    <div id="fb" class="absolute bottom-12 left-4 w-16 xl:left-32">
+        {% include "template-parts/facebook.html" %}
+    </div>
+
+    <div id="wapp" class="absolute bottom-12 right-4 w-16 xl:right-32">
+        {% include "template-parts/whatsapp.html" %}
+    </div>
+</div>
+<script>
+    var documentElement = document.querySelector("html");
+    var menuIsClose = navb.classList.contains("h-0");
+    var svgIcon = burger.getElementsByTagName("svg");
+  
+    documentElement.addEventListener("click", function (event) {
+      if ((menuIsClose && burger.contains(event.target)) || (!menuIsClose && !navb.contains(event.target))) {
+        svgIcon[0].classList.toggle("hidden");
+        svgIcon[1].classList.toggle("hidden");
+  
+        if (menuIsClose) {
+          navb.classList.remove("h-0");
+          navb.classList.add("h-40");
+        } else {
+          navb.classList.remove("h-40");
+          navb.classList.add("h-0");
+        }
+        menuIsClose = !menuIsClose;
+      }
+    });
+  
+    // Browser resize listener
+    window.addEventListener("resize", function () {
+      // Rezise menu if user changing the width with responsive menu opened
+      const window_size = window.innerWidth || document.body.clientWidth;
+      if (window_size > 768) {
+        navb.classList.remove("h-64");
+      }
+    });
+</script>
+{% endblock  %}
