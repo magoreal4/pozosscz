@@ -91,11 +91,12 @@
 <!-- Solo para tailwind NO BORRAR
     <div class="bg-warning text-secondary"
 -->
-<script>
+<script type="text/javascript">
     var auth = "{{request.user.is_authenticated}}";
     var static_url = "{% get_static_prefix %}";
     var user = "{{ request.user.username }}";
     var csrft = "{{ csrf_token }}";
+    var debug = "{{ debug }}";
 </script>
 <script type="text/javascript" src="{% static './js/mapa.js' %}"></script>
 {% endblock  %}

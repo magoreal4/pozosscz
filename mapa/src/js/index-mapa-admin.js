@@ -30,6 +30,7 @@ import {
 document.addEventListener('DOMContentLoaded', function () {
   navbar(); // js para el navbar
   auth == 'True' ? auth = true : auth = false;
+  debug == 'True' ? debug = true : debug = false;
   var map;
   var marker = "";
   var paths = [];
@@ -50,8 +51,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.getElementById('map').style.cursor = 'crosshair';
 
-  // const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
-const urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
+  var urlGet;
+  console.log(debug);
+  debug ?
+    urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json' :
+    urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
   async function fetchPoints() {
     await fetch(urlGet)
       .then(resp => resp.json())

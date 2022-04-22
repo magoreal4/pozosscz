@@ -29,6 +29,7 @@ import {
 document.addEventListener('DOMContentLoaded', function () {
   navbar(); // js para el navbar
   auth == 'True' ? auth = true : auth = false;
+  debug == 'True' ? debug = true : debug = false;
   var marker = "";
   var precio;
   var paths = [];
@@ -257,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       precios();
 
-     } else {
+    } else {
       console.log("----------OO---------");
       // Crea el Toast fuera de rango
       let idToast = 'fueraRango';
@@ -308,10 +309,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // boton aceptar, pone base de datos si no esta logueado
   confirmarModal.onclick = function () {
     modal.classList.toggle("invisible");
-    !auth ? 
-    postDatos("", "", precio, marker, 'COT', 'CLC')
-    .then(console.log) :
-    null;
+    !auth ?
+      postDatos("", "", precio, marker, 'COT', 'CLC')
+      .then(console.log) :
+      null;
     LoadOverlay(false);
     let codigo = precio.toString(10).split('');
     codigo.unshift(parseInt(Math.random() * 10));
@@ -324,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
     mensajeWapp(menLatLon);
   };
 
-// Toast de Titulo
+  // Toast de Titulo
   toastTituloButton.onclick = function () {
     toastTitulo.classList.add("invisible");
   }
@@ -388,8 +389,10 @@ document.addEventListener('DOMContentLoaded', function () {
     p900 = [],
     p1000 = [];
 
-  // const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
-  const urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
+  var urlGet;
+  debug ?
+    urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json' :
+    urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
   fetch(urlGet)
     .then(resp => resp.json())
     .then(resp => {
