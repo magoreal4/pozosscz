@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
 
-    'livereload',
     'svg',
     'import_export',
     'rest_framework',
@@ -51,6 +50,7 @@ INSTALLED_APPS = [
     'fcontact'
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -59,9 +59,16 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'livereload.middleware.LiveReloadScript',
 ]
 
+if DEBUG:
+    INSTALLED_APPS += (
+        'livereload',
+    )
+
+    MIDDLEWARE += (
+        'livereload.middleware.LiveReloadScript',
+    )
 
 ROOT_URLCONF = 'config.urls'
 
