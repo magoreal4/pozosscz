@@ -6,3 +6,4 @@ Pillow==9.0.1
 djangorestframework==3.13.1
 django-environ==0.8.1
 django-grappelli==3.0.3
+django-inline-svg==0.1.1
