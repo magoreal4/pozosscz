@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.getElementById('map').style.cursor = 'crosshair';
 
-  const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
-
+  // const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
+const urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
   async function fetchPoints() {
     await fetch(urlGet)
       .then(resp => resp.json())

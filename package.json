@@ -13,7 +13,7 @@
   },
   "scripts": {
     "tw:dev": "tailwindcss -i ./src/tailwind.css -o ./static/css/main.css -w",
-    "tw:prod": "postcss ./src/tailwind.css -o ./static/css/main.css -w",
+    "tw:prod": "postcss ./src/tailwind.css -o ./static/css/main.css",
     "build": "vite build --watch"
   },
   "repository": {

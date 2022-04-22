@@ -388,7 +388,8 @@ document.addEventListener('DOMContentLoaded', function () {
     p900 = [],
     p1000 = [];
 
-  const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
+  // const urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json';
+  const urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';
   fetch(urlGet)
     .then(resp => resp.json())
     .then(resp => {
