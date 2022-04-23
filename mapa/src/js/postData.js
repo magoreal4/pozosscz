@@ -1,6 +1,6 @@
 var urlPost;
 debug ?
-  urlPost = 'https://127.0.0.1:8000/mapa/api/cliente/create/' :
+  urlPost = 'http://127.0.0.1:8000/mapa/api/cliente/create/' :
   urlPost = 'https://pozosscz.com/mapa/api/cliente/create/';
 
 export function postDatos (name, phone, cost, marker, status, user){

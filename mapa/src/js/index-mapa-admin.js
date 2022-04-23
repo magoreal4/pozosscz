@@ -26,8 +26,6 @@ import {
   createToast
 } from './toast';
 
-auth == 'True' ? auth = true : auth = false;
-debug == 'True' ? debug = true : debug = false;
 
 document.addEventListener('DOMContentLoaded', function () {
   navbar(); // js para el navbar
