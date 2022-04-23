@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('map').style.cursor = 'crosshair';
 
   var urlGet;
-  console.log(debug);
   debug ?
     urlGet = 'http://127.0.0.1:8000/mapa/api/cliente/list/?format=json' :
     urlGet = 'https://pozosscz.com/mapa/api/cliente/list/?format=json';

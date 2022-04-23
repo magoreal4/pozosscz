@@ -8,8 +8,8 @@
 export function rutas(marker) {
     const request = (lat, lon, marker, origen) => {
         const profile = '/driving/';
-        let url = 'http://router.project-osrm.org/route/v1';
-        // var url = 'http://127.0.0.1:5000/route/v1';
+        // let url = 'http://router.project-osrm.org/route/v1';
+        var url = 'http://osrm.pozosscz.com/route/v1';
         url = url + profile + lon + "," + lat + ";" + marker._latlng.lng + "," + marker._latlng.lat + "?steps=true&geometries=geojson";
         let result = new Object();
 
