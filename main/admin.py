@@ -22,10 +22,8 @@ class BannerAdmin(admin.ModelAdmin):
         'thumbnail_svg',       
         'thumbnail_img',
         'displayWebp',
-        'alt'
     )
     list_editable = (
-        'alt',
         'displayBanner',
         'displayWebp',
     )

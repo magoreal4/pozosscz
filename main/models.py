@@ -6,7 +6,6 @@ from solo.models import SingletonModel
 class Banner(models.Model):
     svg = models.FileField(upload_to='main/', validators=[validate_file_extension], default="")
     img = models.FileField(upload_to='main/', validators=[validate_file_extension], default="", blank=True)
-    alt = models.CharField("alt", default="", max_length=50)
     displayWebp = models.BooleanField("Mostrar Webp", default=True)
     displayBanner = models.BooleanField("Mostrar Banner", default=False)
 
