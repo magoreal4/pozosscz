@@ -14,6 +14,7 @@ urlpatterns = [
     path('', include('main.urls')),
     path('mapa/', include('mapa.urls')),
     path('contact/', include('fcontact.urls')),
+    # path("django-check-seo/", include("django_check_seo.urls")),
 ]
 
 if settings.DEBUG:

@@ -1,15 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load solo_tags %}
 {% block css %}
 <link rel="stylesheet" href="{% static './leaflet/leaflet.css' %}" />
 {% endblock %}
 
 {% block meta %}
-<meta name="description" content="{{ setCotiza.meta }}"/>
+{% get_solo 'mapa.SiteConfiguration' as config %}
+<meta name="description" content="{{ config.metaDescription }}"/>
 {% endblock meta %}
 
 {% block title %}
-{{ setCotiza.title }}
+{% get_solo 'mapa.SiteConfiguration' as config %}
+{{ config.title }}
 {% endblock title %}
 
 {% block beforeHeader  %}
@@ -17,6 +20,7 @@
 {% endblock %}
     
 {% block content %}
+{% get_solo 'mapa.SiteConfiguration' as config %}
 <!-- Mapa -->
 <div id="map" class="h-screen max-w-full">
 </div> <!-- Fin mapa -->
@@ -43,7 +47,7 @@
         </div>
         <div class="px-4 py-2 mr-auto">
             <span class="font-semibold text-primary">COTIZA</span>
-            <h1 class="text-sm">{{ setCotiza.h1 }}</h1>
+            <h1 class="text-sm">{{ config.h1 }}</h1>
         </div>
         <button id="toastTituloButton" type="button" class="flex items-center justify-center w-12 cursor-pointer">
             <svg class="w-4 h-4 mr-2 fill-current" viewBox="0 0 512 512">
@@ -74,9 +78,9 @@
                 <!-- Modal body -->
                 <div id="precio" class="p-6 pt-0 text-center ">
                     <p class="text-4xl pb-2">Bs.XXX</p>
-                    {% comment %} <svg class="mx-auto mb-4 w-14 h-14 text-gray-400 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> {% endcomment %}
-                    <h2 class="mb-5 text-lg font-normal text-gray-700 ">
-                        {{ setCotiza.textoCotiza }}</h2>
+
+                    {% comment %} <h2 class="mb-5 text-lg font-normal text-gray-700 ">
+                        {{ setCotiza.textoCotiza }}</h2> {% endcomment %}
                     <button id="confirmarModal" type="button"
                         class="botonGrande text-white bg-primary hover:bg-green-800">
                         CONFIRMAR

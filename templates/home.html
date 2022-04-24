@@ -1,31 +1,36 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load svg %}
-
+{% load solo_tags %}
 {% block meta %}
-<meta name="description" content="{{ setMain.meta }}" />
+{% get_solo 'main.SiteConfiguration' as config %}
+<meta name="description" content="{{ config.metaDescription }}"/>
 {% endblock meta %}
 
 {% block title %}
-{{ setMain.title }}
+{% get_solo 'main.SiteConfiguration' as config %}
+{{ config.title }}
 {% endblock title %}
 
 {% block content %}
 <div class="bg-gradient-to-b from-primary to-white">
     <div class="max-w-7xl mx-auto">
         <section id="bgBanner" class="overflow-hidden relative h-screen90 w-full">
+
             <div class="absolute fondosvg h-full w-full bg-center bg-cover"
-                style="background-image: url(media/{{ setMain.svg }})"></div>
-            {% if  setMain.display %}
+                style="background-image: url(media/{{ banner.first.svg }})"></div>
+            
+            {% if  banner.first.displayWebp  %}
             <div class="absolute fondoscz h-full w-full bg-left bg-cover"
-                style="background-image: url(media/{{ setMain.img }})"></div>
+                style="background-image: url(media/{{ banner.first.img }})"></div>
             {% endif %}
             <div class="absolute inset-0 flex items-center justify-center mt-28 sm:mt-40 md:mt-52 lg:mt-60">
                 <h1 id="titulo"
                     class="overflow-hidden py-1 md:py-2 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-primary">
-                    {{ setMain.h1 }}
+                    {% get_solo 'main.SiteConfiguration' as config %}
+                    {{ config.h1 }}              
                 </h1>
-            </div>
+            </div> 
 
             <div id="camion" class="absolute h-1/6 bottom-5">
                 <svg class="h-full" viewBox="0 0 280 170">

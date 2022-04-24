@@ -1,5 +1,5 @@
 from django.db import models
-
+from solo.models import SingletonModel
 
 ESTADO_CLIENTE_CHOICES = [
     ('COT', 'Cotizado'),
@@ -46,3 +46,11 @@ class Cliente(models.Model):
 
     # def __str__(self):
     #     return self.tel1
+
+class SiteConfiguration(SingletonModel):
+    title = models.CharField(max_length=70, default='Limpieza de Pozos | Cotiza ')
+    h1 = models.CharField(max_length=255, default='Encuentra tu ubicación')
+    metaDescription = models.TextField(max_length=300, default='', blank=True )
+
+    class Meta:
+        verbose_name = "Configuración"

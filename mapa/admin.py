@@ -6,6 +6,11 @@ from django.db import models
 from django.contrib import admin
 from mapa.models import Cliente
 
+from solo.admin import SingletonModelAdmin
+from .models import SiteConfiguration
+
+admin.site.register(SiteConfiguration, SingletonModelAdmin)
+
 class ClienteResource(resources.ModelResource):
     fields = (
         'tel1',

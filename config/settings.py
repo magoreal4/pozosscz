@@ -44,12 +44,15 @@ INSTALLED_APPS = [
     'svg',
     'import_export',
     'rest_framework',
-    'settings_app',
+    'solo.apps.SoloAppConfig',
+    # 'settings_app',
     'main.apps.MainConfig',
     'mapa',
-    'fcontact'
+    'fcontact',
 ]
 
+
+SOLO_CACHE = 'default'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -79,7 +82,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'settings_app.context_processors.settings',
+                # 'settings_app.context_processors.settings',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
