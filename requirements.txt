@@ -7,3 +7,4 @@ djangorestframework==3.13.1
 django-environ==0.8.1
 django-grappelli==3.0.3
 django-inline-svg==0.1.1
+django-solo==2.0.0
