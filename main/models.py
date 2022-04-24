@@ -3,12 +3,25 @@ from .validators import validate_file_extension
 from django.utils.html import mark_safe
 from solo.models import SingletonModel
 
+class SiteConfiguration(SingletonModel):
+    title = models.CharField(max_length=70, default='Limpieza de Pozos | Santa Cruz')
+    h1 = models.CharField(max_length=255, default='Limpieza de pozos sépticos')
+    metaDescription = models.TextField(max_length=300, default='', blank=True )
+    ogDescription = models.TextField(max_length=155, default='Servicio de limpieza de pozos y c&aacute;maras s&eacute;pticas en Santa Cruz y sus provincias. Cotiza en l&iacute;nea...', blank=True )
+    ogImage = models.FileField(upload_to='main/', validators=[validate_file_extension], default="")
+    
+    # def __str__(self):
+    #     return "Configuración"
+
+    class Meta:
+        verbose_name = "Configuración"
+
 class Banner(models.Model):
     svg = models.FileField(upload_to='main/', validators=[validate_file_extension], default="")
     img = models.FileField(upload_to='main/', validators=[validate_file_extension], default="", blank=True)
     displayWebp = models.BooleanField("Mostrar Webp", default=True)
     displayBanner = models.BooleanField("Mostrar Banner", default=False)
-
+    
     class Meta:
         verbose_name = "Banner"
         verbose_name_plural = "Banner"
@@ -70,12 +83,3 @@ class AQuien(models.Model):
             return mark_safe('<img src="{}" width="30" height="30" />'.format(self.svg.url))
         return ""
 
-class SiteConfiguration(SingletonModel):
-    title = models.CharField(max_length=70, default='Limpieza de Pozos | Santa Cruz')
-    h1 = models.CharField(max_length=255, default='Limpieza de pozos sépticos')
-    metaDescription = models.TextField(max_length=300, default='', blank=True )
-    # def __str__(self):
-    #     return "Configuración"
-
-    class Meta:
-        verbose_name = "Configuración"

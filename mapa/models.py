@@ -1,5 +1,16 @@
 from django.db import models
 from solo.models import SingletonModel
+from .validators import validate_file_extension
+
+class SiteConfiguration(SingletonModel):
+    title = models.CharField(max_length=70, default='Limpieza de Pozos | Cotiza ')
+    h1 = models.CharField(max_length=255, default='Encuentra tu ubicación')
+    metaDescription = models.TextField(max_length=300, default='', blank=True )
+    ogDescription = models.TextField(max_length=155, default='', blank=True )
+    ogImage = models.FileField(upload_to='mapa/', validators=[validate_file_extension], default="")
+
+    class Meta:
+        verbose_name = "Configuración"
 
 ESTADO_CLIENTE_CHOICES = [
     ('COT', 'Cotizado'),
@@ -47,10 +58,3 @@ class Cliente(models.Model):
     # def __str__(self):
     #     return self.tel1
 
-class SiteConfiguration(SingletonModel):
-    title = models.CharField(max_length=70, default='Limpieza de Pozos | Cotiza ')
-    h1 = models.CharField(max_length=255, default='Encuentra tu ubicación')
-    metaDescription = models.TextField(max_length=300, default='', blank=True )
-
-    class Meta:
-        verbose_name = "Configuración"
