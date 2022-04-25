@@ -325,12 +325,12 @@ document.addEventListener('DOMContentLoaded', function () {
   // Cambia el icono del globito
   var iconRed = L.icon({
     iconUrl: static_url + 'img/leaflet/marker-red.svg',
-    iconRetinaUrl: './img/leaflet/marker-red.svg',
+    iconRetinaUrl: static_url + './img/leaflet/marker-red.svg',
     iconSize: [26, 42],
     iconAnchor: [13, 42],
     popupAnchor: [-3, -76],
     shadowUrl: static_url + 'img/leaflet/marker-shadow.png',
-    shadowRetinaUrl: './img/leaflet/marker-shadow.png',
+    shadowRetinaUrl: static_url + './img/leaflet/marker-shadow.png',
     shadowSize: [68, 50],
     shadowAnchor: [22, 49]
   });
