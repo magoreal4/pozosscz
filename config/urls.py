@@ -6,7 +6,14 @@ from config import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import StaticSitemap
 
+sitemaps = {
+    # 'main': MainSitemap,
+    'static': StaticSitemap,
+    # 'blog': PostSitemap,
+}
 
 urlpatterns = [
     path('grappelli/', include('grappelli.urls')), # grappelli URLS
@@ -14,7 +21,7 @@ urlpatterns = [
     path('', include('main.urls')),
     path('mapa/', include('mapa.urls')),
     path('contact/', include('fcontact.urls')),
-    # path("django-check-seo/", include("django_check_seo.urls")),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
 ]
 
 if settings.DEBUG:

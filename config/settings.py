@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 
     'svg',
     'import_export',
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
     'fcontact',
 ]
 
+SITE_ID = 1
 
 SOLO_CACHE = 'default'
 
@@ -81,7 +84,6 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                # 'settings_app.context_processors.settings',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
