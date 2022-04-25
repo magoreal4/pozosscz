@@ -10,7 +10,7 @@
 <meta property="og:title" content="{{ config.title }}">
 <meta property="og:description" content="{{ config.ogDescription }}">
 <meta property="og:url" content="{{ current_path }}">
-<meta property="og:image" content="{{ config.ogImage }}">
+<meta property="og:image" content="{% static config.ogImage %}">
 <meta property="og:site_name" content="{{ config.h1 }}" />
 
 {% endblock meta %}
