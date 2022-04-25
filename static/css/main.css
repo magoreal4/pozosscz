@@ -1038,6 +1038,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.75rem;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
