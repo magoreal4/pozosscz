@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'import_export',
     'rest_framework',
     'solo.apps.SoloAppConfig',
-    # 'settings_app',
     'main.apps.MainConfig',
     'mapa',
     'fcontact',

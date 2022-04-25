@@ -7,7 +7,7 @@ class SiteConfiguration(SingletonModel):
     title = models.CharField(max_length=70, default='Limpieza de Pozos | Santa Cruz')
     h1 = models.CharField(max_length=255, default='Limpieza de pozos sépticos')
     metaDescription = models.TextField(max_length=300, default='', blank=True )
-    ogDescription = models.TextField(max_length=155, default='Servicio de limpieza de pozos y c&aacute;maras s&eacute;pticas en Santa Cruz y sus provincias. Cotiza en l&iacute;nea...', blank=True )
+    ogDescription = models.TextField(max_length=155, default='Servicio de limpieza de pozos y cámaras sépticas en Santa Cruz y sus provincias. Cotiza en línea...', blank=True )
     ogImage = models.FileField(upload_to='main/', validators=[validate_file_extension], default="")
     
     # def __str__(self):
