@@ -32,12 +32,12 @@ class ContactForm(forms.Form):
 		)
 
 	message = forms.CharField(
-		max_length = 1000, 
+		max_length = 700, 
 		required=True,
 		label='Mensaje',
 		widget = forms.Textarea(
 			attrs={
-				'class':'w-full text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline mb-3',	
-		}),
-
+				'rows': 5,
+				'class':'w-full text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline mb-3',
+				}),
 		)

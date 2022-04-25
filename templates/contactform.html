@@ -6,9 +6,9 @@
 
 {% block content %}
 <div class="bg-gradient-to-b from-primary to-white">
-    <div class="max-w-md text-white mx-auto">
+    <div class="max-w-md text-white mx-auto w-4/5">
 
-        <form method="post" class="pt-10">
+        <form method="post" class="pt-6">
             {% csrf_token %}
             {{ form.as_p }}
             <input

@@ -33,13 +33,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var precio;
   var paths = [];
   var colors = ['#ffff00', '#fba657', '#4ade80', '#52b551', '#ff0000', '#00ffff', '#50dbff', '#5eb9fc', '#6199ee', '#808080'];
-  var celular = "+59171011118";
+  var celular = "+59160880055";
 
   // initialize the map
   var map = L.map('map', {
     center: [-17.784071, -63.180522],
     zoom: 12,
-    zoomControl: true
+    zoomControl: false
   });
 
   var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
   });
 
-  Esri_WorldImagery.addTo(map);
+  OpenStreetMap_Mapnik.addTo(map);
 
   const precioEle = document.getElementById("precio");
   const precioText = precioEle.querySelector("p");
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <circle cx="12" cy="12" r="7" />
               <circle cx="12" cy="12" r="3" />
             </svg>`,
-      classes: 'block md:hidden ml-auto h-14 w-14 bg-white rounded-md border border-black',
+      classes: 'block md:hidden ml-auto h-12 w-12 bg-white rounded-md border border-black',
       id: 'ubicando',
       title: "Encuentra tu ubicación",
       style: {
