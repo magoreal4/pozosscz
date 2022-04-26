@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="{{ config.title }}">
 <meta property="og:description" content="{{ config.ogDescription }}">
-<meta property="og:url" content="https://pozosscz.com{{ request.get_full_path }}">
+<meta property="og:url" content="https://pozosscz.com/{{ request.get_full_path }}">
 <meta property="og:image" content="media/{{ config.ogImage }}">
 <meta property="og:site_name" content="{{ config.h1 }}" />
 
@@ -28,10 +28,10 @@
             <div class="absolute fondosvg h-full w-full bg-center bg-cover"
                 style="background-image: url(media/{{ banner.first.svg }})"></div>
             
-            {% if  banner.first.displayWebp  %}
+            
             <div class="absolute fondoscz h-full w-full bg-left bg-cover"
-                style="background-image: url(media/{{ banner.first.img }})"></div>
-            {% endif %}
+                style="background-image: url(media/{% if  banner.first.displayWebp  %}{{ banner.first.img }}{% endif %})"></div>
+            
             <div class="absolute inset-0 flex items-center justify-center mt-28 sm:mt-40 md:mt-52 lg:mt-60">
                 <h1 id="titulo"
                     class="overflow-hidden py-1 md:py-2 bg-white bg-opacity-80 uppercase tracking-wide md:tracking-wider xl:tracking-widest text-center text-xl sm:text-4xl lg:text-5xl text-primary">
