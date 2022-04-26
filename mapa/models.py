@@ -8,6 +8,7 @@ class SiteConfiguration(SingletonModel):
     metaDescription = models.TextField(max_length=300, default='', blank=True )
     ogDescription = models.TextField(max_length=155, default='', blank=True )
     ogImage = models.FileField(upload_to='mapa/', validators=[validate_file_extension], default="")
+    precioMensaje = models.CharField(max_length=255, default='Precio de limpieza de camara y pozo séptico para vivienda')
 
     class Meta:
         verbose_name = "Configuración"

@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <circle cx="12" cy="12" r="7" />
               <circle cx="12" cy="12" r="3" />
             </svg>`,
-      classes: 'block md:hidden ml-auto h-12 w-12 bg-white rounded-md border border-black',
+      classes: 'block lg:hidden ml-auto h-12 w-12 bg-white rounded-md border border-black',
       id: 'ubicando',
       title: "Encuentra tu ubicación",
       style: {

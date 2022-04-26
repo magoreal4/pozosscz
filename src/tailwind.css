@@ -46,6 +46,10 @@
     @apply w-16 my-1 rounded-lg py-1
   }
 
+  .menuEfecto {
+    @apply hover:border-white hover:text-secondary transition-all duration-500
+  }
+
 }
 
 #toastTitulo {
