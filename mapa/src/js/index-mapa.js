@@ -480,7 +480,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var optionsControl = {
         groupCheckboxes: false,
         position: 'topleft',
-        collapsed: true
+        collapsed: false
       };
 
       L.control.groupedLayers(baseMaps, overlayMaps, optionsControl).addTo(map);
