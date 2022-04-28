@@ -348,14 +348,33 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   putMarker.onclick = () => {
+    var latitud, longitud;
     try {
-      let ambos = URLwhatsapp.value.split('%2C');
-      let izq = ambos[0].split('?q=');
-      let der = ambos[1].split('&z=');
-      let lat = izq[1];
-      let lon = der[0];
-
-      map.flyTo([lat, lon], 16);
+      if (URLwhatsapp.value.indexOf('%2C') != -1) {
+        let ambos = URLwhatsapp.value.split('%2C');
+        let izq = ambos[0].split('?q=');
+        let der = ambos[1].split('&z=');
+        latitud = izq[1];
+        longitud = der[0];
+      }
+      if (URLwhatsapp.value.indexOf(',') != -1) {
+        let ambos = URLwhatsapp.value.split(',');
+        if (ambos.length == 2) {
+          let izq = ambos[0].split('?q=');
+          if (izq.length == 1) {
+            latitud = ambos[0];
+          } else {
+            latitud = izq[1];
+          }
+          longitud = ambos[1];
+        }
+        if (ambos.length == 3) {
+          let izq = ambos[0].split('/@');
+          latitud = izq[1];
+          longitud = ambos[1];
+        }
+      }
+      map.flyTo([latitud, longitud], 16);
       URLwhatsapp.value = '';
       if (marker != "") {
         map.removeLayer(marker);
@@ -363,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cotiza.disabled = false;
         cotiza.classList.remove('cursor-not-allowed', 'opacity-70');
       }
-      marker = L.marker([lat, lon], {
+      marker = L.marker([latitud, longitud], {
         icon: iconRed
       });
       marker.addTo(map);
