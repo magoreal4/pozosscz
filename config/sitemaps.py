@@ -10,7 +10,7 @@ class StaticSitemap(Sitemap):
     protocol = 'https'
     
     def items(self):
-        return ['main_app:Home', 'mapa_app:Mapa', 'mapa_app:Mapa-Admin', 'fcontact_app:ContactForm']
+        return ['main_app:Home', 'mapa_app:Mapa', 'fcontact_app:ContactForm']
 
     def get_urls(self, site=None, **kwargs):
         site = Site()
